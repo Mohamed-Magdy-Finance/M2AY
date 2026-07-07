@@ -1,0 +1,387 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <id_pur>65</id_pur>
+    <ARname>طحينة </ARname>
+    <qu>1440</qu>
+    <pr>82.5</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>118800</total_item>
+    <Cust_Name>الشيخ احمد اسكندرية</Cust_Name>
+    <Total>137900.000</Total>
+    <pdate>2025-09-30T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>24</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>137900.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>65</id_pur>
+    <ARname>حلاوة سادة </ARname>
+    <qu>252</qu>
+    <pr>75</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>18900</total_item>
+    <Cust_Name>الشيخ احمد اسكندرية</Cust_Name>
+    <Total>137900.000</Total>
+    <pdate>2025-09-30T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>14</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>137900.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>66</id_pur>
+    <ARname>حلاوة سادة </ARname>
+    <qu>32</qu>
+    <pr>78</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>2496</total_item>
+    <Cust_Name>البلد</Cust_Name>
+    <Total>6336.000</Total>
+    <pdate>2025-09-30T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>2</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>0.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>66</id_pur>
+    <ARname>حلاوة شيكولاتة </ARname>
+    <qu>48</qu>
+    <pr>80</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>3840</total_item>
+    <Cust_Name>البلد</Cust_Name>
+    <Total>6336.000</Total>
+    <pdate>2025-09-30T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>3</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>0.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>67</id_pur>
+    <ARname>طحينة </ARname>
+    <qu>600</qu>
+    <pr>83.5</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>50100</total_item>
+    <Cust_Name>الحاج هداية طوخ</Cust_Name>
+    <Total>50000.000</Total>
+    <pdate>2025-09-30T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>10</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>50000.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>68</id_pur>
+    <ARname>طحينة </ARname>
+    <qu>420</qu>
+    <pr>84.5</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>35490</total_item>
+    <Cust_Name>الشيخ منتصر مؤسسة الزكاة</Cust_Name>
+    <Total>35490.000</Total>
+    <pdate>2025-09-30T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>7</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>50000.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>69</id_pur>
+    <ARname>حلاوة سادة </ARname>
+    <qu>18</qu>
+    <pr>75</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>1350</total_item>
+    <Cust_Name>الشيخ منتصر مؤسسة الزكاة</Cust_Name>
+    <Total>2362.500</Total>
+    <pdate>2025-09-30T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>1</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>0.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>69</id_pur>
+    <ARname>حلاوة شيكولاتة </ARname>
+    <qu>13.5</qu>
+    <pr>75</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>1012.5</total_item>
+    <Cust_Name>الشيخ منتصر مؤسسة الزكاة</Cust_Name>
+    <Total>2362.500</Total>
+    <pdate>2025-09-30T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>0</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>0.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>70</id_pur>
+    <ARname>طحينة </ARname>
+    <qu>60</qu>
+    <pr>85</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>5100</total_item>
+    <Cust_Name>سرجة الخصوص</Cust_Name>
+    <Total>5450.000</Total>
+    <pdate>2025-09-30T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>1</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>8450.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>70</id_pur>
+    <ARname>حلاوة شيكولاتة </ARname>
+    <qu>4.5</qu>
+    <pr>78</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>351</total_item>
+    <Cust_Name>سرجة الخصوص</Cust_Name>
+    <Total>5450.000</Total>
+    <pdate>2025-09-30T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>0</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>8450.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>71</id_pur>
+    <ARname>حلاوة شيكولاتة </ARname>
+    <qu>1</qu>
+    <pr>1</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>1</total_item>
+    <Cust_Name>البلد</Cust_Name>
+    <Total>0.000</Total>
+    <pdate>2025-09-30T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>0</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>0.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>72</id_pur>
+    <ARname>سمسم </ARname>
+    <qu>50</qu>
+    <pr>95</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>4750</total_item>
+    <Cust_Name>نقــــدى</Cust_Name>
+    <Total>4750.000</Total>
+    <pdate>2025-09-30T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>1</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>0</TypePaied>
+    <AmountPaid>4750.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+</NewDataSet>

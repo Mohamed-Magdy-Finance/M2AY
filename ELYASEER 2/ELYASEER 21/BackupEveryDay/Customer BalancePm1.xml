@@ -1,0 +1,440 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <LastMony>0.00</LastMony>
+    <paper>0.00</paper>
+    <dayes>0</dayes>
+    <id>61</id>
+    <Aname>ابو عبدة مدينة السلام</Aname>
+    <nots>0</nots>
+    <nots1>0</nots1>
+    <delegatephone>0</delegatephone>
+    <Email>0</Email>
+    <id_cust>27</id_cust>
+    <Deleted>false</Deleted>
+    <Code>0</Code>
+    <Address>0</Address>
+    <Email1>0</Email1>
+    <connect>0    0</connect>
+    <debt>57544</debt>
+    <credit>25000</credit>
+    <balance>32544</balance>
+    <normalPR>0</normalPR>
+    <CasePr>قطاعى</CasePr>
+  </tt>
+  <tt>
+    <LastMony>0.00</LastMony>
+    <paper>0.00</paper>
+    <dayes>0</dayes>
+    <id>47</id>
+    <Aname>ابو مالك شبرا مصر</Aname>
+    <nots>0</nots>
+    <nots1>0</nots1>
+    <delegatephone>0</delegatephone>
+    <Email>0</Email>
+    <id_cust>18</id_cust>
+    <Deleted>false</Deleted>
+    <Code>0</Code>
+    <Address>0</Address>
+    <Email1>0</Email1>
+    <connect>0    0</connect>
+    <debt>690690</debt>
+    <credit>675490</credit>
+    <balance>15200</balance>
+    <normalPR>0</normalPR>
+    <CasePr>قطاعى</CasePr>
+  </tt>
+  <tt>
+    <LastMony>0.00</LastMony>
+    <paper>0.00</paper>
+    <dayes>0</dayes>
+    <id>50</id>
+    <Aname>احمد ابراهيم مدينة السلام</Aname>
+    <nots>0</nots>
+    <nots1>0</nots1>
+    <delegatephone>0</delegatephone>
+    <Email>0</Email>
+    <id_cust>20</id_cust>
+    <Deleted>false</Deleted>
+    <Code>0</Code>
+    <Address>0</Address>
+    <Email1>0</Email1>
+    <connect>0    0</connect>
+    <debt>156320</debt>
+    <credit>129040</credit>
+    <balance>27280</balance>
+    <normalPR>0</normalPR>
+    <CasePr>قطاعى</CasePr>
+  </tt>
+  <tt>
+    <LastMony>0.00</LastMony>
+    <paper>0.00</paper>
+    <dayes>0</dayes>
+    <id>37</id>
+    <Aname>احمد رشوان</Aname>
+    <MainAccount>العملاء</MainAccount>
+    <str_price />
+    <MaxDayOfCredit>0</MaxDayOfCredit>
+    <nots />
+    <way />
+    <sT />
+    <TaxesCard />
+    <nots1 />
+    <delegateSal />
+    <delegatephone />
+    <Email />
+    <Title />
+    <id_cust>13</id_cust>
+    <Deleted>false</Deleted>
+    <Code>10</Code>
+    <CostCenter />
+    <Address />
+    <Email1 />
+    <connect xml:space="preserve">    </connect>
+    <debt>90715</debt>
+    <credit>90635</credit>
+    <balance>80</balance>
+    <normalPR>0</normalPR>
+    <CasePr>قطاعى</CasePr>
+  </tt>
+  <tt>
+    <LastMony>0.00</LastMony>
+    <paper>0.00</paper>
+    <dayes>0</dayes>
+    <id>52</id>
+    <Aname>اسامة حلوان</Aname>
+    <nots>0</nots>
+    <nots1>0</nots1>
+    <delegatephone>0</delegatephone>
+    <Email>0</Email>
+    <id_cust>22</id_cust>
+    <Deleted>false</Deleted>
+    <Code>0</Code>
+    <Address>0</Address>
+    <Email1>0</Email1>
+    <connect>0    0</connect>
+    <debt>1074305.5</debt>
+    <credit>1020500</credit>
+    <balance>53805.5</balance>
+    <normalPR>0</normalPR>
+    <CasePr>قطاعى</CasePr>
+  </tt>
+  <tt>
+    <LastMony>0.00</LastMony>
+    <paper>0.00</paper>
+    <dayes>0</dayes>
+    <id>67</id>
+    <Aname>السيدة زينب</Aname>
+    <nots>0</nots>
+    <nots1>0</nots1>
+    <delegatephone>0</delegatephone>
+    <Email>0</Email>
+    <id_cust>33</id_cust>
+    <Deleted>false</Deleted>
+    <Code>0</Code>
+    <Address>0</Address>
+    <Email1>0</Email1>
+    <connect>0    0</connect>
+    <debt>15480</debt>
+    <credit>7300</credit>
+    <balance>8180</balance>
+    <normalPR>0</normalPR>
+    <CasePr>قطاعى</CasePr>
+  </tt>
+  <tt>
+    <LastMony>0.00</LastMony>
+    <paper>0.00</paper>
+    <dayes>0</dayes>
+    <id>34</id>
+    <Aname>الشيخ احمد اسكندرية</Aname>
+    <MainAccount>العملاء</MainAccount>
+    <str_price />
+    <MaxDayOfCredit>0</MaxDayOfCredit>
+    <nots />
+    <way />
+    <sT />
+    <TaxesCard />
+    <nots1 />
+    <delegateSal />
+    <delegatephone />
+    <Email />
+    <Title />
+    <id_cust>10</id_cust>
+    <Deleted>false</Deleted>
+    <Code>7</Code>
+    <CostCenter />
+    <Address>اسكندرية</Address>
+    <Email1 />
+    <connect xml:space="preserve">    </connect>
+    <debt>2180744.98</debt>
+    <credit>2090744.98</credit>
+    <balance>90000</balance>
+    <normalPR>0</normalPR>
+    <CasePr>قطاعى</CasePr>
+  </tt>
+  <tt>
+    <LastMony>0.00</LastMony>
+    <paper>0.00</paper>
+    <dayes>0</dayes>
+    <id>33</id>
+    <Aname>الشيخ احمد منوف</Aname>
+    <MainAccount>العملاء</MainAccount>
+    <str_price />
+    <MaxDayOfCredit>0</MaxDayOfCredit>
+    <nots />
+    <way />
+    <sT />
+    <TaxesCard />
+    <nots1 />
+    <delegateSal />
+    <delegatephone />
+    <Email />
+    <Title />
+    <id_cust>9</id_cust>
+    <Deleted>false</Deleted>
+    <Code>6</Code>
+    <CostCenter />
+    <Address>منوف</Address>
+    <Email1 />
+    <connect xml:space="preserve">    </connect>
+    <debt>1340280</debt>
+    <credit>1248440</credit>
+    <balance>91840</balance>
+    <normalPR>0</normalPR>
+    <CasePr>قطاعى</CasePr>
+  </tt>
+  <tt>
+    <LastMony>0.00</LastMony>
+    <paper>0.00</paper>
+    <dayes>0</dayes>
+    <id>36</id>
+    <Aname>الشيخ مجدي</Aname>
+    <MainAccount>العملاء</MainAccount>
+    <str_price />
+    <MaxDayOfCredit>0</MaxDayOfCredit>
+    <nots />
+    <way />
+    <sT />
+    <TaxesCard />
+    <nots1 />
+    <delegateSal />
+    <delegatephone />
+    <Email />
+    <Title />
+    <id_cust>12</id_cust>
+    <Deleted>false</Deleted>
+    <Code>9</Code>
+    <CostCenter />
+    <Address />
+    <Email1 />
+    <connect xml:space="preserve">    </connect>
+    <debt>48400</debt>
+    <credit>32000</credit>
+    <balance>16400</balance>
+    <normalPR>0</normalPR>
+    <CasePr>قطاعى</CasePr>
+  </tt>
+  <tt>
+    <LastMony>0.00</LastMony>
+    <paper>0.00</paper>
+    <dayes>0</dayes>
+    <id>28</id>
+    <Aname>الشيخ منتصر مؤسسة الزكاة</Aname>
+    <MainAccount>العملاء</MainAccount>
+    <str_price />
+    <MaxDayOfCredit>0</MaxDayOfCredit>
+    <nots />
+    <way />
+    <sT />
+    <TaxesCard />
+    <nots1 />
+    <delegateSal />
+    <delegatephone />
+    <Email />
+    <Title />
+    <id_cust>4</id_cust>
+    <Deleted>false</Deleted>
+    <Code>1</Code>
+    <CostCenter />
+    <Address>مؤسسة الزكاة</Address>
+    <Email1 />
+    <connect xml:space="preserve">    </connect>
+    <debt>833027.5</debt>
+    <credit>754057</credit>
+    <balance>78970.5</balance>
+    <normalPR>0</normalPR>
+    <CasePr>قطاعى</CasePr>
+  </tt>
+  <tt>
+    <LastMony>0.00</LastMony>
+    <paper>0.00</paper>
+    <dayes>0</dayes>
+    <id>58</id>
+    <Aname>المحمودىة</Aname>
+    <nots>0</nots>
+    <nots1>0</nots1>
+    <delegatephone>0</delegatephone>
+    <Email>0</Email>
+    <id_cust>24</id_cust>
+    <Deleted>false</Deleted>
+    <Code>0</Code>
+    <Address>0</Address>
+    <Email1>0</Email1>
+    <connect>0    0</connect>
+    <debt>5800</debt>
+    <credit>2800</credit>
+    <balance>3000</balance>
+    <normalPR>0</normalPR>
+    <CasePr>قطاعى</CasePr>
+  </tt>
+  <tt>
+    <LastMony>0.00</LastMony>
+    <paper>0.00</paper>
+    <dayes>0</dayes>
+    <id>60</id>
+    <Aname>ايمن عين شمس</Aname>
+    <nots>0</nots>
+    <nots1>0</nots1>
+    <delegatephone>0</delegatephone>
+    <Email>0</Email>
+    <id_cust>26</id_cust>
+    <Deleted>false</Deleted>
+    <Code>0</Code>
+    <Address>0</Address>
+    <Email1>0</Email1>
+    <connect>0    0</connect>
+    <debt>130930</debt>
+    <credit>110500</credit>
+    <balance>20430</balance>
+    <normalPR>0</normalPR>
+    <CasePr>قطاعى</CasePr>
+  </tt>
+  <tt>
+    <LastMony>0.00</LastMony>
+    <paper>0.00</paper>
+    <dayes>0</dayes>
+    <id>35</id>
+    <Aname>سرجة الخصوص</Aname>
+    <MainAccount>العملاء</MainAccount>
+    <str_price />
+    <MaxDayOfCredit>0</MaxDayOfCredit>
+    <nots />
+    <way />
+    <sT />
+    <TaxesCard />
+    <nots1 />
+    <delegateSal />
+    <delegatephone />
+    <Email />
+    <Title />
+    <id_cust>11</id_cust>
+    <Deleted>false</Deleted>
+    <Code>8</Code>
+    <CostCenter />
+    <Address>الخصوص</Address>
+    <Email1 />
+    <connect xml:space="preserve">    </connect>
+    <debt>68580</debt>
+    <credit>57970</credit>
+    <balance>10610</balance>
+    <normalPR>0</normalPR>
+    <CasePr>قطاعى</CasePr>
+  </tt>
+  <tt>
+    <LastMony>0.00</LastMony>
+    <paper>0.00</paper>
+    <dayes>0</dayes>
+    <id>59</id>
+    <Aname>على كرداسة</Aname>
+    <nots>0</nots>
+    <nots1>0</nots1>
+    <delegatephone>0</delegatephone>
+    <Email>0</Email>
+    <id_cust>25</id_cust>
+    <Deleted>false</Deleted>
+    <Code>0</Code>
+    <Address>0</Address>
+    <Email1>0</Email1>
+    <connect>0    0</connect>
+    <debt>27360</debt>
+    <credit>20000</credit>
+    <balance>7360</balance>
+    <normalPR>0</normalPR>
+    <CasePr>قطاعى</CasePr>
+  </tt>
+  <tt>
+    <LastMony>0.00</LastMony>
+    <paper>0.00</paper>
+    <dayes>0</dayes>
+    <id>30</id>
+    <Aname>محمد سرجة بشتيل</Aname>
+    <MainAccount>العملاء</MainAccount>
+    <str_price />
+    <MaxDayOfCredit>0</MaxDayOfCredit>
+    <nots />
+    <way />
+    <sT />
+    <TaxesCard />
+    <nots1 />
+    <delegateSal />
+    <delegatephone />
+    <Email />
+    <Title />
+    <id_cust>6</id_cust>
+    <Deleted>false</Deleted>
+    <Code>3</Code>
+    <CostCenter />
+    <Address>بشتيل</Address>
+    <Email1 />
+    <connect xml:space="preserve">    </connect>
+    <debt>10650</debt>
+    <credit>7650</credit>
+    <balance>3000</balance>
+    <normalPR>0</normalPR>
+    <CasePr>قطاعى</CasePr>
+  </tt>
+  <tt>
+    <LastMony>0.00</LastMony>
+    <paper>0.00</paper>
+    <dayes>0</dayes>
+    <id>63</id>
+    <Aname>محمد سمسم اسكندرية</Aname>
+    <nots>0</nots>
+    <nots1>0</nots1>
+    <delegatephone>0</delegatephone>
+    <Email>0</Email>
+    <id_cust>29</id_cust>
+    <Deleted>false</Deleted>
+    <Code>0</Code>
+    <Address>0</Address>
+    <Email1>0</Email1>
+    <connect>0    0</connect>
+    <debt>350</debt>
+    <credit>0</credit>
+    <balance>350</balance>
+    <normalPR>0</normalPR>
+    <CasePr>قطاعى</CasePr>
+  </tt>
+  <tt>
+    <LastMony>0.00</LastMony>
+    <paper>0.00</paper>
+    <dayes>0</dayes>
+    <id>64</id>
+    <Aname>مطعم قصر الكرم</Aname>
+    <nots>0</nots>
+    <nots1>0</nots1>
+    <delegatephone>0</delegatephone>
+    <Email>0</Email>
+    <id_cust>30</id_cust>
+    <Deleted>false</Deleted>
+    <Code>0</Code>
+    <Address>0</Address>
+    <Email1>0</Email1>
+    <connect>0    0</connect>
+    <debt>16715</debt>
+    <credit>8875</credit>
+    <balance>7840</balance>
+    <normalPR>0</normalPR>
+    <CasePr>قطاعى</CasePr>
+  </tt>
+</NewDataSet>

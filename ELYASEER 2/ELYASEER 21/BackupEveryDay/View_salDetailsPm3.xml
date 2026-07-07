@@ -1,0 +1,67 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <id_pur>73</id_pur>
+    <ARname>طحينة </ARname>
+    <qu>1020</qu>
+    <pr>86</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>87720</total_item>
+    <Cust_Name>اسامة حلوان</Cust_Name>
+    <Total>87720.000</Total>
+    <pdate>2025-10-03T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>17</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>0.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>74</id_pur>
+    <ARname>طحينة </ARname>
+    <qu>180</qu>
+    <pr>84</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>15120</total_item>
+    <Cust_Name>ابو مالك شبرا مصر</Cust_Name>
+    <Total>15100.000</Total>
+    <pdate>2025-10-03T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>3</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>0</TypePaied>
+    <AmountPaid>15100.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+</NewDataSet>

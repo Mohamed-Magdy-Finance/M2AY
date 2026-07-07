@@ -1,0 +1,372 @@
+﻿<XtraSerializer version="1.0" application="View">
+  <property name="#LayoutVersion" />
+  <property name="OptionsView" isnull="true" iskey="true">
+    <property name="ColumnAutoWidth">true</property>
+    <property name="AutoCalcPreviewLineCount">true</property>
+    <property name="ShowAutoFilterRow">true</property>
+    <property name="ShowFooter">true</property>
+    <property name="ShowGroupPanel">false</property>
+  </property>
+  <property name="Columns" iskey="true" value="45">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="VisibleIndex">18</property>
+      <property name="Name">add_Request</property>
+      <property name="Visible">true</property>
+      <property name="Width">27</property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="VisibleIndex">100000</property>
+      <property name="Name">net_balance</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item3" isnull="true" iskey="true">
+      <property name="VisibleIndex">0</property>
+      <property name="Name">InternationalCode</property>
+      <property name="Visible">true</property>
+      <property name="Width">100</property>
+    </property>
+    <property name="Item4" isnull="true" iskey="true">
+      <property name="VisibleIndex">-1</property>
+      <property name="Name">ShortName</property>
+      <property name="Width">114</property>
+    </property>
+    <property name="Item5" isnull="true" iskey="true">
+      <property name="VisibleIndex">1</property>
+      <property name="Name">ARname</property>
+      <property name="Visible">true</property>
+      <property name="Width">290</property>
+    </property>
+    <property name="Item6" isnull="true" iskey="true">
+      <property name="VisibleIndex">-1</property>
+      <property name="Name">ENname</property>
+      <property name="Width">219</property>
+    </property>
+    <property name="Item7" isnull="true" iskey="true">
+      <property name="VisibleIndex">11</property>
+      <property name="Name">SmallPr0</property>
+      <property name="Visible">true</property>
+      <property name="Width">90</property>
+    </property>
+    <property name="Item8" isnull="true" iskey="true">
+      <property name="VisibleIndex">10</property>
+      <property name="Name">MIDPr0</property>
+      <property name="Visible">true</property>
+      <property name="Width">90</property>
+    </property>
+    <property name="Item9" isnull="true" iskey="true">
+      <property name="VisibleIndex">-1</property>
+      <property name="Name">id_item</property>
+      <property name="Width">73</property>
+    </property>
+    <property name="Item10" isnull="true" iskey="true">
+      <property name="VisibleIndex">2</property>
+      <property name="Name">CurrentBalance0</property>
+      <property name="Visible">true</property>
+      <property name="Width">93</property>
+    </property>
+    <property name="Item11" isnull="true" iskey="true">
+      <property name="VisibleIndex">3</property>
+      <property name="Name">CurrentBalance1</property>
+      <property name="Visible">true</property>
+      <property name="Width">51</property>
+    </property>
+    <property name="Item12" isnull="true" iskey="true">
+      <property name="VisibleIndex">4</property>
+      <property name="Name">CurrentBalance2</property>
+      <property name="Visible">true</property>
+      <property name="Width">52</property>
+    </property>
+    <property name="Item13" isnull="true" iskey="true">
+      <property name="VisibleIndex">14</property>
+      <property name="Name">cost</property>
+      <property name="Visible">true</property>
+      <property name="Width">145</property>
+      <property name="Summary" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="Tag" isnull="true" />
+          <property name="FieldName">cost</property>
+          <property name="SummaryType">Custom</property>
+          <property name="DisplayFormat">76</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item14" isnull="true" iskey="true">
+      <property name="VisibleIndex">7</property>
+      <property name="Name">BigPr0</property>
+      <property name="Visible">true</property>
+      <property name="Width">77</property>
+    </property>
+    <property name="Item15" isnull="true" iskey="true">
+      <property name="VisibleIndex">12</property>
+      <property name="Name">PurchasePrice</property>
+      <property name="Visible">true</property>
+      <property name="Width">77</property>
+    </property>
+    <property name="Item16" isnull="true" iskey="true">
+      <property name="VisibleIndex">13</property>
+      <property name="Name">Dioscount_main</property>
+      <property name="Visible">true</property>
+      <property name="Width">86</property>
+    </property>
+    <property name="Item17" isnull="true" iskey="true">
+      <property name="VisibleIndex">17</property>
+      <property name="Name">Minimum</property>
+      <property name="Visible">true</property>
+      <property name="Width">109</property>
+    </property>
+    <property name="Item18" isnull="true" iskey="true">
+      <property name="VisibleIndex">15</property>
+      <property name="Name">TypeItem1</property>
+      <property name="Visible">true</property>
+      <property name="Width">170</property>
+    </property>
+    <property name="Item19" isnull="true" iskey="true">
+      <property name="VisibleIndex">16</property>
+      <property name="Name">TypeItem2</property>
+      <property name="Visible">true</property>
+      <property name="Width">170</property>
+    </property>
+    <property name="Item20" isnull="true" iskey="true">
+      <property name="VisibleIndex">-1</property>
+      <property name="Name">TypeItem3</property>
+      <property name="Width">170</property>
+    </property>
+    <property name="Item21" isnull="true" iskey="true">
+      <property name="VisibleIndex">12</property>
+      <property name="Name">BigUnit</property>
+      <property name="Visible">true</property>
+      <property name="Width">99</property>
+    </property>
+    <property name="Item22" isnull="true" iskey="true">
+      <property name="VisibleIndex">13</property>
+      <property name="Name">MiddellUnit</property>
+      <property name="Visible">true</property>
+      <property name="Width">110</property>
+    </property>
+    <property name="Item23" isnull="true" iskey="true">
+      <property name="VisibleIndex">5</property>
+      <property name="Name">CountMiddel</property>
+      <property name="Visible">true</property>
+      <property name="Width">80</property>
+    </property>
+    <property name="Item24" isnull="true" iskey="true">
+      <property name="VisibleIndex">14</property>
+      <property name="Name">SmallUnit</property>
+      <property name="Visible">true</property>
+      <property name="Width">101</property>
+    </property>
+    <property name="Item25" isnull="true" iskey="true">
+      <property name="VisibleIndex">6</property>
+      <property name="Name">CountSmall</property>
+      <property name="Visible">true</property>
+      <property name="Width">98</property>
+    </property>
+    <property name="Item26" isnull="true" iskey="true">
+      <property name="VisibleIndex">-1</property>
+      <property name="Name">Day_Recession</property>
+      <property name="Width">77</property>
+    </property>
+    <property name="Item27" isnull="true" iskey="true">
+      <property name="VisibleIndex">-1</property>
+      <property name="Name">Tax</property>
+      <property name="Width">73</property>
+    </property>
+    <property name="Item28" isnull="true" iskey="true">
+      <property name="VisibleIndex">-1</property>
+      <property name="Name">Dioscount_over</property>
+    </property>
+    <property name="Item29" isnull="true" iskey="true">
+      <property name="VisibleIndex">100000</property>
+      <property name="Name">Discount0</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item30" isnull="true" iskey="true">
+      <property name="VisibleIndex">100000</property>
+      <property name="Name">Discount1</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item31" isnull="true" iskey="true">
+      <property name="VisibleIndex">100000</property>
+      <property name="Name">Discount2</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item32" isnull="true" iskey="true">
+      <property name="VisibleIndex">8</property>
+      <property name="Name">BigPr1</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item33" isnull="true" iskey="true">
+      <property name="VisibleIndex">9</property>
+      <property name="Name">BigPr2</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item34" isnull="true" iskey="true">
+      <property name="VisibleIndex">100000</property>
+      <property name="Name">MIDPr1</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item35" isnull="true" iskey="true">
+      <property name="VisibleIndex">100000</property>
+      <property name="Name">MIDPr2</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item36" isnull="true" iskey="true">
+      <property name="VisibleIndex">100000</property>
+      <property name="Name">SmallPr1</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item37" isnull="true" iskey="true">
+      <property name="VisibleIndex">100000</property>
+      <property name="Name">SmallPr2</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item38" isnull="true" iskey="true">
+      <property name="VisibleIndex">-1</property>
+      <property name="Name">date_expire</property>
+      <property name="Width">139</property>
+    </property>
+    <property name="Item39" isnull="true" iskey="true">
+      <property name="VisibleIndex">-1</property>
+      <property name="Name">qu_expire</property>
+      <property name="Width">77</property>
+    </property>
+    <property name="Item40" isnull="true" iskey="true">
+      <property name="VisibleIndex">-1</property>
+      <property name="Name">TypeItem4</property>
+      <property name="Width">150</property>
+    </property>
+    <property name="Item41" isnull="true" iskey="true">
+      <property name="VisibleIndex">-1</property>
+      <property name="Name">TypeItem5</property>
+      <property name="Width">150</property>
+    </property>
+    <property name="Item42" isnull="true" iskey="true">
+      <property name="VisibleIndex">-1</property>
+      <property name="Name">TypeItem6</property>
+      <property name="Width">150</property>
+    </property>
+    <property name="Item43" isnull="true" iskey="true">
+      <property name="VisibleIndex">-1</property>
+      <property name="Name">TypeItem7</property>
+      <property name="Width">150</property>
+    </property>
+    <property name="Item44" isnull="true" iskey="true">
+      <property name="VisibleIndex">-1</property>
+      <property name="Name">id</property>
+    </property>
+    <property name="Item45" isnull="true" iskey="true">
+      <property name="VisibleIndex">-1</property>
+      <property name="Name">Ticket</property>
+      <property name="Width">62</property>
+    </property>
+  </property>
+  <property name="ActiveFilterEnabled">true</property>
+  <property name="Bands" iskey="true" value="9">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="Width">390</property>
+      <property name="Columns" iskey="true" value="10">
+        <property name="Item1">id_item</property>
+        <property name="Item2">id</property>
+        <property name="Item3">InternationalCode</property>
+        <property name="Item4">ARname</property>
+        <property name="Item5">Dioscount_over</property>
+        <property name="Item6">Ticket</property>
+        <property name="Item7">ShortName</property>
+        <property name="Item8">ENname</property>
+        <property name="Item9">date_expire</property>
+        <property name="Item10">qu_expire</property>
+      </property>
+      <property name="Children" iskey="true" value="0" />
+      <property name="Name">GridBand1</property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="Width">196</property>
+      <property name="Columns" iskey="true" value="3">
+        <property name="Item1">CurrentBalance0</property>
+        <property name="Item2">CurrentBalance1</property>
+        <property name="Item3">CurrentBalance2</property>
+      </property>
+      <property name="Children" iskey="true" value="0" />
+      <property name="Name">gridBand2</property>
+    </property>
+    <property name="Item3" isnull="true" iskey="true">
+      <property name="Width">178</property>
+      <property name="Columns" iskey="true" value="2">
+        <property name="Item1">CountMiddel</property>
+        <property name="Item2">CountSmall</property>
+      </property>
+      <property name="Children" iskey="true" value="0" />
+      <property name="Name">BandCount</property>
+    </property>
+    <property name="Item4" isnull="true" iskey="true">
+      <property name="Width">407</property>
+      <property name="Columns" iskey="true" value="5">
+        <property name="Item1">BigPr0</property>
+        <property name="Item2">BigPr1</property>
+        <property name="Item3">BigPr2</property>
+        <property name="Item4">MIDPr0</property>
+        <property name="Item5">SmallPr0</property>
+      </property>
+      <property name="Children" iskey="true" value="0" />
+      <property name="Name">BandPrice</property>
+    </property>
+    <property name="Item5" isnull="true" iskey="true">
+      <property name="Width">310</property>
+      <property name="Columns" iskey="true" value="3">
+        <property name="Item1">BigUnit</property>
+        <property name="Item2">MiddellUnit</property>
+        <property name="Item3">SmallUnit</property>
+      </property>
+      <property name="Visible">false</property>
+      <property name="Children" iskey="true" value="0" />
+      <property name="Name">BandName</property>
+    </property>
+    <property name="Item6" isnull="true" iskey="true">
+      <property name="Width">308</property>
+      <property name="Columns" iskey="true" value="3">
+        <property name="Item1">PurchasePrice</property>
+        <property name="Item2">Dioscount_main</property>
+        <property name="Item3">cost</property>
+      </property>
+      <property name="Children" iskey="true" value="0" />
+      <property name="Name">Band_cost</property>
+    </property>
+    <property name="Item7" isnull="true" iskey="true">
+      <property name="Width">340</property>
+      <property name="Columns" iskey="true" value="3">
+        <property name="Item1">TypeItem1</property>
+        <property name="Item2">TypeItem2</property>
+        <property name="Item3">TypeItem3</property>
+      </property>
+      <property name="Children" iskey="true" value="0" />
+      <property name="Name">BandGroup</property>
+    </property>
+    <property name="Item8" isnull="true" iskey="true">
+      <property name="Width">136</property>
+      <property name="Columns" iskey="true" value="4">
+        <property name="Item1">Minimum</property>
+        <property name="Item2">Day_Recession</property>
+        <property name="Item3">Tax</property>
+        <property name="Item4">add_Request</property>
+      </property>
+      <property name="Children" iskey="true" value="0" />
+      <property name="Name">gridBand7</property>
+    </property>
+    <property name="Item9" isnull="true" iskey="true">
+      <property name="Width">600</property>
+      <property name="Columns" iskey="true" value="4">
+        <property name="Item1">TypeItem4</property>
+        <property name="Item2">TypeItem5</property>
+        <property name="Item3">TypeItem6</property>
+        <property name="Item4">TypeItem7</property>
+      </property>
+      <property name="Visible">false</property>
+      <property name="Children" iskey="true" value="0" />
+      <property name="Name">BandType</property>
+    </property>
+  </property>
+  <property name="ActiveFilterString" />
+  <property name="GroupSummarySortInfoState" />
+  <property name="FindFilterText" />
+  <property name="FindPanelVisible">false</property>
+</XtraSerializer>

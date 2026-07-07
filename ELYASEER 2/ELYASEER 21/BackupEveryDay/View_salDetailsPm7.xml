@@ -1,0 +1,227 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <id_pur>194</id_pur>
+    <ARname>طحينة </ARname>
+    <qu>300</qu>
+    <pr>90</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>27000</total_item>
+    <Cust_Name>الشيخ منتصر مؤسسة الزكاة</Cust_Name>
+    <Total>27000.000</Total>
+    <pdate>2026-02-07T00:00:00+02:00</pdate>
+    <bones>0</bones>
+    <c_count>5</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>0.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>195</id_pur>
+    <ARname>سمسم سولتكس </ARname>
+    <qu>250</qu>
+    <pr>93</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>23250</total_item>
+    <Cust_Name>مصنع الاندلس</Cust_Name>
+    <Total>23250.000</Total>
+    <pdate>2026-02-07T00:00:00+02:00</pdate>
+    <bones>0</bones>
+    <c_count>5</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>0.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>196</id_pur>
+    <ARname>طحينة </ARname>
+    <qu>240</qu>
+    <pr>88</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>21120</total_item>
+    <Cust_Name>ابو مالك شبرا مصر</Cust_Name>
+    <Total>33100.000</Total>
+    <pdate>2026-02-07T00:00:00+02:00</pdate>
+    <bones>0</bones>
+    <c_count>4</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>33100.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>196</id_pur>
+    <ARname>حلاوه علب 4 كيلو سادة </ARname>
+    <qu>160</qu>
+    <pr>75</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>12000</total_item>
+    <Cust_Name>ابو مالك شبرا مصر</Cust_Name>
+    <Total>33100.000</Total>
+    <pdate>2026-02-07T00:00:00+02:00</pdate>
+    <bones>0</bones>
+    <c_count>10</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>33100.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>197</id_pur>
+    <ARname>طحينة </ARname>
+    <qu>300</qu>
+    <pr>88</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>26400</total_item>
+    <Cust_Name>الشيخ منتصر مؤسسة الزكاة</Cust_Name>
+    <Total>29100.000</Total>
+    <pdate>2026-02-07T00:00:00+02:00</pdate>
+    <bones>0</bones>
+    <c_count>5</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>45000.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>197</id_pur>
+    <ARname>حلاوة سادة </ARname>
+    <qu>36</qu>
+    <pr>75</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>2700</total_item>
+    <Cust_Name>الشيخ منتصر مؤسسة الزكاة</Cust_Name>
+    <Total>29100.000</Total>
+    <pdate>2026-02-07T00:00:00+02:00</pdate>
+    <bones>0</bones>
+    <c_count>2</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>45000.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>198</id_pur>
+    <ARname>طحينة </ARname>
+    <qu>540</qu>
+    <pr>85</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>45900</total_item>
+    <Cust_Name>ايمن عين شمس</Cust_Name>
+    <Total>45900.000</Total>
+    <pdate>2026-02-07T00:00:00+02:00</pdate>
+    <bones>0</bones>
+    <c_count>9</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>45900.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+</NewDataSet>

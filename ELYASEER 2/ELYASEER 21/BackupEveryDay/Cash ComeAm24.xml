@@ -1,0 +1,75 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <id_constraint>1514</id_constraint>
+    <idBill>130</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>131</id_cash>
+    <pdate>2026-01-23T12:46:53+02:00</pdate>
+    <total>10000</total>
+    <des />
+    <debt_name>النقدية</debt_name>
+    <credit_name>احمد رشوان</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>1532</id_constraint>
+    <idBill>131</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>132</id_cash>
+    <pdate>2026-01-23T14:22:50+02:00</pdate>
+    <total>8875</total>
+    <des />
+    <debt_name>النقدية</debt_name>
+    <credit_name>مطعم قصر الكرم</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>1547</id_constraint>
+    <idBill>132</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>133</id_cash>
+    <pdate>2026-01-23T15:58:37+02:00</pdate>
+    <total>5000</total>
+    <des />
+    <debt_name>النقدية</debt_name>
+    <credit_name>ابو مالك شبرا مصر</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>1548</id_constraint>
+    <idBill>133</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>134</id_cash>
+    <pdate>2026-01-23T16:02:46+02:00</pdate>
+    <total>27900</total>
+    <des />
+    <debt_name>النقدية</debt_name>
+    <credit_name>سامي مصنع الحسين</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>1556</id_constraint>
+    <idBill>134</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>135</id_cash>
+    <pdate>2026-01-23T16:34:43+02:00</pdate>
+    <total>36000</total>
+    <des />
+    <debt_name>النقدية</debt_name>
+    <credit_name>ابو مالك شبرا مصر</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>1581</id_constraint>
+    <idBill>135</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>136</id_cash>
+    <pdate>2026-01-24T12:43:56+02:00</pdate>
+    <total>15000</total>
+    <des>سند قبض رقم 136</des>
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>الشيخ منتصر مؤسسة الزكاة</credit_name>
+  </tt>
+</NewDataSet>

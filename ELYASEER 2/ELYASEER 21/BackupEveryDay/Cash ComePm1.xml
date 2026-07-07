@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <id_constraint>1749</id_constraint>
+    <idBill>155</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>156</id_cash>
+    <pdate>2026-03-01T17:26:16+02:00</pdate>
+    <total>31000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>سامي مصنع الحسين</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>1753</id_constraint>
+    <idBill>156</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>157</id_cash>
+    <pdate>2026-03-01T17:28:02+02:00</pdate>
+    <total>20000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>الشيخ منتصر مؤسسة الزكاة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>1765</id_constraint>
+    <idBill>157</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>158</id_cash>
+    <pdate>2026-03-01T17:32:20+02:00</pdate>
+    <total>102000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>سامي مصنع الحسين</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>1767</id_constraint>
+    <idBill>158</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>159</id_cash>
+    <pdate>2026-03-01T17:32:52+02:00</pdate>
+    <total>25000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>ابو مالك شبرا مصر</credit_name>
+  </tt>
+</NewDataSet>

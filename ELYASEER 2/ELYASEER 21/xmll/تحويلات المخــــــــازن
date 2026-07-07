@@ -1,0 +1,123 @@
+﻿<XtraSerializer version="1.0" application="View">
+  <property name="#LayoutVersion" />
+  <property name="OptionsView" isnull="true" iskey="true">
+    <property name="ColumnAutoWidth">false</property>
+    <property name="ColumnHeaderAutoHeight">True</property>
+    <property name="ShowFooter">true</property>
+    <property name="ShowGroupPanel">false</property>
+  </property>
+  <property name="ActiveFilterEnabled">true</property>
+  <property name="Columns" iskey="true" value="16">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="Name">id_storeFrom</property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="Name">id_storeTo</property>
+    </property>
+    <property name="Item3" isnull="true" iskey="true">
+      <property name="Name">storeTo</property>
+      <property name="VisibleIndex">7</property>
+      <property name="Visible">true</property>
+      <property name="Width">198</property>
+    </property>
+    <property name="Item4" isnull="true" iskey="true">
+      <property name="Name">storeFrom</property>
+      <property name="VisibleIndex">5</property>
+      <property name="Visible">true</property>
+      <property name="Width">178</property>
+    </property>
+    <property name="Item5" isnull="true" iskey="true">
+      <property name="Name">pr</property>
+      <property name="VisibleIndex">3</property>
+      <property name="Visible">true</property>
+      <property name="Width">113</property>
+    </property>
+    <property name="Item6" isnull="true" iskey="true">
+      <property name="Name">qu</property>
+      <property name="VisibleIndex">2</property>
+      <property name="Visible">true</property>
+      <property name="Width">110</property>
+      <property name="Summary" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="Tag" isnull="true" />
+          <property name="FieldName">qu</property>
+          <property name="SummaryType">Sum</property>
+          <property name="DisplayFormat" />
+        </property>
+      </property>
+    </property>
+    <property name="Item7" isnull="true" iskey="true">
+      <property name="Name">UnitName</property>
+      <property name="VisibleIndex">1</property>
+      <property name="Visible">true</property>
+      <property name="Width">171</property>
+    </property>
+    <property name="Item8" isnull="true" iskey="true">
+      <property name="Name">unit</property>
+      <property name="Width">54</property>
+    </property>
+    <property name="Item9" isnull="true" iskey="true">
+      <property name="Name">ARname</property>
+      <property name="VisibleIndex">0</property>
+      <property name="Visible">true</property>
+      <property name="Width">476</property>
+    </property>
+    <property name="Item10" isnull="true" iskey="true">
+      <property name="Name">id_item</property>
+    </property>
+    <property name="Item11" isnull="true" iskey="true">
+      <property name="Name">expire_date</property>
+      <property name="Width">97</property>
+    </property>
+    <property name="Item12" isnull="true" iskey="true">
+      <property name="Name">total</property>
+      <property name="VisibleIndex">4</property>
+      <property name="Visible">true</property>
+      <property name="Width">122</property>
+      <property name="Summary" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="Tag" isnull="true" />
+          <property name="FieldName">total</property>
+          <property name="SummaryType">Sum</property>
+          <property name="DisplayFormat" />
+        </property>
+      </property>
+    </property>
+    <property name="Item13" isnull="true" iskey="true">
+      <property name="Name">cost</property>
+      <property name="VisibleIndex">9</property>
+      <property name="Visible">true</property>
+      <property name="Width">93</property>
+    </property>
+    <property name="Item14" isnull="true" iskey="true">
+      <property name="Name">BalancstoreTo</property>
+      <property name="VisibleIndex">8</property>
+      <property name="Visible">true</property>
+      <property name="Width">84</property>
+    </property>
+    <property name="Item15" isnull="true" iskey="true">
+      <property name="Name">BalancstoreFrom</property>
+      <property name="VisibleIndex">6</property>
+      <property name="Visible">true</property>
+      <property name="Width">80</property>
+    </property>
+    <property name="Item16" isnull="true" iskey="true">
+      <property name="Name">TotalCost</property>
+      <property name="VisibleIndex">10</property>
+      <property name="Visible">true</property>
+      <property name="Width">165</property>
+      <property name="Summary" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="Tag" isnull="true" />
+          <property name="FieldName">TotalCost</property>
+          <property name="SummaryType">Sum</property>
+          <property name="DisplayFormat">{0:0.##}</property>
+        </property>
+      </property>
+    </property>
+  </property>
+  <property name="ActiveFilterString" />
+  <property name="GroupSummarySortInfoState" />
+  <property name="FindFilterText" />
+  <property name="FindPanelVisible">false</property>
+</XtraSerializer>

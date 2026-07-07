@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <id_constraint>1289</id_constraint>
+    <idBill>101</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>102</id_cash>
+    <pdate>2025-12-31T22:31:01+02:00</pdate>
+    <total>19000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>الشيخ منتصر مؤسسة الزكاة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>1301</id_constraint>
+    <idBill>102</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>103</id_cash>
+    <pdate>2025-12-31T22:36:02+02:00</pdate>
+    <total>5000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>الشيخ مجدي</credit_name>
+  </tt>
+</NewDataSet>

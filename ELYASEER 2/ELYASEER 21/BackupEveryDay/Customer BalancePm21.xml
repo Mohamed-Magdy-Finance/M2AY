@@ -1,0 +1,202 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <LastMony>0.00</LastMony>
+    <paper>0.00</paper>
+    <dayes>0</dayes>
+    <id>50</id>
+    <Aname>احمد ابراهيم مدينة السلام</Aname>
+    <nots>0</nots>
+    <nots1>0</nots1>
+    <delegatephone>0</delegatephone>
+    <Email>0</Email>
+    <id_cust>20</id_cust>
+    <Deleted>false</Deleted>
+    <Code>0</Code>
+    <Address>0</Address>
+    <Email1>0</Email1>
+    <connect>0    0</connect>
+    <debt>16200</debt>
+    <credit>5000</credit>
+    <balance>11200</balance>
+    <normalPR>0</normalPR>
+    <CasePr>قطاعى</CasePr>
+  </tt>
+  <tt>
+    <LastMony>0.00</LastMony>
+    <paper>0.00</paper>
+    <dayes>0</dayes>
+    <id>52</id>
+    <Aname>اسامة حلوان</Aname>
+    <nots>0</nots>
+    <nots1>0</nots1>
+    <delegatephone>0</delegatephone>
+    <Email>0</Email>
+    <id_cust>22</id_cust>
+    <Deleted>false</Deleted>
+    <Code>0</Code>
+    <Address>0</Address>
+    <Email1>0</Email1>
+    <connect>0    0</connect>
+    <debt>408524</debt>
+    <credit>362500</credit>
+    <balance>46024</balance>
+    <normalPR>0</normalPR>
+    <CasePr>قطاعى</CasePr>
+  </tt>
+  <tt>
+    <LastMony>0.00</LastMony>
+    <paper>0.00</paper>
+    <dayes>0</dayes>
+    <id>31</id>
+    <Aname>الحاج هداية طوخ</Aname>
+    <MainAccount>العملاء</MainAccount>
+    <str_price />
+    <MaxDayOfCredit>0</MaxDayOfCredit>
+    <nots />
+    <way />
+    <sT />
+    <TaxesCard />
+    <nots1 />
+    <delegateSal />
+    <delegatephone />
+    <Email />
+    <Title />
+    <id_cust>7</id_cust>
+    <Deleted>false</Deleted>
+    <Code>4</Code>
+    <CostCenter />
+    <Address>طوخ</Address>
+    <Email1 />
+    <connect xml:space="preserve">    </connect>
+    <debt>437860</debt>
+    <credit>370500</credit>
+    <balance>67360</balance>
+    <normalPR>0</normalPR>
+    <CasePr>قطاعى</CasePr>
+  </tt>
+  <tt>
+    <LastMony>0.00</LastMony>
+    <paper>0.00</paper>
+    <dayes>0</dayes>
+    <id>33</id>
+    <Aname>الشيخ احمد منوف</Aname>
+    <MainAccount>العملاء</MainAccount>
+    <str_price />
+    <MaxDayOfCredit>0</MaxDayOfCredit>
+    <nots />
+    <way />
+    <sT />
+    <TaxesCard />
+    <nots1 />
+    <delegateSal />
+    <delegatephone />
+    <Email />
+    <Title />
+    <id_cust>9</id_cust>
+    <Deleted>false</Deleted>
+    <Code>6</Code>
+    <CostCenter />
+    <Address>منوف</Address>
+    <Email1 />
+    <connect xml:space="preserve">    </connect>
+    <debt>500300</debt>
+    <credit>436300</credit>
+    <balance>64000</balance>
+    <normalPR>0</normalPR>
+    <CasePr>قطاعى</CasePr>
+  </tt>
+  <tt>
+    <LastMony>0.00</LastMony>
+    <paper>0.00</paper>
+    <dayes>0</dayes>
+    <id>36</id>
+    <Aname>الشيخ مجدي</Aname>
+    <MainAccount>العملاء</MainAccount>
+    <str_price />
+    <MaxDayOfCredit>0</MaxDayOfCredit>
+    <nots />
+    <way />
+    <sT />
+    <TaxesCard />
+    <nots1 />
+    <delegateSal />
+    <delegatephone />
+    <Email />
+    <Title />
+    <id_cust>12</id_cust>
+    <Deleted>false</Deleted>
+    <Code>9</Code>
+    <CostCenter />
+    <Address />
+    <Email1 />
+    <connect xml:space="preserve">    </connect>
+    <debt>19660</debt>
+    <credit>15000</credit>
+    <balance>4660</balance>
+    <normalPR>0</normalPR>
+    <CasePr>قطاعى</CasePr>
+  </tt>
+  <tt>
+    <LastMony>0.00</LastMony>
+    <paper>0.00</paper>
+    <dayes>0</dayes>
+    <id>28</id>
+    <Aname>الشيخ منتصر مؤسسة الزكاة</Aname>
+    <MainAccount>العملاء</MainAccount>
+    <str_price />
+    <MaxDayOfCredit>0</MaxDayOfCredit>
+    <nots />
+    <way />
+    <sT />
+    <TaxesCard />
+    <nots1 />
+    <delegateSal />
+    <delegatephone />
+    <Email />
+    <Title />
+    <id_cust>4</id_cust>
+    <Deleted>false</Deleted>
+    <Code>1</Code>
+    <CostCenter />
+    <Address>مؤسسة الزكاة</Address>
+    <Email1 />
+    <connect xml:space="preserve">    </connect>
+    <debt>251613.5</debt>
+    <credit>240857</credit>
+    <balance>10756.5</balance>
+    <normalPR>0</normalPR>
+    <CasePr>قطاعى</CasePr>
+  </tt>
+  <tt>
+    <LastMony>0.00</LastMony>
+    <paper>0.00</paper>
+    <dayes>0</dayes>
+    <id>30</id>
+    <Aname>محمد سرجة بشتيل</Aname>
+    <MainAccount>العملاء</MainAccount>
+    <str_price />
+    <MaxDayOfCredit>0</MaxDayOfCredit>
+    <nots />
+    <way />
+    <sT />
+    <TaxesCard />
+    <nots1 />
+    <delegateSal />
+    <delegatephone />
+    <Email />
+    <Title />
+    <id_cust>6</id_cust>
+    <Deleted>false</Deleted>
+    <Code>3</Code>
+    <CostCenter />
+    <Address>بشتيل</Address>
+    <Email1 />
+    <connect xml:space="preserve">    </connect>
+    <debt>9250</debt>
+    <credit>3250</credit>
+    <balance>6000</balance>
+    <normalPR>0</normalPR>
+    <CasePr>قطاعى</CasePr>
+  </tt>
+</NewDataSet>

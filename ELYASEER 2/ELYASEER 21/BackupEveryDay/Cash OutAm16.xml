@@ -1,0 +1,63 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <id_constraint>2183</id_constraint>
+    <idBill>649</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>653</id_cash>
+    <pdate>2026-05-15T14:03:18+03:00</pdate>
+    <total>300</total>
+    <des />
+    <debt_name>مصاريف يومية</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2184</id_constraint>
+    <idBill>650</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>654</id_cash>
+    <pdate>2026-05-15T14:03:37+03:00</pdate>
+    <total>500</total>
+    <des />
+    <debt_name>سولار</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2189</id_constraint>
+    <idBill>651</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>655</id_cash>
+    <pdate>2026-05-15T14:09:04+03:00</pdate>
+    <total>2000</total>
+    <des />
+    <debt_name>ممس فرج</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2191</id_constraint>
+    <idBill>652</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>656</id_cash>
+    <pdate>2026-05-15T18:46:39+03:00</pdate>
+    <total>75000</total>
+    <des />
+    <debt_name>مصنع الاندلس</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2193</id_constraint>
+    <idBill>653</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>657</id_cash>
+    <pdate>2026-05-15T19:10:36+03:00</pdate>
+    <total>20000</total>
+    <des />
+    <debt_name>مصنع الاندلس</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+</NewDataSet>

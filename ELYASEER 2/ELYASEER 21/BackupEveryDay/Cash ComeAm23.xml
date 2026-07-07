@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <id_constraint>382</id_constraint>
+    <idBill>18</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>19</id_cash>
+    <pdate>2025-08-23T00:16:58+03:00</pdate>
+    <total>3000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>احمد رشوان</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>383</id_constraint>
+    <idBill>19</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>20</id_cash>
+    <pdate>2025-08-23T00:17:11+03:00</pdate>
+    <total>5000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>اسامة حلوان</credit_name>
+  </tt>
+</NewDataSet>

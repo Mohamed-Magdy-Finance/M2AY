@@ -1,0 +1,242 @@
+﻿<XtraSerializer version="1.0" application="View">
+  <property name="#LayoutVersion" />
+  <property name="#LayoutScaleFactor">@1,Width=1@1,Height=1</property>
+  <property name="OptionsView" isnull="true" iskey="true">
+    <property name="AutoCalcPreviewLineCount">true</property>
+    <property name="ShowGroupPanel">false</property>
+    <property name="ShowFilterPanelMode">Never</property>
+  </property>
+  <property name="ActiveFilterEnabled">true</property>
+  <property name="Columns" iskey="true" value="33">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="Name">total</property>
+      <property name="VisibleIndex">6</property>
+      <property name="Visible">true</property>
+      <property name="SortMode">Custom</property>
+      <property name="Width">93</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="Name">Discount</property>
+      <property name="VisibleIndex">5</property>
+      <property name="Visible">true</property>
+      <property name="SortMode">Custom</property>
+      <property name="Width">66</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item3" isnull="true" iskey="true">
+      <property name="Name">PricePharmacist</property>
+      <property name="SortMode">Custom</property>
+      <property name="Width">69</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item4" isnull="true" iskey="true">
+      <property name="Name">pr</property>
+      <property name="VisibleIndex">4</property>
+      <property name="Visible">true</property>
+      <property name="SortMode">Custom</property>
+      <property name="Width">91</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item5" isnull="true" iskey="true">
+      <property name="Name">bones</property>
+      <property name="SortMode">Custom</property>
+      <property name="Width">53</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item6" isnull="true" iskey="true">
+      <property name="Name">qu</property>
+      <property name="VisibleIndex">3</property>
+      <property name="Visible">true</property>
+      <property name="SortMode">Custom</property>
+      <property name="Width">78</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item7" isnull="true" iskey="true">
+      <property name="Name">yy</property>
+      <property name="SortMode">Custom</property>
+      <property name="Width">50</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item8" isnull="true" iskey="true">
+      <property name="Name">mm</property>
+      <property name="SortMode">Custom</property>
+      <property name="Width">50</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item9" isnull="true" iskey="true">
+      <property name="Name">UnitName</property>
+      <property name="SortMode">Custom</property>
+      <property name="Width">71</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item10" isnull="true" iskey="true">
+      <property name="Name">unit</property>
+      <property name="SortMode">Custom</property>
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item11" isnull="true" iskey="true">
+      <property name="Name">ARname</property>
+      <property name="VisibleIndex">1</property>
+      <property name="Visible">true</property>
+      <property name="Width">247</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item12" isnull="true" iskey="true">
+      <property name="Name">id_item</property>
+      <property name="SortMode">Custom</property>
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item13" isnull="true" iskey="true">
+      <property name="Name">id_Rpur</property>
+      <property name="SortMode">Custom</property>
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item14" isnull="true" iskey="true">
+      <property name="Name">InternationalCode</property>
+      <property name="SortMode">Custom</property>
+      <property name="Width">115</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item15" isnull="true" iskey="true">
+      <property name="Name">StoreNameDetails</property>
+      <property name="Width">86</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item16" isnull="true" iskey="true">
+      <property name="Name">balance</property>
+      <property name="VisibleIndex">0</property>
+      <property name="Visible">true</property>
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item17" isnull="true" iskey="true">
+      <property name="Name">ShortName</property>
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item18" isnull="true" iskey="true">
+      <property name="Name">CountMiddel</property>
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item19" isnull="true" iskey="true">
+      <property name="Name">Col_EditPrice</property>
+      <property name="Width">32</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item20" isnull="true" iskey="true">
+      <property name="Name">Col_SaveItem</property>
+      <property name="Width">34</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item21" isnull="true" iskey="true">
+      <property name="Name">GridColumn6</property>
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item22" isnull="true" iskey="true">
+      <property name="Name">GridColumn7</property>
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item23" isnull="true" iskey="true">
+      <property name="Name">GridColumn8</property>
+      <property name="Width">69</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item24" isnull="true" iskey="true">
+      <property name="Name">Discount0</property>
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item25" isnull="true" iskey="true">
+      <property name="Name">des</property>
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item26" isnull="true" iskey="true">
+      <property name="Name">CountMetr</property>
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item27" isnull="true" iskey="true">
+      <property name="Name">CountSmall</property>
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item28" isnull="true" iskey="true">
+      <property name="Name">c_count</property>
+      <property name="VisibleIndex">2</property>
+      <property name="Visible">true</property>
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item29" isnull="true" iskey="true">
+      <property name="Name">keep</property>
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item30" isnull="true" iskey="true">
+      <property name="Name">PriceTen</property>
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item31" isnull="true" iskey="true">
+      <property name="Name">ColPrintBarcode</property>
+      <property name="Width">27</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item32" isnull="true" iskey="true">
+      <property name="Name">IsRequest</property>
+      <property name="Width">35</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item33" isnull="true" iskey="true">
+      <property name="Name">id</property>
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+  </property>
+  <property name="GroupSummary" iskey="true" value="0" />
+  <property name="ActiveFilterString" />
+  <property name="GroupSummarySortInfoState" />
+  <property name="FindFilterText" />
+  <property name="FindPanelVisible">false</property>
+</XtraSerializer>

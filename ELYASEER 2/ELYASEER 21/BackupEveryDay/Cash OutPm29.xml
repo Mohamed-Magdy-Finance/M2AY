@@ -1,0 +1,63 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <id_constraint>2022</id_constraint>
+    <idBill>613</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>617</id_cash>
+    <pdate>2026-04-29T17:09:42+03:00</pdate>
+    <total>300</total>
+    <des>مصارىف كفترىا وبرىل</des>
+    <debt_name>مصاريف يومية</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2024</id_constraint>
+    <idBill>614</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>618</id_cash>
+    <pdate>2026-04-29T17:16:53+03:00</pdate>
+    <total>500</total>
+    <des />
+    <debt_name>مصاريف يومية</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2032</id_constraint>
+    <idBill>615</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>619</id_cash>
+    <pdate>2026-04-29T17:28:07+03:00</pdate>
+    <total>300</total>
+    <des />
+    <debt_name>مصاريف يومية</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2040</id_constraint>
+    <idBill>616</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>620</id_cash>
+    <pdate>2026-04-29T17:35:28+03:00</pdate>
+    <total>300</total>
+    <des>سولار</des>
+    <debt_name>سولار</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2042</id_constraint>
+    <idBill>617</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>621</id_cash>
+    <pdate>2026-04-29T17:39:04+03:00</pdate>
+    <total>50000</total>
+    <des />
+    <debt_name>مصنع الاندلس</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+</NewDataSet>

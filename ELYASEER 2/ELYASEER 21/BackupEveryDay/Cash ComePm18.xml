@@ -1,0 +1,123 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <id_constraint>1109</id_constraint>
+    <idBill>82</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>83</id_cash>
+    <pdate>2025-12-18T19:12:11+02:00</pdate>
+    <total>5000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>الشيخ مجدي</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>1113</id_constraint>
+    <idBill>83</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>84</id_cash>
+    <pdate>2025-12-18T19:13:17+02:00</pdate>
+    <total>10000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>الشيخ منتصر مؤسسة الزكاة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>1114</id_constraint>
+    <idBill>84</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>85</id_cash>
+    <pdate>2025-12-18T19:13:30+02:00</pdate>
+    <total>10000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>اسامة حلوان</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>1116</id_constraint>
+    <idBill>85</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>86</id_cash>
+    <pdate>2025-12-18T19:14:11+02:00</pdate>
+    <total>4000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>اسامة حلوان</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>1117</id_constraint>
+    <idBill>86</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>87</id_cash>
+    <pdate>2025-12-18T19:14:23+02:00</pdate>
+    <total>4000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>اسامة حلوان</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>1118</id_constraint>
+    <idBill>87</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>88</id_cash>
+    <pdate>2025-12-18T19:14:46+02:00</pdate>
+    <total>25000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>اسامة حلوان</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>1119</id_constraint>
+    <idBill>88</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>89</id_cash>
+    <pdate>2025-12-18T19:15:04+02:00</pdate>
+    <total>1400</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>محمد سرجة بشتيل</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>1121</id_constraint>
+    <idBill>89</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>90</id_cash>
+    <pdate>2025-12-18T19:15:45+02:00</pdate>
+    <total>4400</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>احمد رشوان</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>1134</id_constraint>
+    <idBill>90</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>91</id_cash>
+    <pdate>2025-12-18T19:20:09+02:00</pdate>
+    <total>50000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>الشيخ احمد منوف</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>1161</id_constraint>
+    <idBill>91</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>92</id_cash>
+    <pdate>2025-12-18T19:44:04+02:00</pdate>
+    <total>5950</total>
+    <des>سند قبض رقم 92</des>
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>البلد</credit_name>
+  </tt>
+</NewDataSet>

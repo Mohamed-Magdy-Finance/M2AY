@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <id_constraint>1166</id_constraint>
+    <idBill>92</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>93</id_cash>
+    <pdate>2025-12-25T20:52:24+02:00</pdate>
+    <total>90000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>اسامة حلوان</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>1178</id_constraint>
+    <idBill>93</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>94</id_cash>
+    <pdate>2025-12-25T20:55:47+02:00</pdate>
+    <total>75000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>الشيخ احمد منوف</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>1179</id_constraint>
+    <idBill>94</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>95</id_cash>
+    <pdate>2025-12-25T20:55:56+02:00</pdate>
+    <total>3000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>ابو مالك شبرا مصر</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>1180</id_constraint>
+    <idBill>95</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>96</id_cash>
+    <pdate>2025-12-25T20:56:10+02:00</pdate>
+    <total>10000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>الشيخ منتصر مؤسسة الزكاة</credit_name>
+  </tt>
+</NewDataSet>

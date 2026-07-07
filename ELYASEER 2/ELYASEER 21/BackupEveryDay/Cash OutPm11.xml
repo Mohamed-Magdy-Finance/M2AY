@@ -1,0 +1,111 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <id_constraint>2101</id_constraint>
+    <idBill>632</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>636</id_cash>
+    <pdate>2026-05-10T21:13:25+03:00</pdate>
+    <total>1000</total>
+    <des />
+    <debt_name>سولار</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2102</id_constraint>
+    <idBill>633</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>637</id_cash>
+    <pdate>2026-05-10T21:13:46+03:00</pdate>
+    <total>250</total>
+    <des>مصارىف و دخان</des>
+    <debt_name>مصاريف يومية</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2113</id_constraint>
+    <idBill>634</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>638</id_cash>
+    <pdate>2026-05-10T22:00:42+03:00</pdate>
+    <total>157000</total>
+    <des />
+    <debt_name>مصنع مدكور</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2114</id_constraint>
+    <idBill>635</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>639</id_cash>
+    <pdate>2026-05-10T22:06:34+03:00</pdate>
+    <total>6000</total>
+    <des />
+    <debt_name>ممس فرج</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2117</id_constraint>
+    <idBill>636</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>640</id_cash>
+    <pdate>2026-05-11T14:51:47+03:00</pdate>
+    <total>59800</total>
+    <des />
+    <debt_name>مصنع الاندلس</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2118</id_constraint>
+    <idBill>637</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>641</id_cash>
+    <pdate>2026-05-11T18:57:00+03:00</pdate>
+    <total>25000</total>
+    <des />
+    <debt_name>مصنع مدكور</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2127</id_constraint>
+    <idBill>638</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>642</id_cash>
+    <pdate>2026-05-11T19:11:56+03:00</pdate>
+    <total>270</total>
+    <des />
+    <debt_name>مصاريف يومية</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2150</id_constraint>
+    <idBill>639</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>643</id_cash>
+    <pdate>2026-05-11T23:01:49+03:00</pdate>
+    <total>500</total>
+    <des />
+    <debt_name>سولار</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2151</id_constraint>
+    <idBill>640</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>644</id_cash>
+    <pdate>2026-05-11T23:03:14+03:00</pdate>
+    <total>30</total>
+    <des />
+    <debt_name>كرت ومصاريف طريق</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+</NewDataSet>

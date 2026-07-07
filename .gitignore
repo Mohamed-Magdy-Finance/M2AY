@@ -1,0 +1,7 @@
+*.dll
+*.exe
+*.rar
+*.zip
+*.mdf
+*.ldf
+SqlExpress2008/

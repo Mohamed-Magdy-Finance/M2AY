@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <id_constraint>2078</id_constraint>
+    <idBill>200</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>201</id_cash>
+    <pdate>2026-05-06T17:44:32+03:00</pdate>
+    <total>7350</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>ايمن شبين</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2084</id_constraint>
+    <idBill>201</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>202</id_cash>
+    <pdate>2026-05-06T17:49:37+03:00</pdate>
+    <total>2750</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>محلة حسن</credit_name>
+  </tt>
+</NewDataSet>

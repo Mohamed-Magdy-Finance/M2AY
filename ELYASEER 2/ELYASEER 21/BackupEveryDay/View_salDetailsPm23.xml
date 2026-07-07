@@ -1,0 +1,67 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <id_pur>85</id_pur>
+    <ARname>طحينة </ARname>
+    <qu>1920</qu>
+    <pr>83</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>159360</total_item>
+    <Cust_Name>الحاج هداية طوخ</Cust_Name>
+    <Total>159360.000</Total>
+    <pdate>2025-10-23T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>32</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>0.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>86</id_pur>
+    <ARname>فوارغ -براميل طحينة </ARname>
+    <qu>1</qu>
+    <pr>9000</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>9000</total_item>
+    <Cust_Name>الحاج هداية طوخ</Cust_Name>
+    <Total>9000.000</Total>
+    <pdate>2025-10-23T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>1</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>0.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+</NewDataSet>

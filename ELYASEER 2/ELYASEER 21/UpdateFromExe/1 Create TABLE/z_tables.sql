@@ -1,0 +1,16 @@
+IF OBJECT_ID (N'z_tables', N'U') IS NULL 
+BEGIN
+
+CREATE TABLE [dbo].[z_tables](
+	[ID] [bigint] IDENTITY(1,1) NOT NULL,
+	[id_sal] [bigint] NOT NULL,
+	[TableNumber] [bigint] NULL,
+ CONSTRAINT [PK_z_tables_1] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+end
+
+

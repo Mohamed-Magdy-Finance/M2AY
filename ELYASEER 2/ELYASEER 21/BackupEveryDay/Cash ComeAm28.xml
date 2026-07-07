@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <id_constraint>1202</id_constraint>
+    <idBill>96</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>97</id_cash>
+    <pdate>2025-12-27T23:17:44+02:00</pdate>
+    <total>1000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>المحمودىة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>1221</id_constraint>
+    <idBill>97</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>98</id_cash>
+    <pdate>2025-12-27T23:26:52+02:00</pdate>
+    <total>67500</total>
+    <des>سند قبض رقم 98</des>
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>سامي مصنع الحسين</credit_name>
+  </tt>
+</NewDataSet>

@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="20.1.3.0" Ref="0" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="XtraReport6" Margins="27, 27, 3, 12" PaperKind="A4" PageWidth="827" PageHeight="1169" ScriptLanguage="VisualBasic" Version="20.1" ShowPrintMarginsWarning="false">
+  <Parameters>
+    <Item1 Ref="2" Description="address_param" Name="address_param" />
+    <Item2 Ref="3" Description="AmountPaid_param" Name="AmountPaid_param" />
+    <Item3 Ref="4" Description="balance1_param" Name="balance1_param" />
+    <Item4 Ref="5" Description="code" Name="code" />
+    <Item5 Ref="6" Description="Convertbalance1_param" Name="Convertbalance1_param" />
+    <Item6 Ref="7" Description="CustNameParam" Name="CustNameParam" />
+    <Item7 Ref="8" Description="DesExpense_param" Name="DesExpense_param" />
+    <Item8 Ref="9" Description="id_bill_param" Name="id_bill_param" />
+    <Item9 Ref="10" Description="lab_billType_param" Name="lab_billType_param" />
+    <Item10 Ref="11" Description="lab_delegate_param" Name="lab_delegate_param" />
+    <Item11 Ref="12" Description="Lab_previesBalance1_param" Name="Lab_previesBalance1_param" />
+    <Item12 Ref="13" Description="Lab_TypeBalance1_param" Name="Lab_TypeBalance1_param" />
+    <Item13 Ref="14" Description="Mobile_param" Name="Mobile_param" />
+    <Item14 Ref="15" Description="NetPaid_param" Name="NetPaid_param" />
+    <Item15 Ref="16" Description="pdate_param" Name="pdate_param" />
+    <Item16 Ref="17" Description="public_param" Name="public_param" />
+    <Item17 Ref="18" Description="Rest_param" Name="Rest_param" />
+    <Item18 Ref="19" Description="tax_param" Name="tax_param" />
+    <Item19 Ref="20" Description="title" Name="title" />
+    <Item20 Ref="21" Description="total_bill_param" Name="total_bill_param" />
+    <Item21 Ref="22" Description="TotalDiscount1_param" Name="TotalDiscount1_param" />
+    <Item22 Ref="23" Description="user_name_param" Name="user_name_param" />
+  </Parameters>
+  <Bands>
+    <Item1 Ref="24" ControlType="DetailBand" Name="Detail" HeightF="23" TextAlignment="TopLeft" Padding="0,0,0,0,100">
+      <Controls>
+        <Item1 Ref="25" ControlType="XRLabel" Name="XrLabel13" TextAlignment="MiddleCenter" WordWrap="false" SizeF="74.11493,23" LocationFloat="560.0007,0" Font="Arial, 10pt, style=Bold, Italic" BackColor="Transparent" Padding="2,2,0,0,100" BorderColor="Black" Borders="None" BorderWidth="1" BorderDashStyle="Dot">
+          <ExpressionBindings>
+            <Item1 Ref="26" EventName="BeforePrint" PropertyName="Text" Expression="ToDecimal([ReportItems.total_item].[Text]) - ToDecimal([ReportItems.XrLabel12].[Text])&#xA;" />
+          </ExpressionBindings>
+          <StylePriority Ref="27" UseFont="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="28" ControlType="XRLabel" Name="F_EXPIRE" TextAlignment="MiddleCenter" WordWrap="false" SizeF="71.37576,23" LocationFloat="339.8753,0" Font="Arial, 10pt, style=Bold, Italic" Padding="2,2,0,0,100" BorderColor="Black" Borders="None" BorderWidth="1">
+          <ExpressionBindings>
+            <Item1 Ref="29" EventName="BeforePrint" PropertyName="Text" Expression="[PurDetails.expire_date]" />
+          </ExpressionBindings>
+          <StylePriority Ref="30" UseFont="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="31" ControlType="XRLabel" Name="XrLabel12" TextAlignment="MiddleCenter" WordWrap="false" SizeF="44.9483,23" LocationFloat="634.4586,0" Font="Arial Narrow, 10pt, style=Italic" BackColor="Transparent" Padding="2,2,0,0,100" BorderColor="Black" Borders="None" BorderWidth="1" BorderDashStyle="Dot">
+          <ExpressionBindings>
+            <Item1 Ref="32" EventName="BeforePrint" PropertyName="Text" Expression="[PurDetails.tax]" />
+          </ExpressionBindings>
+          <StylePriority Ref="33" UseFont="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="34" ControlType="XRLabel" Name="total_item" Text="total_item" TextAlignment="MiddleCenter" WordWrap="false" SizeF="71.04004,23" LocationFloat="682.7776,0" Font="Arial, 10pt, style=Bold, Italic" Padding="2,2,0,0,100" BorderColor="Black" Borders="None" BorderWidth="1" BorderDashStyle="Dot">
+          <Summary Ref="35" FormatString="{0:#.00}" />
+          <ExpressionBindings>
+            <Item1 Ref="36" EventName="BeforePrint" PropertyName="Text" Expression="[PurDetails.total_item]" />
+          </ExpressionBindings>
+          <StylePriority Ref="37" UseFont="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item4>
+        <Item5 Ref="38" ControlType="XRLabel" Name="XrLabel8" TextAlignment="MiddleCenter" WordWrap="false" SizeF="29.673,23" LocationFloat="10.53556,0" Font="Arial, 10pt, style=Bold, Italic" Padding="2,2,0,0,100" BorderColor="Black" Borders="None" BorderWidth="1">
+          <Summary Ref="39" Running="Report" />
+          <ExpressionBindings>
+            <Item1 Ref="40" EventName="BeforePrint" PropertyName="Text" Expression="sumRecordNumber([PurDetails.ARname])" />
+          </ExpressionBindings>
+          <StylePriority Ref="41" UseFont="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item5>
+        <Item6 Ref="42" ControlType="XRLabel" Name="F_LOT" TextAlignment="MiddleCenter" WordWrap="false" SizeF="70.48538,23" LocationFloat="267.7294,0" Font="Arial, 8pt" Padding="2,2,0,0,100" BorderColor="Black" Borders="None" BorderWidth="1">
+          <ExpressionBindings>
+            <Item1 Ref="43" EventName="BeforePrint" PropertyName="Text" Expression="[PurDetails.LOT]" />
+          </ExpressionBindings>
+          <StylePriority Ref="44" UseFont="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item6>
+        <Item7 Ref="45" ControlType="XRLabel" Name="F_Discount" Text="XrLabel9" TextAlignment="MiddleCenter" WordWrap="false" SizeF="44.9483,23" LocationFloat="515.3954,0" Font="Arial Narrow, 10pt, style=Italic" BackColor="Transparent" Padding="2,2,0,0,100" BorderColor="Black" Borders="None" BorderWidth="1" BorderDashStyle="Dot">
+          <ExpressionBindings>
+            <Item1 Ref="46" EventName="BeforePrint" PropertyName="Text" Expression="[PurDetails.Discount]" />
+          </ExpressionBindings>
+          <StylePriority Ref="47" UseFont="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item7>
+        <Item8 Ref="48" ControlType="XRLabel" Name="XrLabel10" Text="qu" TextAlignment="MiddleCenter" WordWrap="false" SizeF="40.9003,23" LocationFloat="411.2511,0" Font="Arial Narrow, 10pt, style=Italic" BackColor="Transparent" Padding="2,2,0,0,100" BorderColor="Black" Borders="None" BorderWidth="1">
+          <ExpressionBindings>
+            <Item1 Ref="49" EventName="BeforePrint" PropertyName="Text" Expression="[PurDetails.qu]" />
+          </ExpressionBindings>
+          <StylePriority Ref="50" UseFont="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item8>
+        <Item9 Ref="51" ControlType="XRLabel" Name="XrLabel11" Text="pr" TextAlignment="MiddleCenter" WordWrap="false" SizeF="61.58334,23" LocationFloat="452.1514,0" Font="Arial, 10pt, style=Bold, Italic" Padding="2,2,0,0,100" BorderColor="Black" Borders="None" BorderWidth="1" BorderDashStyle="Dot">
+          <ExpressionBindings>
+            <Item1 Ref="52" EventName="BeforePrint" PropertyName="Text" Expression="[PurDetails.pr]" />
+          </ExpressionBindings>
+          <StylePriority Ref="53" UseFont="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item9>
+        <Item10 Ref="54" ControlType="XRLabel" Name="F_name" RightToLeft="Yes" Text="F_name" TextAlignment="MiddleRight" WordWrap="false" SizeF="227.5208,23" LocationFloat="40.20855,0" Font="Times New Roman, 13pt" Padding="2,2,0,0,100" BorderColor="Black" Borders="None" BorderWidth="1">
+          <ExpressionBindings>
+            <Item1 Ref="55" EventName="BeforePrint" PropertyName="Text" Expression="[PurDetails.ARname]" />
+          </ExpressionBindings>
+          <StylePriority Ref="56" UseFont="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item10>
+      </Controls>
+    </Item1>
+    <Item2 Ref="57" ControlType="TopMarginBand" Name="TopMargin" HeightF="3" TextAlignment="TopLeft" Padding="0,0,0,0,100" />
+    <Item3 Ref="58" ControlType="BottomMarginBand" Name="BottomMargin" HeightF="12" TextAlignment="TopLeft" Padding="0,0,0,0,100" />
+    <Item4 Ref="59" ControlType="PageHeaderBand" Name="PageHeader" HeightF="26.04195">
+      <Controls>
+        <Item1 Ref="60" ControlType="XRLabel" Name="XrLabel1" Text="Vat%" TextAlignment="MiddleCenter" SizeF="44.94843,25" LocationFloat="628.7635,0" Font="Arial Narrow, 11pt, style=Italic" BackColor="LightGray" Padding="2,2,0,0,100" BorderColor="Black" Borders="None" BorderWidth="1" BorderDashStyle="Dot">
+          <StylePriority Ref="61" UseFont="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="62" ControlType="XRLabel" Name="XrLabel2" Text="Net" TextAlignment="MiddleCenter" SizeF="75.66693,25" LocationFloat="677.0825,0" Font="Arial, 10pt, style=Bold, Italic" BackColor="LightGray" Padding="2,2,0,0,100" BorderColor="Black" Borders="None" BorderWidth="1" BorderDashStyle="Solid">
+          <StylePriority Ref="63" UseFont="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="64" ControlType="XRLabel" Name="XrLabel5" Text="N" TextAlignment="MiddleCenter" SizeF="30.20856,25" LocationFloat="4.304934,0" Font="Arial, 10.5pt" BackColor="LightGray" Padding="2,2,0,0,100" BorderColor="Black" Borders="None" BorderWidth="1" BorderDashStyle="Solid">
+          <StylePriority Ref="65" UseFont="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="66" ControlType="XRLabel" Name="XrLabel4" Text="Price" TextAlignment="MiddleCenter" SizeF="61.58333,25" LocationFloat="448.1171,0" Font="Arial, 10pt, style=Bold, Italic" BackColor="LightGray" Padding="2,2,0,0,100" BorderColor="Black" Borders="None" BorderWidth="1" BorderDashStyle="Dot">
+          <StylePriority Ref="67" UseFont="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item4>
+        <Item5 Ref="68" ControlType="XRLabel" Name="lab_Discount" Text="dis%" TextAlignment="MiddleCenter" SizeF="44.94833,25" LocationFloat="509.7006,0" Font="Arial Narrow, 11pt, style=Italic" BackColor="LightGray" Padding="2,2,0,0,100" BorderColor="Black" Borders="None" BorderWidth="1" BorderDashStyle="Dot">
+          <StylePriority Ref="69" UseFont="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item5>
+        <Item6 Ref="70" ControlType="XRLabel" Name="L_unit" Text="Expira" TextAlignment="MiddleCenter" SizeF="73.03644,25" LocationFloat="334.1803,0" Font="Arial, 10pt, style=Bold, Italic" BackColor="LightGray" Padding="2,2,0,0,100" BorderColor="Black" Borders="None" BorderWidth="1" BorderDashStyle="Solid">
+          <StylePriority Ref="71" UseFont="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item6>
+        <Item7 Ref="72" ControlType="XRLabel" Name="L_total" Text="total" TextAlignment="MiddleCenter" SizeF="74.45789,25" LocationFloat="554.3056,0" Font="Arial, 10pt, style=Bold, Italic" BackColor="LightGray" Padding="2,2,0,0,100" BorderColor="Black" Borders="None" BorderWidth="1" BorderDashStyle="Dot">
+          <StylePriority Ref="73" UseFont="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item7>
+        <Item8 Ref="74" ControlType="XRLabel" Name="XrLabel3" Text="Qty" TextAlignment="MiddleCenter" SizeF="40.9003,25" LocationFloat="407.2168,0" Font="Arial Narrow, 11pt, style=Italic" BackColor="LightGray" Padding="2,2,0,0,100" BorderColor="Black" Borders="None" BorderWidth="1" BorderDashStyle="Solid">
+          <StylePriority Ref="75" UseFont="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item8>
+        <Item9 Ref="76" ControlType="XRLabel" Name="LAB_LOT" Text="Lot number" TextAlignment="MiddleCenter" WordWrap="false" SizeF="72.146,25" LocationFloat="262.0343,0" Font="Microsoft Sans Serif, 9pt, style=Italic" BackColor="LightGray" Padding="2,2,0,0,100" BorderColor="Black" Borders="None" BorderWidth="1" BorderDashStyle="Solid">
+          <StylePriority Ref="77" UseFont="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item9>
+        <Item10 Ref="78" ControlType="XRLabel" Name="L_name" Text="item" TextAlignment="MiddleCenter" SizeF="227.5208,25" LocationFloat="34.51346,0" Font="Arial, 10pt, style=Bold, Italic" BackColor="LightGray" Padding="2,2,0,0,100" BorderColor="Black" Borders="None" BorderWidth="1" BorderDashStyle="Solid">
+          <StylePriority Ref="79" UseFont="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item10>
+      </Controls>
+    </Item4>
+    <Item5 Ref="80" ControlType="ReportHeaderBand" Name="ReportHeader" HeightF="215.8753">
+      <Controls>
+        <Item1 Ref="81" ControlType="XRLabel" Name="label1" Multiline="true" Text="label1" SizeF="45.34262,23" LocationFloat="493.515839,120.20871" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="82" EventName="BeforePrint" PropertyName="Text" Expression="?code" />
+          </ExpressionBindings>
+        </Item1>
+        <Item2 Ref="83" ControlType="XRLabel" Name="aname" TextAlignment="MiddleCenter" SizeF="216.542725,21.999939" LocationFloat="538.858459,120.2088" Font="Segoe UI, 10pt" ForeColor="Black" BackColor="Transparent" Padding="2,2,0,0,100" BorderColor="Silver" Borders="Bottom" BorderDashStyle="Dot">
+          <ExpressionBindings>
+            <Item1 Ref="84" EventName="BeforePrint" PropertyName="Text" Expression="?CustNameParam" />
+          </ExpressionBindings>
+          <StylePriority Ref="85" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="86" ControlType="XRLabel" Name="txt_LineAR2" Text=":  التليفـــــون" TextAlignment="MiddleCenter" SizeF="325.1666,23.41663" LocationFloat="434.1536,55.41673" Font="Times New Roman, 10.5pt, style=Bold" BackColor="White" Padding="2,2,0,0,100">
+          <StylePriority Ref="87" UseFont="false" UseBackColor="false" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="88" ControlType="XRLabel" Name="txt_LineAR0" Multiline="true" Text=" : الاســـــــــــم" TextAlignment="MiddleCenter" SizeF="325.1666,30.41673" LocationFloat="433.2778,0" Font="Times New Roman, 15.75pt, style=Bold, charSet=0" BackColor="White" Padding="2,2,0,0,100" Borders="None" BorderWidth="2">
+          <StylePriority Ref="89" UseFont="false" UseBackColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+        </Item4>
+        <Item5 Ref="90" ControlType="XRLabel" Name="XrLabel22" CanShrink="true" Text="Delegate Name" TextAlignment="MiddleLeft" SizeF="94.63476,21.99998" LocationFloat="25.12711,142.2084" Font="Segoe UI, 8.5pt" ForeColor="Black" BackColor="White" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="91" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item5>
+        <Item6 Ref="92" ControlType="XRLabel" Name="XrLabel23" CanShrink="true" Text="User Name" TextAlignment="MiddleLeft" SizeF="94.63476,22.00002" LocationFloat="25.12711,164.2085" Font="Segoe UI, 10pt" ForeColor="Black" BackColor="White" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="93" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item6>
+        <Item7 Ref="94" ControlType="XRLabel" Name="XrLabel17" Text="Date" TextAlignment="MiddleLeft" SizeF="94.63476,22" LocationFloat="25.12711,186.2084" Font="Segoe UI, 10pt" ForeColor="Black" BackColor="White" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="95" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item7>
+        <Item8 Ref="96" ControlType="XRLabel" Name="pdate" Text="000" TextAlignment="MiddleCenter" SizeF="227.871,22" LocationFloat="119.7619,186.2086" Font="Segoe UI, 8pt" ForeColor="Black" BackColor="Transparent" Padding="2,2,0,0,100" BorderColor="Silver" Borders="Bottom" BorderDashStyle="Dot">
+          <ExpressionBindings>
+            <Item1 Ref="97" EventName="BeforePrint" PropertyName="Text" Expression="?pdate_param" />
+          </ExpressionBindings>
+          <StylePriority Ref="98" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item8>
+        <Item9 Ref="99" ControlType="XRLabel" Name="user_name" TextAlignment="MiddleCenter" SizeF="227.871,21.99998" LocationFloat="119.7619,164.2085" Font="Segoe UI, 10pt" ForeColor="Black" BackColor="Transparent" Padding="2,2,0,0,100" BorderColor="Silver" Borders="Bottom" BorderDashStyle="Dot">
+          <ExpressionBindings>
+            <Item1 Ref="100" EventName="BeforePrint" PropertyName="Text" Expression="?user_name_param" />
+          </ExpressionBindings>
+          <StylePriority Ref="101" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item9>
+        <Item10 Ref="102" ControlType="XRLabel" Name="lab_delegate" TextAlignment="MiddleCenter" SizeF="227.871,21.99997" LocationFloat="119.7619,142.2087" Font="Segoe UI, 10pt" ForeColor="Black" BackColor="Transparent" Padding="2,2,0,0,100" BorderColor="Silver" Borders="Bottom" BorderDashStyle="Dot">
+          <ExpressionBindings>
+            <Item1 Ref="103" EventName="BeforePrint" PropertyName="Text" Expression="?lab_delegate_param" />
+          </ExpressionBindings>
+          <StylePriority Ref="104" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item10>
+        <Item11 Ref="105" ControlType="XRLabel" Name="id_bill" Text="000" TextAlignment="MiddleCenter" SizeF="227.871,21.99998" LocationFloat="119.7619,120.2087" Font="Segoe UI, 10pt" ForeColor="Black" BackColor="Transparent" Padding="2,2,0,0,100" BorderColor="Silver" Borders="Bottom" BorderDashStyle="Dot">
+          <ExpressionBindings>
+            <Item1 Ref="106" EventName="BeforePrint" PropertyName="Text" Expression="?id_bill_param" />
+          </ExpressionBindings>
+          <StylePriority Ref="107" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item11>
+        <Item12 Ref="108" ControlType="XRLabel" Name="txt_Title" Text="Customer Name" TextAlignment="MiddleLeft" SizeF="121.1867,22" LocationFloat="373.6696,120.2087" Font="Segoe UI, 10pt" ForeColor="Black" BackColor="Transparent" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="109" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item12>
+        <Item13 Ref="110" ControlType="XRLabel" Name="XrLabel18" Text="Address" TextAlignment="MiddleLeft" SizeF="121.1774,21.99983" LocationFloat="373.6788,142.2087" Font="Segoe UI, 10pt" ForeColor="Black" BackColor="Transparent" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="111" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item13>
+        <Item14 Ref="112" ControlType="XRLabel" Name="XrLabel21" Text="Phone" TextAlignment="MiddleLeft" SizeF="121.1774,21.99997" LocationFloat="373.6788,164.2086" Font="Segoe UI, 10pt" ForeColor="Black" BackColor="Transparent" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="113" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item14>
+        <Item15 Ref="114" ControlType="XRLabel" Name="XrLabel6" Text="Vat Number" TextAlignment="MiddleLeft" SizeF="121.1774,21.99997" LocationFloat="373.6837,186.2087" Font="Segoe UI, 10pt" ForeColor="Black" BackColor="Transparent" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="115" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item15>
+        <Item16 Ref="116" ControlType="XRLabel" Name="txt_email" TextAlignment="MiddleCenter" SizeF="260.3069,22.00012" LocationFloat="494.8612,186.2084" Font="Segoe UI, 10pt" ForeColor="Black" BackColor="Transparent" Padding="2,2,0,0,100" BorderColor="Silver" Borders="Bottom" BorderDashStyle="Dot">
+          <StylePriority Ref="117" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item16>
+        <Item17 Ref="118" ControlType="XRLabel" Name="Mobile" TextAlignment="MiddleCenter" SizeF="260.3069,22.00012" LocationFloat="494.8563,164.2085" Font="Segoe UI, 10pt" ForeColor="Black" BackColor="Transparent" Padding="2,2,0,0,100" BorderColor="Silver" Borders="Bottom" BorderDashStyle="Dot">
+          <ExpressionBindings>
+            <Item1 Ref="119" EventName="BeforePrint" PropertyName="Text" Expression="?Mobile_param" />
+          </ExpressionBindings>
+          <StylePriority Ref="120" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item17>
+        <Item18 Ref="121" ControlType="XRLabel" Name="Address" TextAlignment="MiddleCenter" SizeF="260.2975,21.99983" LocationFloat="494.8654,142.2087" Font="Segoe UI, 10pt" ForeColor="Black" BackColor="Transparent" Padding="2,2,0,0,100" BorderColor="Silver" Borders="Bottom" BorderDashStyle="Dot">
+          <ExpressionBindings>
+            <Item1 Ref="122" EventName="BeforePrint" PropertyName="Text" Expression="?address_param" />
+          </ExpressionBindings>
+          <StylePriority Ref="123" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item18>
+        <Item19 Ref="124" ControlType="XRLabel" Name="txt_LineAR3" TextAlignment="MiddleCenter" SizeF="324.291,26.37524" LocationFloat="434.1534,78.83336" Font="Times New Roman, 10.5pt, style=Bold" BackColor="White" Padding="2,2,0,0,100">
+          <StylePriority Ref="125" UseFont="false" UseBackColor="false" UseTextAlignment="false" />
+        </Item19>
+        <Item20 Ref="126" ControlType="XRLabel" Name="lab_billType" CanGrow="false" Text="sales" AnchorVertical="Both" TextAlignment="MiddleCenter" SizeF="123.8354,19.33333" LocationFloat="309.4423,85.87526" Font="Segoe UI, 11.25pt, charSet=0" ForeColor="Black" BackColor="White" Padding="2,2,0,0,100" Borders="None" BorderWidth="1" BorderDashStyle="Dot">
+          <ExpressionBindings>
+            <Item1 Ref="127" EventName="BeforePrint" PropertyName="Text" Expression="?lab_billType_param" />
+          </ExpressionBindings>
+          <StylePriority Ref="128" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item20>
+        <Item21 Ref="129" ControlType="XRPictureBox" Name="pic_logo" Sizing="StretchImage" AnchorVertical="Both" SizeF="123.8354,85.87526" LocationFloat="308.5667,0" />
+        <Item22 Ref="130" ControlType="XRLabel" Name="txt_LineEN0" Multiline="true" Text=" : الاســـــــــــم" TextAlignment="MiddleCenter" SizeF="301.9981,30.41673" LocationFloat="7.444334,0" Font="Times New Roman, 15.75pt, style=Bold" BackColor="White" Padding="2,2,0,0,100" Borders="None" BorderWidth="2">
+          <StylePriority Ref="131" UseFont="false" UseBackColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+        </Item22>
+        <Item23 Ref="132" ControlType="XRLabel" Name="txt_LineEN1" Text="  :  العنـــــــوان" TextAlignment="MiddleCenter" SizeF="301.1224,25" LocationFloat="6.568631,30.41673" Font="Times New Roman, 10.5pt, style=Bold" BackColor="White" Padding="2,2,0,0,100">
+          <StylePriority Ref="133" UseFont="false" UseBackColor="false" UseTextAlignment="false" />
+        </Item23>
+        <Item24 Ref="134" ControlType="XRLabel" Name="txt_LineEN2" Text=":  التليفـــــون" TextAlignment="MiddleCenter" SizeF="301.9981,23.41663" LocationFloat="7.44435,55.41673" Font="Times New Roman, 10.5pt, style=Bold" BackColor="White" Padding="2,2,0,0,100">
+          <StylePriority Ref="135" UseFont="false" UseBackColor="false" UseTextAlignment="false" />
+        </Item24>
+        <Item25 Ref="136" ControlType="XRLabel" Name="txt_LineEN3" TextAlignment="MiddleCenter" SizeF="301.9981,26.37524" LocationFloat="10.53556,78.83336" Font="Times New Roman, 10.5pt, style=Bold" BackColor="White" Padding="2,2,0,0,100">
+          <StylePriority Ref="137" UseFont="false" UseBackColor="false" UseTextAlignment="false" />
+        </Item25>
+        <Item26 Ref="138" ControlType="XRLabel" Name="txt_LineAR1" Text="  :  العنـــــــوان" TextAlignment="MiddleCenter" SizeF="324.2909,25" LocationFloat="434.1536,30.41673" Font="Times New Roman, 10.5pt, style=Bold" BackColor="White" Padding="2,2,0,0,100">
+          <StylePriority Ref="139" UseFont="false" UseBackColor="false" UseTextAlignment="false" />
+        </Item26>
+        <Item27 Ref="140" ControlType="XRLabel" Name="lab_bill" Text="Bill Number" TextAlignment="MiddleLeft" SizeF="94.63476,21.99998" LocationFloat="25.12711,120.2087" Font="Segoe UI, 10pt" ForeColor="Black" BackColor="White" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="141" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item27>
+      </Controls>
+    </Item5>
+    <Item6 Ref="142" ControlType="ReportFooterBand" Name="ReportFooter" HeightF="192.871979">
+      <Controls>
+        <Item1 Ref="143" ControlType="XRLabel" Name="label3" Text="total_item" TextAlignment="MiddleCenter" WordWrap="false" SizeF="141.379944,28.0000038" LocationFloat="612.437744,26.6666412" Font="Arial, 10pt, style=Bold, Italic" BackColor="Gainsboro" Padding="2,2,0,0,100" BorderColor="Black" Borders="None" BorderWidth="1" BorderDashStyle="Dot">
+          <Summary Ref="144" FormatString="{0:#.00}" Running="Report" />
+          <ExpressionBindings>
+            <Item1 Ref="145" EventName="BeforePrint" PropertyName="Text" Expression="sumSum([PurDetails.total_item])" />
+          </ExpressionBindings>
+          <StylePriority Ref="146" UseFont="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="147" ControlType="XRLabel" Name="label2" Multiline="true" Text="label2" SizeF="142.444763,23" LocationFloat="612.437744,95.6665039" Font="Times New Roman, 9.75pt" BackColor="255,216,216,216" Padding="2,2,0,0,100" BorderColor="White" Borders="All" BorderWidth="0" BorderDashStyle="Dot">
+          <ExpressionBindings>
+            <Item1 Ref="148" EventName="BeforePrint" PropertyName="Text" Expression="?total_bill_param" />
+          </ExpressionBindings>
+          <StylePriority Ref="149" UseFont="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" />
+        </Item2>
+        <Item3 Ref="150" ControlType="XRLabel" Name="XrLabel15" Text="The recipient" TextAlignment="MiddleRight" SizeF="230.7057,25.33252" LocationFloat="14.4114017,152.041626" Font="Times New Roman, 11pt, style=Bold" BackColor="White" Padding="2,2,0,0,100" BorderColor="White" Borders="All" BorderWidth="0" BorderDashStyle="Dot">
+          <StylePriority Ref="151" UseFont="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="152" ControlType="XRLabel" Name="XrLabel14" Text="the seller" TextAlignment="MiddleLeft" SizeF="216.542664,28.0000153" LocationFloat="538.858459,152.041626" Font="Times New Roman, 11pt, style=Bold" BackColor="White" Padding="2,2,0,0,100" BorderColor="White" Borders="All" BorderWidth="0" BorderDashStyle="Dot">
+          <StylePriority Ref="153" UseFont="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item4>
+        <Item5 Ref="154" ControlType="XRLabel" Name="XrLabel7" Text="******  finish  *******" TextAlignment="MiddleCenter" SizeF="746.8674,26.66664" LocationFloat="11.57708,0" Font="Times New Roman, 11pt, style=Bold" BackColor="White" Padding="2,2,0,0,100" BorderColor="DarkGray" Borders="All" BorderDashStyle="Dot">
+          <StylePriority Ref="155" UseFont="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item5>
+        <Item6 Ref="156" ControlType="XRLabel" Name="Lab_public" Text="Total" TextAlignment="MiddleRight" SizeF="74.11493,28.0000076" LocationFloat="538.858459,26.6666412" Font="Times New Roman, 11pt" BackColor="255,216,216,216" Padding="2,2,0,0,100" BorderColor="White" Borders="Left" BorderWidth="0" BorderDashStyle="Dot">
+          <StylePriority Ref="157" UseFont="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item6>
+        <Item7 Ref="158" ControlType="XRLabel" Name="TotalDiscount1" Text="000" TextAlignment="MiddleCenter" SizeF="141.9093,26.9999123" LocationFloat="612.973267,58.6666451" Font="Times New Roman, 11pt" BackColor="255,216,216,216" Padding="2,2,0,0,100" BorderColor="White" Borders="All" BorderWidth="0" BorderDashStyle="Dot">
+          <ExpressionBindings>
+            <Item1 Ref="159" EventName="BeforePrint" PropertyName="Text" Expression="?TotalDiscount1_param" />
+          </ExpressionBindings>
+          <StylePriority Ref="160" UseFont="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item7>
+        <Item8 Ref="161" ControlType="XRLabel" Name="lab_TotalDiscount" Text="Discount" TextAlignment="MiddleRight" SizeF="73.5793457,26.9999123" LocationFloat="538.858459,58.6666451" Font="Times New Roman, 11pt" BackColor="255,216,216,216" Padding="2,2,0,0,100" BorderColor="White" Borders="None" BorderWidth="0">
+          <StylePriority Ref="162" UseFont="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+        </Item8>
+        <Item9 Ref="163" ControlType="XRLabel" Name="lab_AmountPaid1" Text="Amount Paid" TextAlignment="MiddleRight" SizeF="124.147827,28.0000076" LocationFloat="11.7601871,26.6666412" Font="Times New Roman, 11pt" BackColor="255,216,216,216" Padding="2,2,0,0,100" BorderColor="White" Borders="All" BorderWidth="0" BorderDashStyle="Dot">
+          <StylePriority Ref="164" UseFont="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item9>
+        <Item10 Ref="165" ControlType="XRLabel" Name="LAB_balance1" Text="Previous Balance" TextAlignment="MiddleRight" SizeF="123.619507,26.9999123" LocationFloat="12.2884588,58.66664" Font="Times New Roman, 11pt" BackColor="255,216,216,216" Padding="2,2,0,0,100" BorderColor="White" Borders="All" BorderWidth="0" BorderDashStyle="Dot">
+          <StylePriority Ref="166" UseFont="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item10>
+        <Item11 Ref="167" ControlType="XRLabel" Name="Txt_AmountPaid1" Text="000" TextAlignment="MiddleCenter" SizeF="109.209045,28.0000076" LocationFloat="135.908051,26.6666412" Font="Times New Roman, 11pt" BackColor="255,216,216,216" Padding="2,2,0,0,100" BorderColor="White" Borders="All" BorderWidth="0" BorderDashStyle="Dot">
+          <ExpressionBindings>
+            <Item1 Ref="168" EventName="BeforePrint" PropertyName="Text" Expression="?AmountPaid_param" />
+          </ExpressionBindings>
+          <StylePriority Ref="169" UseFont="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item11>
+        <Item12 Ref="170" ControlType="XRLabel" Name="LAB_Rest1" Text="Current Balance" TextAlignment="MiddleCenter" SizeF="107.288086,26.9999161" LocationFloat="277.834259,91.6666" Font="Times New Roman, 11pt" BackColor="255,216,216,216" Padding="2,2,0,0,100" BorderColor="White" Borders="All" BorderWidth="0" BorderDashStyle="Dot">
+          <StylePriority Ref="171" UseFont="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item12>
+        <Item13 Ref="172" ControlType="XRLabel" Name="total_bill1" Text="000" TextAlignment="MiddleCenter" SizeF="109.733826,26.9999161" LocationFloat="385.122375,91.6666" Font="Times New Roman, 11pt" BackColor="255,216,216,216" Padding="2,2,0,0,100" BorderColor="White" Borders="All" BorderWidth="0" BorderDashStyle="Dot">
+          <ExpressionBindings>
+            <Item1 Ref="173" EventName="BeforePrint" PropertyName="Text" Expression="?Rest_param" />
+          </ExpressionBindings>
+          <StylePriority Ref="174" UseFont="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item13>
+        <Item14 Ref="175" ControlType="XRLabel" Name="txt_balance1" Text="000" TextAlignment="MiddleCenter" SizeF="109.209,26.9999237" LocationFloat="135.908112,58.66664" Font="Times New Roman, 11pt" BackColor="255,216,216,216" Padding="2,2,0,0,100" BorderColor="White" Borders="All" BorderWidth="0" BorderDashStyle="Dot">
+          <ExpressionBindings>
+            <Item1 Ref="176" EventName="BeforePrint" PropertyName="Text" Expression="?balance1_param" />
+          </ExpressionBindings>
+          <StylePriority Ref="177" UseFont="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item14>
+        <Item15 Ref="178" ControlType="XRLabel" Name="XrLabel9" Text="Net Bill" TextAlignment="MiddleRight" SizeF="73.5793457,23" LocationFloat="538.858459,95.6665039" Font="Times New Roman, 11pt" BackColor="255,216,216,216" Padding="2,2,0,0,100" BorderColor="White" Borders="None" BorderWidth="0">
+          <StylePriority Ref="179" UseFont="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+        </Item15>
+        <Item16 Ref="180" ControlType="XRLabel" Name="lab_tax" Text="Total Vat" TextAlignment="MiddleCenter" SizeF="128.463669,26.9999" LocationFloat="7.44435,91.6666" Font="Times New Roman, 11pt" BackColor="Gainsboro" Padding="2,2,0,0,100" BorderColor="White" Borders="All" BorderWidth="0" BorderDashStyle="Dot">
+          <StylePriority Ref="181" UseFont="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item16>
+        <Item17 Ref="182" ControlType="XRLabel" Name="txt_tax" Text="000" TextAlignment="MiddleCenter" SizeF="109.209,26.9999" LocationFloat="135.908112,91.6666" Font="Times New Roman, 11pt" BackColor="Gainsboro" Padding="2,2,0,0,100" BorderColor="White" Borders="All" BorderWidth="0" BorderDashStyle="Dot">
+          <ExpressionBindings>
+            <Item1 Ref="183" EventName="BeforePrint" PropertyName="Text" Expression="?tax_param" />
+          </ExpressionBindings>
+          <StylePriority Ref="184" UseFont="false" UseBackColor="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseBorderDashStyle="false" UseTextAlignment="false" />
+        </Item17>
+      </Controls>
+    </Item6>
+    <Item7 Ref="185" ControlType="PageFooterBand" Name="PageFooter" HeightF="26.70784">
+      <Controls>
+        <Item1 Ref="186" ControlType="XRPageInfo" Name="XrPageInfo1" SizeF="45.83337,18" LocationFloat="10.53556,0" Font="Times New Roman, 8.25pt, charSet=0" BackColor="Transparent" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="187" UseFont="false" UseBackColor="false" UseBorders="false" />
+        </Item1>
+      </Controls>
+    </Item7>
+  </Bands>
+</XtraReportsLayoutSerializer>

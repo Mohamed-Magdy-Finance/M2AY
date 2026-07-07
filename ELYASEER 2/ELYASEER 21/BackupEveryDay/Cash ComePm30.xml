@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <id_constraint>613</id_constraint>
+    <idBill>34</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>35</id_cash>
+    <pdate>2025-09-30T14:37:24+03:00</pdate>
+    <total>100000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>اسامة حلوان</credit_name>
+  </tt>
+</NewDataSet>
