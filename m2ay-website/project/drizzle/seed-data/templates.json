@@ -1,0 +1,122 @@
+[
+  {
+    "arabicName": "نظام محاسبي آلي متكامل",
+    "englishName": "Automated Accounting Cycle System",
+    "shortDescription": "نظام إكسل يؤتمت دورة القيود المحاسبية كاملة لسنة مالية، من القيد اليومي حتى القوائم المالية النهائية.",
+    "detailedExplanation": "يعمل كمحاسب رقمي: القيد الواحد في دفتر اليومية يحدّث تلقائيًا دفتر الأستاذ وميزان المراجعة وقائمة الدخل والميزانية. يشمل دليل حسابات ذكي (COA) وضوابط تحقق لمنع اختلال ميزان المراجعة.",
+    "category": "Accounting Systems",
+    "difficultyLevel": "intermediate",
+    "githubFolderPath": "Al_Accounting_System",
+    "mainFileName": null
+  },
+  {
+    "arabicName": "تحليل الشركات المماثلة (CCA)",
+    "englishName": "Comparable Company Analysis (CCA) Model",
+    "shortDescription": "نموذج تقييم نسبي يقارن الشركة المستهدفة بشركات مناظرة في نفس الصناعة باستخدام مضاعفات السوق.",
+    "detailedExplanation": "يحسب القيمة السوقية والقيمة المؤسسية (TEV) لكل شركة مقارنة، ويستخرج مضاعفات TEV/Revenue وTEV/EBITDA وTEV/EBIT وP/E لتقدير القيمة العادلة للشركة المستهدفة بأسلوب بنوك الاستثمار.",
+    "category": "Valuation",
+    "difficultyLevel": "advanced",
+    "githubFolderPath": "Comparable-Company-Analysis-Valuation-Financial-Model",
+    "mainFileName": "Comparable-Company-Analysis_vF.xlsx"
+  },
+  {
+    "arabicName": "التنبؤ المالي الاستراتيجي 2030",
+    "englishName": "Strategic Financial Forecasting & Scenario Analysis System",
+    "shortDescription": "نموذج تخطيط استراتيجي طويل المدى (2026-2030) بمحرك سيناريوهات ديناميكي لتقييم قرارات العمل المختلفة.",
+    "detailedExplanation": "يسمح بمحاكاة تأثير تغييرات الإيرادات أو تكلفة البضاعة المباعة على الأرباح خلال 5 سنوات، بالتحكم في السيناريو من خلية واحدة، مع مراقبة هامش الربح الإجمالي في الوقت الفعلي.",
+    "category": "Modeling",
+    "difficultyLevel": "advanced",
+    "githubFolderPath": "Financial_Forecasting_Model_2030",
+    "mainFileName": null
+  },
+  {
+    "arabicName": "نموذج القوائم المالية الثلاث المتكاملة",
+    "englishName": "Integrated 3-Statement Financial Model",
+    "shortDescription": "نموذج يربط قائمة الدخل والميزانية والتدفقات النقدية ديناميكيًا في نظام واحد متكامل.",
+    "detailedExplanation": "أي تغيير في الافتراضات التشغيلية ينساب تلقائيًا عبر القوائم الثلاث؛ صافي الربح يتدفق للأرباح المحتجزة، والإهلاك يؤثر على الدخل والتدفقات معًا، مع جداول تنبؤ وديون مدمجة.",
+    "category": "Modeling",
+    "difficultyLevel": "advanced",
+    "githubFolderPath": "Integrated-3-Statement-Financial-Model",
+    "mainFileName": "Integrated-3-Statement-Financial-Model.xlsx"
+  },
+  {
+    "arabicName": "تقييم التدفقات النقدية المخصومة (DCF)",
+    "englishName": "Intrinsic Valuation: Discounted Cash Flow (DCF) Model",
+    "shortDescription": "حساب القيمة الحقيقية للشركة عبر خصم تدفقاتها النقدية المستقبلية بمعدل الخصم المناسب (WACC).",
+    "detailedExplanation": "يغطي التدفقات الثابتة والمتغيرة عبر فترات مختلفة، ويجمعها للوصول للقيمة المؤسسية الكلية، مع تحليل حساسية لمعدل الخصم وتطبيق عملي حقيقي على شركة Apple.",
+    "category": "Valuation",
+    "difficultyLevel": "advanced",
+    "githubFolderPath": "Intrinsic-Valuation-DCF-Financial-Model",
+    "mainFileName": "DCFguide.xlsx"
+  },
+  {
+    "arabicName": "نموذج الاستحواذ الممول بالدين (LBO)",
+    "englishName": "Leveraged Buyout (LBO) Analysis Model",
+    "shortDescription": "أداة تحليل استحواذ ممول بالدين لحساب العائد الداخلي (IRR) ومضاعف العائد (MoM) للمستثمرين.",
+    "detailedExplanation": "يغطي تقييم الدخول بمضاعف EBITDA، هيكلة مصادر واستخدامات الأموال، جدول سداد الديون، وتحليل العائد النهائي عند الخروج — بمستوى الأسهم الخاصة الاحترافي.",
+    "category": "Valuation",
+    "difficultyLevel": "advanced",
+    "githubFolderPath": "Leveraged-Buyout-LBO-Analysis-Financial-Model",
+    "mainFileName": "Basic-LBO-Modeling.xlsx"
+  },
+  {
+    "arabicName": "التنبؤ والموازنة الشهرية",
+    "englishName": "Monthly Financial Forecasting & Income Analysis System",
+    "shortDescription": "نظام لبناء تنبؤات شهرية مفصّلة، تتبع المصروفات الفعلية، وتوليد قائمة دخل آلية.",
+    "detailedExplanation": "يربط بين التخطيط المالي والنتائج الفعلية: تدخل توقعاتك الشهرية، تسجل المصروفات الفعلية أول بأول، والنظام يولّد قائمة دخل ونسبة ربحية آليًا.",
+    "category": "Budgeting",
+    "difficultyLevel": "beginner",
+    "githubFolderPath": "Monthly_Budgeting_Forecasting",
+    "mainFileName": null
+  },
+  {
+    "arabicName": "نموذج إدارة المالية الشخصية",
+    "englishName": "Personal Finance Management & Budgeting Model",
+    "shortDescription": "أداة لتتبع الدخل والمصروفات وتحليل صافي الثروة الشخصية بمنهجية FP&A احترافية.",
+    "detailedExplanation": "لوحة تحكم شاملة لأداء السنة حتى تاريخه، تتبع مصادر دخل متعددة (راتب، مكافآت، استثمار)، تحليل نمو شهري، ودفتر معاملات منظم لكل حركة مالية.",
+    "category": "Personal Finance",
+    "difficultyLevel": "beginner",
+    "githubFolderPath": "Personal-Management-Finance-Model",
+    "mainFileName": "START-Personal-Budgeting-File_v2.xlsx"
+  },
+  {
+    "arabicName": "النموذج المالي للشركات الناشئة",
+    "englishName": "Startup Financial Model",
+    "shortDescription": "نموذج يربط محركات تشغيلية (زي زيارات الموقع) مباشرة بقائمة الدخل لعام تشغيلي كامل.",
+    "detailedExplanation": "يحلل الإيرادات من الزيارات العضوية والمدفوعة، يتتبع نمو المستخدمين شهريًا، ويصنّف التكاليف لثابتة ومتغيرة لبناء توقع Bottom-up دقيق لأول سنة تشغيل.",
+    "category": "Startup",
+    "difficultyLevel": "intermediate",
+    "githubFolderPath": "Start-Startup-Financial-Model",
+    "mainFileName": "Start-Startup-Financial-Model.xlsx"
+  },
+  {
+    "arabicName": "تحليل انحراف التعويضات والمستحقات",
+    "englishName": "Financial Compensation Variance Analysis & Accruals Model",
+    "shortDescription": "نموذج لإدارة تكاليف التعويضات وتتبع العمالة وحساب مستحقات المكافآت آليًا.",
+    "detailedExplanation": "يوفر ضبطًا ماليًا صارمًا قبل إقفال الفترة (تدقيق ومطابقة) وتحليلًا استراتيجيًا للإدارة بعد الإقفال، مع جدولة ديناميكية للمستحقات من التوقع الأساسي حتى نسبة التحقق الفعلية.",
+    "category": "Performance Analysis",
+    "difficultyLevel": "advanced",
+    "githubFolderPath": "compensation-variance-analysis-model",
+    "mainFileName": null
+  },
+  {
+    "arabicName": "الموازنة والتنبؤ المالي",
+    "englishName": "Financial Budgeting & Forecasting Model",
+    "shortDescription": "مقارنة واضحة بين المستهدف والفعلي، مع تحليل انحراف آلي وقدرات تنبؤ ديناميكية.",
+    "detailedExplanation": "يشمل قائمة دخل شاملة، تتبع مصروفات متعدد الفئات، وتحليل انحراف مطلق ونسبي، مع رسوم بيانية تتحدث تلقائيًا لدعم قرارات الإدارة.",
+    "category": "Budgeting",
+    "difficultyLevel": "intermediate",
+    "githubFolderPath": "financial-budgeting-forecasting-model",
+    "mainFileName": null
+  },
+  {
+    "arabicName": "متتبع الميزانية والادخار الشخصي",
+    "englishName": "Personal Wealth & Budget Optimization Model",
+    "shortDescription": "إطار تحكم شخصي احترافي: تحليل انحراف، معدل ادخار ديناميكي، وتتبع صافي الثروة شهريًا.",
+    "detailedExplanation": "ينقل الميزانية الشخصية من مجرد تتبع مصروفات إلى إطار تحكم مالي كامل، بمؤشرات ملونة (على المستهدف / متقدم / تجاوز الميزانية) وخريطة أصول وخصوم متجددة على مدار 12 شهرًا.",
+    "category": "Personal Finance",
+    "difficultyLevel": "intermediate",
+    "githubFolderPath": "personal-budget-and-savings-tracker",
+    "mainFileName": null
+  }
+]
