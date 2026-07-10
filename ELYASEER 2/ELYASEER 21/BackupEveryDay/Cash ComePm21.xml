@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <id_constraint>718</id_constraint>
+    <idBill>42</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>43</id_cash>
+    <pdate>2025-10-21T22:55:16+03:00</pdate>
+    <total>25000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>الشيخ منتصر مؤسسة الزكاة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>719</id_constraint>
+    <idBill>43</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>44</id_cash>
+    <pdate>2025-10-21T22:55:38+03:00</pdate>
+    <total>100000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>الحاج هداية طوخ</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>727</id_constraint>
+    <idBill>44</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>45</id_cash>
+    <pdate>2025-10-21T23:16:48+03:00</pdate>
+    <total>91800</total>
+    <des>سند قبض رقم 45</des>
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>الشيخ احمد منوف</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>730</id_constraint>
+    <idBill>45</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>46</id_cash>
+    <pdate>2025-10-21T23:21:03+03:00</pdate>
+    <total>27160</total>
+    <des>سند قبض رقم 46</des>
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>ابو مالك شبرا مصر</credit_name>
+  </tt>
+</NewDataSet>

@@ -1,0 +1,171 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <id_constraint>678</id_constraint>
+    <idBill>180</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>185</id_cash>
+    <pdate>2025-10-14T10:15:12+03:00</pdate>
+    <total>50000</total>
+    <des />
+    <debt_name>مصنع مدكور</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>679</id_constraint>
+    <idBill>181</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>186</id_cash>
+    <pdate>2025-10-14T10:15:28+03:00</pdate>
+    <total>800</total>
+    <des />
+    <debt_name>مصاريف سيارة</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>680</id_constraint>
+    <idBill>182</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>187</id_cash>
+    <pdate>2025-10-14T10:15:45+03:00</pdate>
+    <total>2000</total>
+    <des>فوارغ</des>
+    <debt_name>مصاريف يومية</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>681</id_constraint>
+    <idBill>183</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>188</id_cash>
+    <pdate>2025-10-14T10:16:07+03:00</pdate>
+    <total>20000</total>
+    <des />
+    <debt_name>مصنع مدكور</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>682</id_constraint>
+    <idBill>184</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>189</id_cash>
+    <pdate>2025-10-14T10:16:43+03:00</pdate>
+    <total>500</total>
+    <des />
+    <debt_name>سولار</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>683</id_constraint>
+    <idBill>185</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>190</id_cash>
+    <pdate>2025-10-14T10:16:58+03:00</pdate>
+    <total>65</total>
+    <des />
+    <debt_name>كرت ومصاريف طريق</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>684</id_constraint>
+    <idBill>186</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>191</id_cash>
+    <pdate>2025-10-14T10:17:06+03:00</pdate>
+    <total>200</total>
+    <des />
+    <debt_name>مصاريف يومية</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>688</id_constraint>
+    <idBill>187</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>192</id_cash>
+    <pdate>2025-10-14T10:18:37+03:00</pdate>
+    <total>50000</total>
+    <des />
+    <debt_name>مصنع مدكور</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>689</id_constraint>
+    <idBill>188</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>193</id_cash>
+    <pdate>2025-10-14T10:19:44+03:00</pdate>
+    <total>1780.5</total>
+    <des>تعدىل حساب اسلام</des>
+    <debt_name>مصنع الاندلس</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>707</id_constraint>
+    <idBill>189</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>194</id_cash>
+    <pdate>2025-10-14T15:24:37+03:00</pdate>
+    <total>17000</total>
+    <des />
+    <debt_name>محمد عبدالحي</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>708</id_constraint>
+    <idBill>190</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>195</id_cash>
+    <pdate>2025-10-14T15:41:03+03:00</pdate>
+    <total>40000</total>
+    <des />
+    <debt_name>مصنع مدكور</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>711</id_constraint>
+    <idBill>191</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>196</id_cash>
+    <pdate>2025-10-14T15:58:07+03:00</pdate>
+    <total>700</total>
+    <des>سند صرف رقم 196</des>
+    <debt_name>مصنع مدكور</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>712</id_constraint>
+    <idBill>192</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>197</id_cash>
+    <pdate>2025-10-14T15:58:36+03:00</pdate>
+    <total>340</total>
+    <des />
+    <debt_name>مصاريف يومية</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>713</id_constraint>
+    <idBill>193</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>198</id_cash>
+    <pdate>2025-10-14T15:59:02+03:00</pdate>
+    <total>11864</total>
+    <des />
+    <debt_name>عجز</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+</NewDataSet>

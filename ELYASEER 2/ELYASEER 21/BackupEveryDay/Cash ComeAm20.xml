@@ -1,0 +1,75 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <id_constraint>1699</id_constraint>
+    <idBill>149</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>150</id_cash>
+    <pdate>2026-02-20T12:02:15+02:00</pdate>
+    <total>5300</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>سرجة الخصوص</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>1703</id_constraint>
+    <idBill>150</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>151</id_cash>
+    <pdate>2026-02-20T12:04:34+02:00</pdate>
+    <total>7000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>احمد رشوان</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>1704</id_constraint>
+    <idBill>151</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>152</id_cash>
+    <pdate>2026-02-20T12:04:51+02:00</pdate>
+    <total>20000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>الشيخ منتصر مؤسسة الزكاة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>1705</id_constraint>
+    <idBill>152</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>153</id_cash>
+    <pdate>2026-02-20T12:05:15+02:00</pdate>
+    <total>10400</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>احمد ابراهيم مدينة السلام</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>1713</id_constraint>
+    <idBill>153</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>154</id_cash>
+    <pdate>2026-02-20T12:07:51+02:00</pdate>
+    <total>36000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>ابو مالك شبرا مصر</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>1714</id_constraint>
+    <idBill>154</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>155</id_cash>
+    <pdate>2026-02-20T12:08:05+02:00</pdate>
+    <total>14000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>احمد ابراهيم مدينة السلام</credit_name>
+  </tt>
+</NewDataSet>

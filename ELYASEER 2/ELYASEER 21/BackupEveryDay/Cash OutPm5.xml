@@ -1,0 +1,112 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <id_constraint>202</id_constraint>
+    <idBill>46</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>49</id_cash>
+    <pdate>2025-08-05T23:24:35+03:00</pdate>
+    <total>480</total>
+    <des>تيل</des>
+    <debt_name>مصاريف سيارة</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>203</id_constraint>
+    <idBill>45</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>48</id_cash>
+    <pdate>2025-08-05T23:24:09+03:00</pdate>
+    <total>750</total>
+    <des>غيار زيت</des>
+    <debt_name>مصاريف سيارة</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>204</id_constraint>
+    <idBill>47</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>50</id_cash>
+    <pdate>2025-08-05T23:25:36+03:00</pdate>
+    <total>120</total>
+    <des />
+    <debt_name>مصاريف سيارة</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>205</id_constraint>
+    <idBill>48</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>51</id_cash>
+    <pdate>2025-08-05T23:25:49+03:00</pdate>
+    <total>100</total>
+    <des />
+    <debt_name>مصاريف يومية</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>206</id_constraint>
+    <idBill>49</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>52</id_cash>
+    <pdate>2025-08-05T23:26:00+03:00</pdate>
+    <total>560</total>
+    <des>فوانيس وغسيل
+</des>
+    <debt_name>مصاريف سيارة</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>212</id_constraint>
+    <idBill>50</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>53</id_cash>
+    <pdate>2025-08-05T23:34:02+03:00</pdate>
+    <total>400</total>
+    <des>جراش</des>
+    <debt_name>مصاريف يومية</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>213</id_constraint>
+    <idBill>51</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>54</id_cash>
+    <pdate>2025-08-05T23:34:24+03:00</pdate>
+    <total>150</total>
+    <des>الباقة</des>
+    <debt_name>مصاريف يومية</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>214</id_constraint>
+    <idBill>52</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>55</id_cash>
+    <pdate>2025-08-05T23:34:56+03:00</pdate>
+    <total>20000</total>
+    <des />
+    <debt_name>مصنع الاندلس</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>215</id_constraint>
+    <idBill>53</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>56</id_cash>
+    <pdate>2025-08-05T23:35:20+03:00</pdate>
+    <total>125800</total>
+    <des />
+    <debt_name>مصنع مدكور</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+</NewDataSet>

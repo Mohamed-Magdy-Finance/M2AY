@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <id_constraint>808</id_constraint>
+    <idBill>52</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>53</id_cash>
+    <pdate>2025-10-31T15:22:35+02:00</pdate>
+    <total>24950</total>
+    <des>سند قبض رقم 53</des>
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>سامي مصنع الحسين</credit_name>
+  </tt>
+</NewDataSet>

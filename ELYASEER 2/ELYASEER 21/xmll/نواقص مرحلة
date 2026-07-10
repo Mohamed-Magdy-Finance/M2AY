@@ -1,0 +1,141 @@
+﻿<XtraSerializer version="1.0" application="View">
+  <property name="#LayoutVersion" />
+  <property name="OptionsView" isnull="true" iskey="true">
+    <property name="WaitAnimationOptions">Panel</property>
+    <property name="AutoCalcPreviewLineCount">true</property>
+    <property name="ColumnAutoWidth">false</property>
+    <property name="ShowGroupPanel">false</property>
+  </property>
+  <property name="ActiveFilterEnabled">true</property>
+  <property name="Columns" iskey="true" value="23">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="Name">ENname</property>
+      <property name="VisibleIndex">3</property>
+      <property name="Visible">true</property>
+      <property name="Width">235</property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="Name">id</property>
+    </property>
+    <property name="Item3" isnull="true" iskey="true">
+      <property name="Name">id_item</property>
+    </property>
+    <property name="Item4" isnull="true" iskey="true">
+      <property name="Name">ARname</property>
+      <property name="VisibleIndex">2</property>
+      <property name="Visible">true</property>
+      <property name="Width">317</property>
+    </property>
+    <property name="Item5" isnull="true" iskey="true">
+      <property name="Name">CountRequest</property>
+      <property name="VisibleIndex">9</property>
+      <property name="Visible">true</property>
+      <property name="Width">86</property>
+    </property>
+    <property name="Item6" isnull="true" iskey="true">
+      <property name="Name">IsRequest</property>
+      <property name="VisibleIndex">10</property>
+      <property name="Visible">true</property>
+      <property name="Width">81</property>
+    </property>
+    <property name="Item7" isnull="true" iskey="true">
+      <property name="Name">Minimum</property>
+      <property name="VisibleIndex">6</property>
+      <property name="Visible">true</property>
+      <property name="Width">99</property>
+    </property>
+    <property name="Item8" isnull="true" iskey="true">
+      <property name="Name">BigPr0</property>
+      <property name="VisibleIndex">4</property>
+      <property name="Visible">true</property>
+    </property>
+    <property name="Item9" isnull="true" iskey="true">
+      <property name="Name">SalInMonth</property>
+      <property name="VisibleIndex">5</property>
+      <property name="Visible">true</property>
+      <property name="Width">114</property>
+    </property>
+    <property name="Item10" isnull="true" iskey="true">
+      <property name="Name">balance</property>
+      <property name="VisibleIndex">7</property>
+      <property name="Visible">true</property>
+      <property name="Width">80</property>
+    </property>
+    <property name="Item11" isnull="true" iskey="true">
+      <property name="Name">MinPrice</property>
+      <property name="VisibleIndex">11</property>
+      <property name="Visible">true</property>
+      <property name="Width">281</property>
+    </property>
+    <property name="Item12" isnull="true" iskey="true">
+      <property name="Name">MinDiscount</property>
+      <property name="VisibleIndex">12</property>
+      <property name="Visible">true</property>
+      <property name="Width">285</property>
+    </property>
+    <property name="Item13" isnull="true" iskey="true">
+      <property name="Name">col_delete</property>
+      <property name="VisibleIndex">0</property>
+      <property name="Visible">true</property>
+      <property name="Width">37</property>
+    </property>
+    <property name="Item14" isnull="true" iskey="true">
+      <property name="Name">Suggest</property>
+      <property name="VisibleIndex">8</property>
+      <property name="Visible">true</property>
+      <property name="Width">66</property>
+    </property>
+    <property name="Item15" isnull="true" iskey="true">
+      <property name="Name">TypeItem1</property>
+      <property name="VisibleIndex">13</property>
+      <property name="Visible">true</property>
+      <property name="Width">140</property>
+    </property>
+    <property name="Item16" isnull="true" iskey="true">
+      <property name="Name">TypeItem2</property>
+      <property name="VisibleIndex">14</property>
+      <property name="Visible">true</property>
+      <property name="Width">140</property>
+    </property>
+    <property name="Item17" isnull="true" iskey="true">
+      <property name="Name">TypeItem3</property>
+      <property name="VisibleIndex">15</property>
+      <property name="Visible">true</property>
+      <property name="Width">140</property>
+    </property>
+    <property name="Item18" isnull="true" iskey="true">
+      <property name="Name">TypeItem4</property>
+      <property name="VisibleIndex">16</property>
+      <property name="Visible">true</property>
+      <property name="Width">140</property>
+    </property>
+    <property name="Item19" isnull="true" iskey="true">
+      <property name="Name">TypeItem5</property>
+      <property name="Width">140</property>
+    </property>
+    <property name="Item20" isnull="true" iskey="true">
+      <property name="Name">TypeItem6</property>
+      <property name="Width">140</property>
+    </property>
+    <property name="Item21" isnull="true" iskey="true">
+      <property name="Name">TypeItem7</property>
+      <property name="Width">140</property>
+    </property>
+    <property name="Item22" isnull="true" iskey="true">
+      <property name="Name">notes</property>
+      <property name="VisibleIndex">17</property>
+      <property name="Visible">true</property>
+      <property name="Width">150</property>
+    </property>
+    <property name="Item23" isnull="true" iskey="true">
+      <property name="Name">pdate</property>
+      <property name="VisibleIndex">1</property>
+      <property name="Visible">true</property>
+      <property name="Width">118</property>
+    </property>
+  </property>
+  <property name="ActiveFilterString" />
+  <property name="GroupSummarySortInfoState" />
+  <property name="FindFilterText" />
+  <property name="FindPanelVisible">false</property>
+</XtraSerializer>

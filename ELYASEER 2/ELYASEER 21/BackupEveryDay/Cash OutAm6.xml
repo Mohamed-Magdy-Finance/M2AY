@@ -1,0 +1,63 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <id_constraint>1382</id_constraint>
+    <idBill>387</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>391</id_cash>
+    <pdate>2026-01-05T23:35:06+02:00</pdate>
+    <total>250</total>
+    <des />
+    <debt_name>مصنع مدكور</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>1395</id_constraint>
+    <idBill>389</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>393</id_cash>
+    <pdate>2026-01-06T00:12:48+02:00</pdate>
+    <total>500</total>
+    <des />
+    <debt_name>سولار</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>1396</id_constraint>
+    <idBill>390</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>394</id_cash>
+    <pdate>2026-01-06T00:13:02+02:00</pdate>
+    <total>200</total>
+    <des />
+    <debt_name>عمالة</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>1397</id_constraint>
+    <idBill>391</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>395</id_cash>
+    <pdate>2026-01-06T00:13:23+02:00</pdate>
+    <total>100</total>
+    <des />
+    <debt_name>مصاريف سيارة</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>1400</id_constraint>
+    <idBill>392</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>396</id_cash>
+    <pdate>2026-01-06T00:47:36+02:00</pdate>
+    <total>1810</total>
+    <des>اخر تعديل باذن الله</des>
+    <debt_name>عجز</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+</NewDataSet>

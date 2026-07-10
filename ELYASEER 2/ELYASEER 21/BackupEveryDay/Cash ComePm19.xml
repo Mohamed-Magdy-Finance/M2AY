@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <id_constraint>2206</id_constraint>
+    <idBill>211</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>212</id_cash>
+    <pdate>2026-05-18T00:12:14+03:00</pdate>
+    <total>18000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>الشيخ منتصر مؤسسة الزكاة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2235</id_constraint>
+    <idBill>212</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>213</id_cash>
+    <pdate>2026-05-18T00:23:50+03:00</pdate>
+    <total>7000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>الشيخ منتصر مؤسسة الزكاة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2239</id_constraint>
+    <idBill>213</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>214</id_cash>
+    <pdate>2026-05-19T15:49:42+03:00</pdate>
+    <total>10000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>الشيخ منتصر مؤسسة الزكاة</credit_name>
+  </tt>
+</NewDataSet>

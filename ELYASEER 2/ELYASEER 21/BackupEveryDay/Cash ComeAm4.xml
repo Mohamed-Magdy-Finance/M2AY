@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <id_constraint>988</id_constraint>
+    <idBill>71</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>72</id_cash>
+    <pdate>2025-12-03T01:32:41+02:00</pdate>
+    <total>50000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>اسامة حلوان</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>989</id_constraint>
+    <idBill>72</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>73</id_cash>
+    <pdate>2025-12-03T01:32:50+02:00</pdate>
+    <total>120000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>الشيخ احمد منوف</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>990</id_constraint>
+    <idBill>73</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>74</id_cash>
+    <pdate>2025-12-03T01:33:00+02:00</pdate>
+    <total>10000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>الشيخ احمد منوف</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>991</id_constraint>
+    <idBill>74</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>75</id_cash>
+    <pdate>2025-12-03T01:33:15+02:00</pdate>
+    <total>20000</total>
+    <des />
+    <debt_name>النقديـــــة</debt_name>
+    <credit_name>الشيخ احمد منوف</credit_name>
+  </tt>
+</NewDataSet>

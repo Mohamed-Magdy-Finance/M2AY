@@ -1,0 +1,213 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <id_pur>41</id_pur>
+    <ARname>حلاوة سادة </ARname>
+    <qu>270</qu>
+    <pr>72</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>19440</total_item>
+    <Cust_Name>مصنع الاندلس</Cust_Name>
+    <Total>26864.000</Total>
+    <pdate>2025-09-30T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>15</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>0.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes>مصنع الاندلس</notes>
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+  </tt>
+  <tt>
+    <id_pur>41</id_pur>
+    <ARname>حلاوة شيكولاتة </ARname>
+    <qu>18</qu>
+    <pr>74</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>1332</total_item>
+    <Cust_Name>مصنع الاندلس</Cust_Name>
+    <Total>26864.000</Total>
+    <pdate>2025-09-30T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>1</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>0.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes>مصنع الاندلس</notes>
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+  </tt>
+  <tt>
+    <id_pur>41</id_pur>
+    <ARname>حلاوة سادة </ARname>
+    <qu>32</qu>
+    <pr>74</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>2368</total_item>
+    <Cust_Name>مصنع الاندلس</Cust_Name>
+    <Total>26864.000</Total>
+    <pdate>2025-09-30T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>1.7777999639511108</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>0.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes>مصنع الاندلس</notes>
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+  </tt>
+  <tt>
+    <id_pur>41</id_pur>
+    <ARname>حلاوة شيكولاتة </ARname>
+    <qu>49</qu>
+    <pr>76</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>3724</total_item>
+    <Cust_Name>مصنع الاندلس</Cust_Name>
+    <Total>26864.000</Total>
+    <pdate>2025-09-30T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>2.7221999168395996</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>0.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes>مصنع الاندلس</notes>
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+  </tt>
+  <tt>
+    <id_pur>42</id_pur>
+    <ARname>طحينة </ARname>
+    <qu>1440</qu>
+    <pr>82</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>118080</total_item>
+    <Cust_Name>مصنع مدكور</Cust_Name>
+    <Total>118080.000</Total>
+    <pdate>2025-09-30T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>24</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>0.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes>مصنع مدكور</notes>
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+  </tt>
+  <tt>
+    <id_pur>43</id_pur>
+    <ARname>طحينة </ARname>
+    <qu>1080</qu>
+    <pr>82</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>88560</total_item>
+    <Cust_Name>مصنع الاندلس</Cust_Name>
+    <Total>92660.000</Total>
+    <pdate>2025-09-30T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>18</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>0.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes>مصنع الاندلس</notes>
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+  </tt>
+  <tt>
+    <id_pur>43</id_pur>
+    <ARname>سمسم </ARname>
+    <qu>50</qu>
+    <pr>82</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>4100</total_item>
+    <Cust_Name>مصنع الاندلس</Cust_Name>
+    <Total>92660.000</Total>
+    <pdate>2025-09-30T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>1</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>0.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes>مصنع الاندلس</notes>
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+  </tt>
+</NewDataSet>

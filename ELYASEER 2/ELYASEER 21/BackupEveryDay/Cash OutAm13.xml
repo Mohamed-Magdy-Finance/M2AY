@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <id_constraint>2159</id_constraint>
+    <idBill>641</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>645</id_cash>
+    <pdate>2026-05-12T13:39:02+03:00</pdate>
+    <total>60000</total>
+    <des />
+    <debt_name>مصنع الاندلس</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2160</id_constraint>
+    <idBill>642</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>646</id_cash>
+    <pdate>2026-05-12T21:45:52+03:00</pdate>
+    <total>200</total>
+    <des>دخان لعربىة مدكور</des>
+    <debt_name>مصاريف يومية</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2169</id_constraint>
+    <idBill>643</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>647</id_cash>
+    <pdate>2026-05-12T22:07:37+03:00</pdate>
+    <total>5000</total>
+    <des>قبض على السواق</des>
+    <debt_name>عمالة</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2171</id_constraint>
+    <idBill>644</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>648</id_cash>
+    <pdate>2026-05-13T00:26:33+03:00</pdate>
+    <total>31400</total>
+    <des />
+    <debt_name>مصنع مدكور</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+</NewDataSet>

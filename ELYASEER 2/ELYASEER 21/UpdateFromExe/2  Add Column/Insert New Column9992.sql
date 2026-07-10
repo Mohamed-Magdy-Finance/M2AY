@@ -1,0 +1,24 @@
+IF not EXISTS(SELECT * FROM sys.columns WHERE Name  = N'PurDate' AND Object_ID = Object_ID(N'Installment'))ALTER TABLE Installment ADD PurDate date
+IF not EXISTS(SELECT * FROM sys.columns WHERE Name  = N'Product' AND Object_ID = Object_ID(N'Installment'))ALTER TABLE Installment ADD Product nvarchar(300)
+IF not EXISTS(SELECT * FROM sys.columns WHERE Name  = N'ProductValue' AND Object_ID = Object_ID(N'Installment'))ALTER TABLE Installment ADD ProductValue float
+IF not EXISTS(SELECT * FROM sys.columns WHERE Name  = N'Profit' AND Object_ID = Object_ID(N'Installment'))ALTER TABLE Installment ADD Profit int
+IF not EXISTS(SELECT * FROM sys.columns WHERE Name  = N'ProfitMangment' AND Object_ID = Object_ID(N'Installment'))ALTER TABLE Installment ADD ProfitMangment int
+IF not  EXISTS(SELECT * FROM sys.columns WHERE Name  = N'ProfitCapital' AND Object_ID = Object_ID(N'Installment'))ALTER TABLE Installment ADD ProfitCapital int
+IF not EXISTS(SELECT * FROM sys.columns WHERE Name  = N'BeginInstallment' AND Object_ID = Object_ID(N'Installment'))ALTER TABLE Installment ADD BeginInstallment int
+IF not EXISTS(SELECT * FROM sys.columns WHERE Name  = N'OutDis1' AND Object_ID = Object_ID(N'emp'))ALTER TABLE emp ADD OutDis1 int
+IF not EXISTS(SELECT * FROM sys.columns WHERE Name  = N'OutDis2' AND Object_ID = Object_ID(N'emp'))ALTER TABLE emp ADD OutDis2 int
+IF not EXISTS(SELECT * FROM sys.columns WHERE Name  = N'OutDis3' AND Object_ID = Object_ID(N'emp'))ALTER TABLE emp ADD OutDis3 int
+IF not EXISTS(SELECT * FROM sys.columns WHERE Name  = N'WorkNum' AND Object_ID = Object_ID(N'ItemMaking_invoice'))ALTER TABLE ItemMaking_invoice ADD WorkNum nvarchar(300)
+IF not EXISTS(SELECT * FROM sys.columns WHERE Name  = N'DateOut' AND Object_ID = Object_ID(N'ItemMaking_details'))ALTER TABLE ItemMaking_details ADD DateOut date
+IF not EXISTS(SELECT * FROM sys.columns WHERE Name  = N'CostCenter' AND Object_ID = Object_ID(N'ItemMaking_invoice'))ALTER TABLE ItemMaking_invoice ADD CostCenter nvarchar(500)
+IF not EXISTS(SELECT * FROM sys.columns WHERE Name  = N'MinuteForClosePur' AND Object_ID = Object_ID(N'ZZproperties'))ALTER TABLE ZZproperties ADD MinuteForClosePur bit
+IF  EXISTS(SELECT * FROM sys.columns WHERE Name  = N'permType' AND Object_ID = Object_ID(N'UserPermitionData'))ALTER TABLE UserPermitionData ALTER COLUMN permType nvarchar(500)
+IF not EXISTS(SELECT * FROM sys.columns WHERE Name  = N'CashDiscount' AND Object_ID = Object_ID(N'ItemTicket'))ALTER TABLE ItemTicket ADD CashDiscount float
+IF not EXISTS(SELECT * FROM sys.columns WHERE Name  = N'StartFrmSal' AND Object_ID = Object_ID(N'ZZproperties'))ALTER TABLE ZZproperties ADD StartFrmSal bit
+IF not EXISTS(SELECT * FROM sys.columns WHERE Name  = N'KindPermition' AND Object_ID = Object_ID(N'UserPermition'))ALTER TABLE UserPermition ADD KindPermition int
+IF not EXISTS(SELECT * FROM sys.columns WHERE Name  = N'id_sal' AND Object_ID = Object_ID(N'NewInstallment'))ALTER TABLE NewInstallment ADD id_sal bigint
+IF not EXISTS(SELECT * FROM sys.columns WHERE Name  = N'lockBegin' AND Object_ID = Object_ID(N'ZZproperties'))ALTER TABLE ZZproperties ADD lockBegin bit
+IF not EXISTS(SELECT * FROM sys.columns WHERE Name  = N'AllowDeleteItem' AND Object_ID = Object_ID(N'ZZproperties'))ALTER TABLE ZZproperties ADD AllowDeleteItem bit
+IF  EXISTS(SELECT * FROM sys.columns WHERE Name  = N'address' AND Object_ID = Object_ID(N'MyBuilder'))ALTER TABLE MyBuilder ALTER COLUMN address nvarchar(500)
+IF not EXISTS(SELECT * FROM sys.columns WHERE Name  = N'NewBillAfterPrint' AND Object_ID = Object_ID(N'ZZproperties'))ALTER TABLE ZZproperties ADD NewBillAfterPrint bit
+IF  EXISTS (SELECT * FROM dbo.sysobjects WHERE Name = 'delZZproperties' AND type = 'TR') DROP TRIGGER delZZproperties

@@ -1,0 +1,87 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <id_constraint>2010</id_constraint>
+    <idBill>606</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>610</id_cash>
+    <pdate>2026-04-24T23:47:18+03:00</pdate>
+    <total>29000</total>
+    <des />
+    <debt_name>مصنع الاندلس</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2011</id_constraint>
+    <idBill>607</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>611</id_cash>
+    <pdate>2026-04-24T23:47:33+03:00</pdate>
+    <total>40000</total>
+    <des />
+    <debt_name>مصنع الاندلس</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2013</id_constraint>
+    <idBill>608</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>612</id_cash>
+    <pdate>2026-04-24T23:50:53+03:00</pdate>
+    <total>100000</total>
+    <des />
+    <debt_name>محمد عبدالحي</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2014</id_constraint>
+    <idBill>609</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>613</id_cash>
+    <pdate>2026-04-24T23:51:06+03:00</pdate>
+    <total>5000</total>
+    <des />
+    <debt_name>محمد عبدالحى</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2018</id_constraint>
+    <idBill>610</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>614</id_cash>
+    <pdate>2026-04-25T15:08:05+03:00</pdate>
+    <total>67340</total>
+    <des>سند صرف رقم 614</des>
+    <debt_name>مصنع مدكور</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2019</id_constraint>
+    <idBill>611</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>615</id_cash>
+    <pdate>2026-04-25T15:41:22+03:00</pdate>
+    <total>50000</total>
+    <des>سند صرف رقم 615</des>
+    <debt_name>مصنع الاندلس</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2021</id_constraint>
+    <idBill>612</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>616</id_cash>
+    <pdate>2026-04-25T16:14:29+03:00</pdate>
+    <total>2000</total>
+    <des>تكىىف</des>
+    <debt_name>ممس فرج</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+</NewDataSet>

@@ -1,0 +1,65 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <LastMony>0.00</LastMony>
+    <paper>0.00</paper>
+    <dayes>0</dayes>
+    <id>26</id>
+    <Aname>مصنع الاندلس</Aname>
+    <MainAccount>الموردين</MainAccount>
+    <str_price>سعر عادى</str_price>
+    <MaxDayOfCredit>0</MaxDayOfCredit>
+    <nots />
+    <way />
+    <sT />
+    <TaxesCard />
+    <nots1 />
+    <delegateSal />
+    <delegatephone />
+    <Email />
+    <Title />
+    <id_cust>2</id_cust>
+    <Deleted>false</Deleted>
+    <Code>1</Code>
+    <CostCenter />
+    <Address />
+    <Email1 />
+    <connect xml:space="preserve">    </connect>
+    <debt>10000</debt>
+    <credit>100200</credit>
+    <balance>-90200</balance>
+    <normalPR>0</normalPR>
+    <CasePr>قطاعى</CasePr>
+  </tt>
+  <tt>
+    <LastMony>0.00</LastMony>
+    <paper>0.00</paper>
+    <dayes>0</dayes>
+    <id>41</id>
+    <Aname>مصنع مدكور</Aname>
+    <MainAccount>الموردين</MainAccount>
+    <str_price>سعر عادى</str_price>
+    <MaxDayOfCredit>0</MaxDayOfCredit>
+    <nots />
+    <way />
+    <sT />
+    <TaxesCard />
+    <nots1 />
+    <delegateSal />
+    <delegatephone />
+    <Email />
+    <Title />
+    <id_cust>17</id_cust>
+    <Deleted>false</Deleted>
+    <Code>3</Code>
+    <CostCenter />
+    <Address />
+    <Email1 />
+    <connect xml:space="preserve">    </connect>
+    <debt>346050</debt>
+    <credit>353250</credit>
+    <balance>-7200</balance>
+    <normalPR>0</normalPR>
+    <CasePr>قطاعى</CasePr>
+  </tt>
+</NewDataSet>

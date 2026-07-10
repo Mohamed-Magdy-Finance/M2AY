@@ -1,0 +1,227 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <id_pur>250</id_pur>
+    <ARname>طحينة </ARname>
+    <qu>1020</qu>
+    <pr>96</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>97920</total_item>
+    <Cust_Name>سامي مصنع الحسين</Cust_Name>
+    <Total>97900.000</Total>
+    <pdate>2026-05-02T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>17</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>97900.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>251</id_pur>
+    <ARname>طحينة </ARname>
+    <qu>600</qu>
+    <pr>96</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>57600</total_item>
+    <Cust_Name>ابو مالك شبرا مصر</Cust_Name>
+    <Total>57600.000</Total>
+    <pdate>2026-05-02T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>10</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>24000.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>252</id_pur>
+    <ARname>طحينة </ARname>
+    <qu>300</qu>
+    <pr>98</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>29400</total_item>
+    <Cust_Name>احمد ابراهيم مدينة السلام</Cust_Name>
+    <Total>29400.000</Total>
+    <pdate>2026-05-02T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>5</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>25000.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>253</id_pur>
+    <ARname>حلاوة سادة </ARname>
+    <qu>36</qu>
+    <pr>74</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>2664</total_item>
+    <Cust_Name>مصنع مدكور</Cust_Name>
+    <Total>2520.000</Total>
+    <pdate>2026-05-02T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>2</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>0.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>254</id_pur>
+    <ARname>طحينة </ARname>
+    <qu>60</qu>
+    <pr>98</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>5880</total_item>
+    <Cust_Name>ايمن شبين</Cust_Name>
+    <Total>7356.000</Total>
+    <pdate>2026-05-03T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>1</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>0.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>254</id_pur>
+    <ARname>زيت حار </ARname>
+    <qu>18</qu>
+    <pr>82</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>1476</total_item>
+    <Cust_Name>ايمن شبين</Cust_Name>
+    <Total>7356.000</Total>
+    <pdate>2026-05-03T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>0</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>0.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>255</id_pur>
+    <ARname>سمسم سولتكس </ARname>
+    <qu>25</qu>
+    <pr>110</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>2750</total_item>
+    <Cust_Name>محلة حسن</Cust_Name>
+    <Total>2750.000</Total>
+    <pdate>2026-05-03T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>0</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>0.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+</NewDataSet>

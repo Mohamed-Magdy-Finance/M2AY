@@ -1,0 +1,99 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <id_constraint>2194</id_constraint>
+    <idBill>654</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>658</id_cash>
+    <pdate>2026-05-16T23:06:27+03:00</pdate>
+    <total>1350</total>
+    <des />
+    <debt_name>محمد عبدالحى</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2195</id_constraint>
+    <idBill>655</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>659</id_cash>
+    <pdate>2026-05-16T23:06:45+03:00</pdate>
+    <total>27000</total>
+    <des />
+    <debt_name>مصنع الاندلس</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2197</id_constraint>
+    <idBill>656</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>660</id_cash>
+    <pdate>2026-05-16T23:14:09+03:00</pdate>
+    <total>800</total>
+    <des />
+    <debt_name>سولار</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2198</id_constraint>
+    <idBill>657</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>661</id_cash>
+    <pdate>2026-05-16T23:14:23+03:00</pdate>
+    <total>100</total>
+    <des />
+    <debt_name>مصاريف يومية</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2202</id_constraint>
+    <idBill>658</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>662</id_cash>
+    <pdate>2026-05-17T14:26:33+03:00</pdate>
+    <total>1000</total>
+    <des />
+    <debt_name>سولار</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2203</id_constraint>
+    <idBill>659</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>663</id_cash>
+    <pdate>2026-05-17T14:26:45+03:00</pdate>
+    <total>180</total>
+    <des />
+    <debt_name>كرت ومصاريف طريق</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2204</id_constraint>
+    <idBill>660</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>664</id_cash>
+    <pdate>2026-05-17T14:27:07+03:00</pdate>
+    <total>35</total>
+    <des />
+    <debt_name>كرت ومصاريف طريق</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>2205</id_constraint>
+    <idBill>661</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>665</id_cash>
+    <pdate>2026-05-17T14:27:27+03:00</pdate>
+    <total>100</total>
+    <des>دخان</des>
+    <debt_name>مصاريف يومية</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+</NewDataSet>

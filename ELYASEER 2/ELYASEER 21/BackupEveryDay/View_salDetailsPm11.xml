@@ -1,0 +1,291 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <id_pur>257</id_pur>
+    <ARname>طحينة </ARname>
+    <qu>1920</qu>
+    <pr>98</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>188160</total_item>
+    <Cust_Name>الشيخ احمد اسكندرية</Cust_Name>
+    <Total>198600.000</Total>
+    <pdate>2026-05-10T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>32</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>200000.00</AmountPaid>
+    <user_name>عبدالرحمن عبدالنبى</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>257</id_pur>
+    <ARname>طحينة حمراء </ARname>
+    <qu>120</qu>
+    <pr>87</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>10440</total_item>
+    <Cust_Name>الشيخ احمد اسكندرية</Cust_Name>
+    <Total>198600.000</Total>
+    <pdate>2026-05-10T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>2</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>200000.00</AmountPaid>
+    <user_name>عبدالرحمن عبدالنبى</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>258</id_pur>
+    <ARname>طحينة </ARname>
+    <qu>240</qu>
+    <pr>100</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>24000</total_item>
+    <Cust_Name>احمد رشوان</Cust_Name>
+    <Total>24000.000</Total>
+    <pdate>2026-05-11T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>4</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>4000.00</AmountPaid>
+    <user_name>عبدالرحمن عبدالنبى</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>259</id_pur>
+    <ARname>طحينة </ARname>
+    <qu>300</qu>
+    <pr>98</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>29400</total_item>
+    <Cust_Name>الشيخ منتصر مؤسسة الزكاة</Cust_Name>
+    <Total>29400.000</Total>
+    <pdate>2026-05-11T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>5</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>25000.00</AmountPaid>
+    <user_name>عبدالرحمن عبدالنبى</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>260</id_pur>
+    <ARname>حلاوة سادة </ARname>
+    <qu>360</qu>
+    <pr>76</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>27360</total_item>
+    <Cust_Name>الشيخ احمد اسكندرية</Cust_Name>
+    <Total>61560.000</Total>
+    <pdate>2026-05-11T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>20</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>60000.00</AmountPaid>
+    <user_name>عبدالرحمن عبدالنبى</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>260</id_pur>
+    <ARname>حلاوة مكسرات </ARname>
+    <qu>360</qu>
+    <pr>76</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>27360</total_item>
+    <Cust_Name>الشيخ احمد اسكندرية</Cust_Name>
+    <Total>61560.000</Total>
+    <pdate>2026-05-11T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>20</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>60000.00</AmountPaid>
+    <user_name>عبدالرحمن عبدالنبى</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>260</id_pur>
+    <ARname>حلاوة شيكولاتة </ARname>
+    <qu>90</qu>
+    <pr>76</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>6840</total_item>
+    <Cust_Name>الشيخ احمد اسكندرية</Cust_Name>
+    <Total>61560.000</Total>
+    <pdate>2026-05-11T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>5</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>60000.00</AmountPaid>
+    <user_name>عبدالرحمن عبدالنبى</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>261</id_pur>
+    <ARname>حلاوة علب 4 كيلو شيكولاته </ARname>
+    <qu>48</qu>
+    <pr>80</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>3840</total_item>
+    <Cust_Name>البلد</Cust_Name>
+    <Total>6648.000</Total>
+    <pdate>2026-05-11T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>3</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>0.00</AmountPaid>
+    <user_name>عبدالرحمن عبدالنبى</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>261</id_pur>
+    <ARname>حلاوة سادة </ARname>
+    <qu>36</qu>
+    <pr>78</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>2808</total_item>
+    <Cust_Name>البلد</Cust_Name>
+    <Total>6648.000</Total>
+    <pdate>2026-05-11T00:00:00+03:00</pdate>
+    <bones>0</bones>
+    <c_count>2</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>0.00</AmountPaid>
+    <user_name>عبدالرحمن عبدالنبى</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+</NewDataSet>

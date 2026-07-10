@@ -1,0 +1,163 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <id_pur>170</id_pur>
+    <ARname>طحينة </ARname>
+    <qu>600</qu>
+    <pr>77</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>46200</total_item>
+    <Cust_Name>الشيخ منتصر مؤسسة الزكاة</Cust_Name>
+    <Total>57680.000</Total>
+    <pdate>2026-01-05T00:00:00+02:00</pdate>
+    <bones>0</bones>
+    <c_count>10</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>0.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>170</id_pur>
+    <ARname>زيت حار </ARname>
+    <qu>140</qu>
+    <pr>82</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>11480</total_item>
+    <Cust_Name>الشيخ منتصر مؤسسة الزكاة</Cust_Name>
+    <Total>57680.000</Total>
+    <pdate>2026-01-05T00:00:00+02:00</pdate>
+    <bones>0</bones>
+    <c_count>0</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>0.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>171</id_pur>
+    <ARname>طحينة </ARname>
+    <qu>120</qu>
+    <pr>77</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>9240</total_item>
+    <Cust_Name>ابو مالك شبرا مصر</Cust_Name>
+    <Total>11290.000</Total>
+    <pdate>2026-01-05T00:00:00+02:00</pdate>
+    <bones>0</bones>
+    <c_count>2</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>0.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>171</id_pur>
+    <ARname>زيت حار </ARname>
+    <qu>25</qu>
+    <pr>82</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>2050</total_item>
+    <Cust_Name>ابو مالك شبرا مصر</Cust_Name>
+    <Total>11290.000</Total>
+    <pdate>2026-01-05T00:00:00+02:00</pdate>
+    <bones>0</bones>
+    <c_count>0</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>0.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+  <tt>
+    <id_pur>172</id_pur>
+    <ARname>طحينة </ARname>
+    <qu>1920</qu>
+    <pr>76.5</pr>
+    <Discount>0.00</Discount>
+    <DiscountCash>0</DiscountCash>
+    <total_item>146880</total_item>
+    <Cust_Name>الحاج هداية طوخ</Cust_Name>
+    <Total>146880.000</Total>
+    <pdate>2026-01-05T00:00:00+02:00</pdate>
+    <bones>0</bones>
+    <c_count>32</c_count>
+    <lot />
+    <mm>0</mm>
+    <yy>0</yy>
+    <RongExpire>false</RongExpire>
+    <unit>0</unit>
+    <tax>0</tax>
+    <CurrencyPrice>0</CurrencyPrice>
+    <TypePaied>1</TypePaied>
+    <AmountPaid>0.00</AmountPaid>
+    <user_name>محمد عبدالح</user_name>
+    <DesExpense />
+    <notes />
+    <CostCenter />
+    <Expense>0</Expense>
+    <delegateName />
+    <Tax_Ast>0</Tax_Ast>
+    <id_bill>0</id_bill>
+    <OtherPrice>مبيعات</OtherPrice>
+  </tt>
+</NewDataSet>

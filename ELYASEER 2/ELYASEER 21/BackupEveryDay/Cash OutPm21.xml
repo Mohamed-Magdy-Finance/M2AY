@@ -1,0 +1,63 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tt>
+    <id_constraint>721</id_constraint>
+    <idBill>194</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>199</id_cash>
+    <pdate>2025-10-21T23:02:03+03:00</pdate>
+    <total>500</total>
+    <des />
+    <debt_name>سولار</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>722</id_constraint>
+    <idBill>195</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>200</id_cash>
+    <pdate>2025-10-21T23:03:47+03:00</pdate>
+    <total>150</total>
+    <des />
+    <debt_name>مصاريف يومية</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>723</id_constraint>
+    <idBill>196</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>201</id_cash>
+    <pdate>2025-10-21T23:05:26+03:00</pdate>
+    <total>1300</total>
+    <des />
+    <debt_name>مصاريف سيارة</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>724</id_constraint>
+    <idBill>197</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>202</id_cash>
+    <pdate>2025-10-21T23:06:36+03:00</pdate>
+    <total>2000</total>
+    <des />
+    <debt_name>ممس فرج</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+  <tt>
+    <id_constraint>726</id_constraint>
+    <idBill>198</idBill>
+    <delegateSal />
+    <CostCenter />
+    <id_cash>203</id_cash>
+    <pdate>2025-10-21T23:14:23+03:00</pdate>
+    <total>100000</total>
+    <des>سند صرف رقم 203</des>
+    <debt_name>مصنع مدكور</debt_name>
+    <credit_name>النقديـــــة</credit_name>
+  </tt>
+</NewDataSet>
