@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap');
+
 @import "tailwindcss";
 @custom-variant dark (&:is(.dark *));
 
@@ -41,89 +45,141 @@
 }
 
 :root {
-  /* M2AY Identity — Deep Finance Navy / Muted Gold */
-  --primary: #081826;
-  --primary-foreground: #F7F3EA;
-  --sidebar-primary: #081826;
-  --sidebar-primary-foreground: #F7F3EA;
-  --chart-1: #C8A24A;
-  --chart-2: #1E4D4F;
-  --chart-3: #081826;
-  --chart-4: #2F8F6B;
-  --chart-5: #10263A;
-  --radius: 0.65rem;
-  --background: #F7F3EA;
-  --foreground: #1C232B;
+  /* M2AY Premium Financial Design System */
+  /* Primary Colors - Deep Navy */
+  --primary: #1B2A4A;
+  --primary-dark: #0F1A2E;
+  --primary-light: #2A4070;
+  --primary-foreground: #FFFFFF;
+  
+  /* Secondary Colors - Professional Blue */
+  --secondary: #3B7EB0;
+  --secondary-foreground: #FFFFFF;
+  
+  /* Accent Colors - Warm Gold */
+  --accent: #C9A66B;
+  --accent-light: #F4EDE3;
+  --accent-dark: #B8924F;
+  --accent-foreground: #1B2A4A;
+  
+  /* Background Colors */
+  --bg: #F8F9FA;
+  --bg-white: #FFFFFF;
+  --bg-soft: #F0F2F5;
+  --background: #F8F9FA;
+  --foreground: #1A1A2E;
+  
+  /* Text Colors */
+  --text-primary: #1A1A2E;
+  --text-secondary: #4A4A6A;
+  --text-muted: #8888A0;
+  --text-light: #FFFFFF;
+  
+  /* Card Colors */
   --card: #FFFFFF;
-  --card-foreground: #1C232B;
+  --card-foreground: #1A1A2E;
   --popover: #FFFFFF;
-  --popover-foreground: #1C232B;
-  --secondary: #1E4D4F;
-  --secondary-foreground: #F7F3EA;
+  --popover-foreground: #1A1A2E;
+  
+  /* Border and Shadow */
+  --border: #E4E7EC;
+  --border-accent: #C9A66B;
+  --shadow-sm: 0 2px 12px rgba(27, 42, 74, 0.06);
+  --shadow-md: 0 8px 32px rgba(27, 42, 74, 0.10);
+  --shadow-lg: 0 16px 48px rgba(27, 42, 74, 0.14);
+  --shadow-hover: 0 20px 56px rgba(27, 42, 74, 0.18);
+  
+  /* UI Elements */
   --muted: #E6E9EF;
   --muted-foreground: #5B6472;
-  --accent: #C8A24A;
-  --accent-foreground: #081826;
+  --input: #E6E9EF;
+  --ring: #C9A66B;
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.985 0 0);
-  --border: #E6E9EF;
-  --input: #E6E9EF;
-  --ring: #C8A24A;
-  --sidebar: #081826;
-  --sidebar-foreground: #F7F3EA;
-  --sidebar-accent: #C8A24A;
-  --sidebar-accent-foreground: #081826;
-  --sidebar-border: #10263A;
-  --sidebar-ring: #C8A24A;
+  
+  /* Sidebar */
+  --sidebar: #1B2A4A;
+  --sidebar-foreground: #FFFFFF;
+  --sidebar-primary: #1B2A4A;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: #C9A66B;
+  --sidebar-accent-foreground: #1B2A4A;
+  --sidebar-border: rgba(27, 42, 74, 0.1);
+  --sidebar-ring: #C9A66B;
+  
+  /* Charts */
+  --chart-1: #C9A66B;
+  --chart-2: #3B7EB0;
+  --chart-3: #1B2A4A;
+  --chart-4: #2A4070;
+  --chart-5: #0F1A2E;
+  
+  /* Radius */
+  --radius: 0.65rem;
 }
 
 .dark {
-  /* M2AY Identity — Premium Dark (Executive) */
-  --primary: #C8A24A;
-  --primary-foreground: #081826;
-  --sidebar-primary: #C8A24A;
-  --sidebar-primary-foreground: #081826;
-  --background: #081826;
-  --foreground: #F7F3EA;
-  --card: #10263A;
-  --card-foreground: #F7F3EA;
-  --popover: #10263A;
-  --popover-foreground: #F7F3EA;
-  --secondary: #1E4D4F;
-  --secondary-foreground: #F7F3EA;
-  --muted: #14304A;
+  /* M2AY Premium Dark (Executive) */
+  --primary: #C9A66B;
+  --primary-foreground: #0F1A2E;
+  --sidebar-primary: #C9A66B;
+  --sidebar-primary-foreground: #0F1A2E;
+  --background: #0F1A2E;
+  --foreground: #F8F9FA;
+  --card: #1B2A4A;
+  --card-foreground: #F8F9FA;
+  --popover: #1B2A4A;
+  --popover-foreground: #F8F9FA;
+  --secondary: #3B7EB0;
+  --secondary-foreground: #F8F9FA;
+  --muted: #2A4070;
   --muted-foreground: #A9B4C2;
-  --accent: #C8A24A;
-  --accent-foreground: #081826;
+  --accent: #C9A66B;
+  --accent-foreground: #0F1A2E;
   --destructive: oklch(0.704 0.191 22.216);
   --destructive-foreground: oklch(0.985 0 0);
-  --border: rgba(247, 243, 234, 0.1);
-  --input: rgba(247, 243, 234, 0.15);
-  --ring: #C8A24A;
-  --chart-1: #C8A24A;
-  --chart-2: #2F8F6B;
-  --chart-3: #1E4D4F;
-  --chart-4: #F7F3EA;
-  --chart-5: #10263A;
-  --sidebar: #081826;
-  --sidebar-foreground: #F7F3EA;
-  --sidebar-accent: #C8A24A;
-  --sidebar-accent-foreground: #081826;
-  --sidebar-border: rgba(247, 243, 234, 0.1);
-  --sidebar-ring: #C8A24A;
+  --border: rgba(248, 249, 250, 0.1);
+  --input: rgba(248, 249, 250, 0.15);
+  --ring: #C9A66B;
+  --chart-1: #C9A66B;
+  --chart-2: #3B7EB0;
+  --chart-3: #1B2A4A;
+  --chart-4: #F8F9FA;
+  --chart-5: #2A4070;
+  --sidebar: #0F1A2E;
+  --sidebar-foreground: #F8F9FA;
+  --sidebar-accent: #C9A66B;
+  --sidebar-accent-foreground: #0F1A2E;
+  --sidebar-border: rgba(248, 249, 250, 0.1);
+  --sidebar-ring: #C9A66B;
 }
 
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
+  
   body {
     @apply bg-background text-foreground;
-    font-family: "Tajawal", "Almarai", system-ui, sans-serif;
+    font-family: 'Inter', 'Tajawal', -apple-system, BlinkMacSystemFont, sans-serif;
   }
-  h1, h2, h3, h4 {
-    font-family: "Almarai", "Tajawal", system-ui, sans-serif;
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', 'Tajawal', sans-serif;
   }
+  
+  .hero-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+  
+  .section-title {
+    font-family: 'Inter', 'Tajawal', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+  
   button:not(:disabled),
   [role="button"]:not([aria-disabled="true"]),
   [type="button"]:not(:disabled),
@@ -138,24 +194,11 @@
 }
 
 @layer components {
-  /**
-   * Custom container utility that centers content and adds responsive padding.
-   *
-   * This overrides Tailwind's default container behavior to:
-   * - Auto-center content (mx-auto)
-   * - Add responsive horizontal padding
-   * - Set max-width for large screens
-   *
-   * Usage: <div className="container">...</div>
-   *
-   * For custom widths, use max-w-* utilities directly:
-   * <div className="max-w-6xl mx-auto px-4">...</div>
-   */
   .container {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 1rem; /* 16px - mobile padding */
+    padding-left: 1rem;
     padding-right: 1rem;
   }
 
@@ -166,16 +209,64 @@
 
   @media (min-width: 640px) {
     .container {
-      padding-left: 1.5rem; /* 24px - tablet padding */
+      padding-left: 1.5rem;
       padding-right: 1.5rem;
     }
   }
 
   @media (min-width: 1024px) {
     .container {
-      padding-left: 2rem; /* 32px - desktop padding */
+      padding-left: 2rem;
       padding-right: 2rem;
-      max-width: 1280px; /* Standard content width */
+      max-width: 1280px;
     }
+  }
+  
+  /* Hero Section Styles */
+  .hero-section {
+    @apply relative w-full min-h-screen flex items-center justify-center overflow-hidden;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+  }
+  
+  .hero-overlay {
+    @apply absolute inset-0 opacity-40;
+    background: radial-gradient(circle at 20% 50%, rgba(201, 166, 107, 0.1) 0%, transparent 50%);
+  }
+  
+  /* Card Hover Effects */
+  .card-hover {
+    @apply transition-all duration-300 ease-out;
+  }
+  
+  .card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-hover);
+  }
+  
+  /* Section Spacing */
+  .section-spacing {
+    @apply py-16 md:py-24 lg:py-32;
+  }
+  
+  /* Sticky Header */
+  .sticky-header {
+    @apply sticky top-0 z-40 transition-all duration-300;
+    background: rgba(248, 249, 250, 0.95);
+    backdrop-filter: blur(10px);
+  }
+  
+  .sticky-header.scrolled {
+    background: rgba(248, 249, 250, 1);
+    box-shadow: var(--shadow-sm);
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent;
+  }
+  
+  .shadow-accent {
+    box-shadow: 0 0 20px rgba(201, 166, 107, 0.15);
   }
 }
