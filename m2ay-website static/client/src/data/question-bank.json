@@ -1,0 +1,56 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "titleAr": "أسئلة المقابلات التقنية",
+      "titleEn": "Technical Interview Questions",
+      "descriptionAr": "أسئلة حول التحليل المالي والنماذج",
+      "descriptionEn": "Questions about financial analysis and models",
+      "questionCount": 45
+    },
+    {
+      "id": "2",
+      "titleAr": "أسئلة المقابلات السلوكية",
+      "titleEn": "Behavioral Interview Questions",
+      "descriptionAr": "أسئلة حول المهارات والخبرات",
+      "descriptionEn": "Questions about skills and experiences",
+      "questionCount": 38
+    },
+    {
+      "id": "3",
+      "titleAr": "أسئلة الحالات العملية",
+      "titleEn": "Case Study Questions",
+      "descriptionAr": "دراسات حالات واقعية",
+      "descriptionEn": "Real-world case studies",
+      "questionCount": 25
+    },
+    {
+      "id": "4",
+      "titleAr": "أسئلة Excel المتقدمة",
+      "titleEn": "Advanced Excel Questions",
+      "descriptionAr": "أسئلة حول Excel والبرمجة",
+      "descriptionEn": "Questions about Excel and VBA",
+      "questionCount": 32
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "categoryId": "1",
+      "questionAr": "ما الفرق بين الربح الإجمالي والربح التشغيلي؟",
+      "questionEn": "What is the difference between Gross Profit and Operating Profit?",
+      "answerAr": "الربح الإجمالي = الإيرادات - تكلفة البضاعة المباعة، بينما الربح التشغيلي = الربح الإجمالي - المصروفات التشغيلية",
+      "answerEn": "Gross Profit = Revenue - Cost of Goods Sold, while Operating Profit = Gross Profit - Operating Expenses",
+      "difficulty": "Easy"
+    },
+    {
+      "id": "q2",
+      "categoryId": "1",
+      "questionAr": "كيف تحسب نسبة الدين إلى حقوق الملكية؟",
+      "questionEn": "How do you calculate the Debt-to-Equity Ratio?",
+      "answerAr": "نسبة الدين إلى حقوق الملكية = إجمالي الالتزامات / إجمالي حقوق الملكية",
+      "answerEn": "Debt-to-Equity Ratio = Total Liabilities / Total Equity",
+      "difficulty": "Medium"
+    }
+  ]
+}

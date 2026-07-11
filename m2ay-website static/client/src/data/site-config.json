@@ -1,0 +1,27 @@
+{
+  "siteName": "M2AY Finance",
+  "siteDescription": "Professional Finance Career Operating System",
+  "profile": {
+    "fullName": "محمد مجدي",
+    "title": "FP&A Analyst",
+    "photoUrl": "/m2ay-website/images/mohamed-magdy.jpg",
+    "bio": "متخصص في التمويل والمحاسبة مع خبرة عملية في بناء المسارات المهنية",
+    "skills": [
+      "Financial Analysis",
+      "Excel & VBA",
+      "FP&A",
+      "Business Intelligence",
+      "Strategic Planning"
+    ],
+    "certifications": [
+      "CFA Level 1",
+      "Excel Certification",
+      "Financial Modeling"
+    ]
+  },
+  "contact": {
+    "whatsapp": "https://wa.me/201000000000",
+    "email": "contact@m2ay.com",
+    "linkedin": "https://linkedin.com/in/m2ay"
+  }
+}

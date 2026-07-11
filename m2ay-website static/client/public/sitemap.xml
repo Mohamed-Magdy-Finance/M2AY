@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Home -->
+  <url>
+    <loc>https://username.github.io/m2ay-website/ar</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://username.github.io/m2ay-website/en" />
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://username.github.io/m2ay-website/en</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://username.github.io/m2ay-website/ar" />
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Chapters -->
+  <url>
+    <loc>https://username.github.io/m2ay-website/ar/chapters</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://username.github.io/m2ay-website/en/chapters" />
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://username.github.io/m2ay-website/en/chapters</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://username.github.io/m2ay-website/ar/chapters" />
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Templates -->
+  <url>
+    <loc>https://username.github.io/m2ay-website/ar/templates</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://username.github.io/m2ay-website/en/templates" />
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://username.github.io/m2ay-website/en/templates</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://username.github.io/m2ay-website/ar/templates" />
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Question Bank -->
+  <url>
+    <loc>https://username.github.io/m2ay-website/ar/question-bank</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://username.github.io/m2ay-website/en/question-bank" />
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://username.github.io/m2ay-website/en/question-bank</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://username.github.io/m2ay-website/ar/question-bank" />
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- About -->
+  <url>
+    <loc>https://username.github.io/m2ay-website/ar/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://username.github.io/m2ay-website/en/about" />
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://username.github.io/m2ay-website/en/about</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://username.github.io/m2ay-website/ar/about" />
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Privacy & Terms -->
+  <url>
+    <loc>https://username.github.io/m2ay-website/ar/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://username.github.io/m2ay-website/en/privacy-policy" />
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://username.github.io/m2ay-website/en/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://username.github.io/m2ay-website/ar/privacy-policy" />
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://username.github.io/m2ay-website/ar/terms-of-use</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://username.github.io/m2ay-website/en/terms-of-use" />
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://username.github.io/m2ay-website/en/terms-of-use</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://username.github.io/m2ay-website/ar/terms-of-use" />
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>

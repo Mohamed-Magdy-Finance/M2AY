@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "titleAr": "مقدمة في التمويل",
+    "titleEn": "Introduction to Finance",
+    "descriptionAr": "أساسيات التمويل والمحاسبة",
+    "descriptionEn": "Fundamentals of Finance and Accounting",
+    "order": 1,
+    "category": "Basics"
+  },
+  {
+    "id": "2",
+    "titleAr": "القوائم المالية",
+    "titleEn": "Financial Statements",
+    "descriptionAr": "فهم الميزانية العمومية وقائمة الدخل",
+    "descriptionEn": "Understanding Balance Sheet and Income Statement",
+    "order": 2,
+    "category": "Basics"
+  },
+  {
+    "id": "3",
+    "titleAr": "تحليل النسب المالية",
+    "titleEn": "Financial Ratios Analysis",
+    "descriptionAr": "تحليل النسب المالية والمؤشرات",
+    "descriptionEn": "Analyzing Financial Ratios and Indicators",
+    "order": 3,
+    "category": "Analysis"
+  },
+  {
+    "id": "4",
+    "titleAr": "الموازنة والتخطيط",
+    "titleEn": "Budgeting and Planning",
+    "descriptionAr": "إعداد الموازنات والخطط المالية",
+    "descriptionEn": "Preparing Budgets and Financial Plans",
+    "order": 4,
+    "category": "Planning"
+  },
+  {
+    "id": "5",
+    "titleAr": "تحليل الاستثمارات",
+    "titleEn": "Investment Analysis",
+    "descriptionAr": "تقييم الفرص الاستثمارية",
+    "descriptionEn": "Evaluating Investment Opportunities",
+    "order": 5,
+    "category": "Investment"
+  },
+  {
+    "id": "6",
+    "titleAr": "إدارة المخاطر",
+    "titleEn": "Risk Management",
+    "descriptionAr": "تحديد وإدارة المخاطر المالية",
+    "descriptionEn": "Identifying and Managing Financial Risks",
+    "order": 6,
+    "category": "Risk"
+  }
+]

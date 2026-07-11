@@ -1,0 +1,46 @@
+[
+  {
+    "id": "1",
+    "titleAr": "قالب الموازنة السنوية",
+    "titleEn": "Annual Budget Template",
+    "descriptionAr": "قالب Excel جاهز لإعداد الموازنة السنوية",
+    "descriptionEn": "Ready-made Excel template for annual budgeting",
+    "category": "Budget",
+    "downloadUrl": "/m2ay-website/downloads/annual-budget.xlsx",
+    "downloadCount": 1250,
+    "relatedChapters": ["4"]
+  },
+  {
+    "id": "2",
+    "titleAr": "قالب تحليل النسب المالية",
+    "titleEn": "Financial Ratios Analysis Template",
+    "descriptionAr": "قالب لتحليل النسب المالية بسهولة",
+    "descriptionEn": "Template for easy financial ratios analysis",
+    "category": "Analysis",
+    "downloadUrl": "/m2ay-website/downloads/financial-ratios.xlsx",
+    "downloadCount": 890,
+    "relatedChapters": ["3"]
+  },
+  {
+    "id": "3",
+    "titleAr": "قالب نموذج مالي",
+    "titleEn": "Financial Model Template",
+    "descriptionAr": "نموذج مالي متقدم للتنبؤات",
+    "descriptionEn": "Advanced financial model for forecasting",
+    "category": "Modeling",
+    "downloadUrl": "/m2ay-website/downloads/financial-model.xlsx",
+    "downloadCount": 2100,
+    "relatedChapters": ["4", "5"]
+  },
+  {
+    "id": "4",
+    "titleAr": "قالب تقرير الأداء",
+    "titleEn": "Performance Report Template",
+    "descriptionAr": "قالب لتقارير الأداء الشهرية",
+    "descriptionEn": "Template for monthly performance reports",
+    "category": "Reporting",
+    "downloadUrl": "/m2ay-website/downloads/performance-report.xlsx",
+    "downloadCount": 650,
+    "relatedChapters": ["3"]
+  }
+]
