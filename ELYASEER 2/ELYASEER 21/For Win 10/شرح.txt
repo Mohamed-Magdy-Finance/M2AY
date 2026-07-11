@@ -1,8 +1,0 @@
-1---ﬂ·Ìﬂ Ì„Ì‰ ⁄·Ï 
-Microsoft .NET Framework 3.5 Offline Installer
-«Œ Ì«—2----
-run as adminstrator
-brows
-«Œ Ì«— „Ã·œ3------
-sources\sxs
-4  start instalition
