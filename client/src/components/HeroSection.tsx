@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { ArrowRight, ArrowLeft, TrendingUp, PieChart, BarChart3 } from "lucide-react";
+import { ArrowRight, ArrowLeft, TrendingUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/hooks/useLanguage";
 
@@ -38,8 +38,8 @@ export default function HeroSection() {
       {/* Content Container */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-0 h-full flex items-center">
         <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-          {/* Left Content */}
-          <div className="space-y-8 text-center lg:text-start">
+          {/* Left Content (Text) */}
+          <div className="space-y-8 text-center lg:text-start order-2 lg:order-1">
             {/* Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full" style={{ background: "rgba(201, 166, 107, 0.15)", color: "var(--accent)" }}>
               <TrendingUp className="w-4 h-4" />
@@ -131,81 +131,14 @@ export default function HeroSection() {
             </div>
           </div>
 
-          {/* Right Visual - Financial Icons Grid */}
-          <div className="hidden lg:flex justify-center items-center">
-            <div className="relative w-full max-w-sm h-96">
-              {/* Card 1 - Top Right */}
-              <div
-                className="absolute top-0 right-0 w-56 h-40 rounded-3xl p-6 shadow-lg transform hover:scale-105 transition-all duration-300 cursor-pointer backdrop-blur-sm"
-                style={{
-                  background: "rgba(255, 255, 255, 0.95)",
-                  boxShadow: "var(--shadow-lg)",
-                }}
-              >
-                <div className="flex items-center gap-3 mb-4">
-                  <div
-                    className="p-3 rounded-xl"
-                    style={{ background: "var(--accent-light)" }}
-                  >
-                    <BarChart3 className="w-6 h-6" style={{ color: "var(--accent)" }} />
-                  </div>
-                  <span className="text-sm font-bold" style={{ color: "var(--primary)" }}>
-                    {isAr ? "تحليل مالي" : "Financial Analysis"}
-                  </span>
-                </div>
-                <p className="text-xs opacity-70" style={{ color: "var(--text-secondary)" }}>
-                  {isAr ? "تقنيات متقدمة" : "Advanced techniques"}
-                </p>
-              </div>
-
-              {/* Card 2 - Bottom Left */}
-              <div
-                className="absolute bottom-0 left-0 w-56 h-40 rounded-3xl p-6 shadow-lg transform hover:scale-105 transition-all duration-300 cursor-pointer backdrop-blur-sm"
-                style={{
-                  background: "rgba(255, 255, 255, 0.95)",
-                  boxShadow: "var(--shadow-lg)",
-                }}
-              >
-                <div className="flex items-center gap-3 mb-4">
-                  <div
-                    className="p-3 rounded-xl"
-                    style={{ background: "var(--accent-light)" }}
-                  >
-                    <PieChart className="w-6 h-6" style={{ color: "var(--accent)" }} />
-                  </div>
-                  <span className="text-sm font-bold" style={{ color: "var(--primary)" }}>
-                    {isAr ? "قوالب جاهزة" : "Ready Templates"}
-                  </span>
-                </div>
-                <p className="text-xs opacity-70" style={{ color: "var(--text-secondary)" }}>
-                  {isAr ? "احترافية وسهلة" : "Professional & easy"}
-                </p>
-              </div>
-
-              {/* Card 3 - Center */}
-              <div
-                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-56 h-40 rounded-3xl p-6 shadow-lg transform hover:scale-105 transition-all duration-300 cursor-pointer backdrop-blur-sm"
-                style={{
-                  background: "rgba(255, 255, 255, 0.95)",
-                  boxShadow: "var(--shadow-lg)",
-                }}
-              >
-                <div className="flex items-center gap-3 mb-4">
-                  <div
-                    className="p-3 rounded-xl"
-                    style={{ background: "var(--accent-light)" }}
-                  >
-                    <TrendingUp className="w-6 h-6" style={{ color: "var(--accent)" }} />
-                  </div>
-                  <span className="text-sm font-bold" style={{ color: "var(--primary)" }}>
-                    {isAr ? "مقابلات" : "Interviews"}
-                  </span>
-                </div>
-                <p className="text-xs opacity-70" style={{ color: "var(--text-secondary)" }}>
-                  {isAr ? "تحضر احترافي" : "Expert prep"}
-                </p>
-              </div>
-            </div>
+          {/* Right Visual - Professional Profile Image with Exact User Specs */}
+          <div className="flex justify-center items-center order-1 lg:order-2">
+            <img
+              src={`${import.meta.env.BASE_URL}images/mohamed-magdy.jpg`}
+              alt={isAr ? "محمد مجدي" : "Mohamed Magdy"}
+              className="profile-image"
+              loading="eager"
+            />
           </div>
         </div>
       </div>
@@ -220,7 +153,7 @@ export default function HeroSection() {
         </div>
       </div>
 
-      {/* CSS Animation */}
+      {/* CSS Animation for Background */}
       <style>{`
         @keyframes float {
           0%, 100% { transform: translateY(0px); }

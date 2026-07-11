@@ -270,3 +270,43 @@
     box-shadow: 0 0 20px rgba(201, 166, 107, 0.15);
   }
 }
+
+/* Profile Image Styles - Professional Redesign */
+.profile-image {
+  width: 400px;
+  height: 460px;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 32px;
+  border: 6px solid #C9A66B;
+  box-shadow:
+    0 25px 50px rgba(27,42,74,.22),
+    0 8px 20px rgba(0,0,0,.08);
+  transition:
+    transform .4s ease,
+    box-shadow .4s ease,
+    border-color .4s ease;
+}
+
+.profile-image:hover {
+  transform: translateY(-10px) scale(1.03);
+  border-color: #B8924F;
+  box-shadow:
+    0 35px 70px rgba(27,42,74,.30),
+    0 15px 30px rgba(0,0,0,.12);
+}
+
+@media (max-width: 1024px) {
+  .profile-image {
+    width: 320px;
+    height: 370px;
+  }
+}
+
+@media (max-width: 640px) {
+  .profile-image {
+    width: 260px;
+    height: 300px;
+  }
+}
