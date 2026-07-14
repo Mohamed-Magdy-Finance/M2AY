@@ -53,7 +53,7 @@ export default function PrivacyPolicy() {
             <h2>التواصل</h2>
             <p>
               لأي استفسار بخصوص هذه السياسة، تواصل معنا على{" "}
-              {settings?.contactEmail && <a href={`mailto:${settings.contactEmail}`}>{settings.contactEmail}</a>}
+              {settings.contact.email && <a href={`mailto:${settings.contact.email}`}>{settings.contact.email}</a>}
             </p>
           </>
         ) : (
@@ -82,12 +82,12 @@ export default function PrivacyPolicy() {
             <h2>Contact</h2>
             <p>
               For any questions about this policy, contact us at{" "}
-              {settings?.contactEmail && <a href={`mailto:${settings.contactEmail}`}>{settings.contactEmail}</a>}
+              {settings.contact.email && <a href={`mailto:${settings.contact.email}`}>{settings.contact.email}</a>}
             </p>
           </>
         )}
       </div>
-      <SiteFooter whatsapp={settings?.whatsappNumber} email={settings?.contactEmail} linkedIn={settings?.linkedInUrl} siteName={settings?.siteName} footerText={settings?.footerText} />
+      <SiteFooter whatsapp={settings.contact.whatsappNumber} email={settings.contact.email} linkedIn={settings.contact.linkedin} siteName={settings.siteName} />
     </div>
   );
 }

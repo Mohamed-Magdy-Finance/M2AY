@@ -9,7 +9,6 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
-      "@shared": path.resolve(import.meta.dirname, "shared"),
     },
   },
   envDir: path.resolve(import.meta.dirname),
@@ -22,7 +21,6 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: {
-          vendor: ["react", "react-dom"],
           router: ["wouter"],
           ui: ["@radix-ui/react-dialog", "@radix-ui/react-dropdown-menu"],
         },

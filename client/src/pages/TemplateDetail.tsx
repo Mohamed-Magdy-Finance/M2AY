@@ -1,163 +1,122 @@
-import { useParams, Link } from "wouter";
+import { Link, useParams } from "wouter";
 import { useLanguage } from "@/hooks/useLanguage";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, ArrowLeft, Download } from "lucide-react";
+import { Download, Link as LinkIcon } from "lucide-react";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import AutoBanner from "@/components/AutoBanner";
 import { useSEO } from "@/hooks/useSEO";
 import { toast } from "sonner";
-import { templates as templatesData, siteConfig } from "@/data";
+import { templates, siteConfig, getChaptersForTemplate } from "@/data";
+
+const CATEGORIES_AR: Record<string, string> = {
+  Valuation: "التقييم", Modeling: "النمذجة", Budgeting: "الموازنة",
+  "Personal Finance": "المالية الشخصية", "Accounting Systems": "الأنظمة المحاسبية",
+  Startup: "الشركات الناشئة", "Performance Analysis": "تحليل الأداء",
+};
 
 export default function TemplateDetail() {
   const params = useParams<{ id: string }>();
-  const templateId = params.id;
+  const templateId = Number(params.id);
   const { isAr, lp } = useLanguage();
 
-  const template = templatesData.find(t => t.id === templateId);
-  const settings = siteConfig;
+  const template = templates.find(t => t.id === templateId);
 
   useSEO({
-    title: template ? (isAr ? template.titleAr : template.titleEn) : (isAr ? "قالب" : "Template"),
-    description: template ? (isAr ? template.descriptionAr : template.descriptionEn) : (isAr ? "قالب مالي احترافي" : "A professional financial template"),
+    title: template ? (isAr ? template.arabicName : template.englishName) : (isAr ? "قالب" : "Template"),
+    description: template?.shortDescription || (isAr ? "قالب مالي احترافي" : "A professional financial template"),
     path: `/templates/${templateId}`,
   });
 
   if (!template) {
     return (
-      <div dir={isAr ? "rtl" : "ltr"} className="min-h-screen flex flex-col">
-        <SiteHeader siteName={settings.siteName} />
-        <div className="flex-1 flex items-center justify-center">
-          <div className="text-center">
-            <p className="text-2xl font-bold mb-4">{isAr ? "القالب غير موجود" : "Template not found"}</p>
-            <Link href={lp("/templates")}>
-              <a className="text-accent hover:underline">{isAr ? "العودة للقوالب" : "Back to templates"}</a>
-            </Link>
-          </div>
-        </div>
-        <SiteFooter siteName={settings.siteName} />
+      <div className="min-h-screen flex flex-col">
+        <SiteHeader siteName={siteConfig.siteName} />
+        <p className="text-center py-32 text-muted-foreground flex-1">{isAr ? "القالب غير موجود" : "Template not found"}</p>
+        <SiteFooter siteName={siteConfig.siteName} />
       </div>
     );
   }
 
-  const currentIndex = templatesData.findIndex(t => t.id === templateId);
-  const prevTemplate = currentIndex > 0 ? templatesData[currentIndex - 1] : null;
-  const nextTemplate = currentIndex < templatesData.length - 1 ? templatesData[currentIndex + 1] : null;
+  const relatedChapters = getChaptersForTemplate(template.id);
 
   const handleDownload = () => {
-    toast.success(isAr ? "جاري التحميل..." : "Download started...");
-    // فتح رابط التحميل
-    if (template.downloadUrl) {
-      window.open(template.downloadUrl, "_blank");
-    }
+    window.open(template.githubUrl, "_blank");
+  };
+
+  const handleCopyLink = () => {
+    navigator.clipboard.writeText(window.location.href);
+    toast.success(isAr ? "تم نسخ الرابط" : "Link copied");
   };
 
   return (
     <div dir={isAr ? "rtl" : "ltr"} className="min-h-screen bg-background text-foreground">
-      <SiteHeader siteName={settings.siteName} />
+      <SiteHeader siteName={siteConfig.siteName} />
 
-      <div className="max-w-4xl mx-auto px-4 py-10">
-        {/* Breadcrumbs */}
-        <div className="mb-8 flex items-center gap-2 text-sm opacity-70">
-          <Link href={lp("/")}><a className="hover:opacity-100">{isAr ? "الرئيسية" : "Home"}</a></Link>
-          <span>/</span>
-          <Link href={lp("/templates")}><a className="hover:opacity-100">{isAr ? "القوالب" : "Templates"}</a></Link>
-          <span>/</span>
-          <span>{isAr ? template.titleAr : template.titleEn}</span>
+      <div className="max-w-3xl mx-auto px-4 py-10">
+        <Breadcrumbs
+          items={[
+            { label: isAr ? "الرئيسية" : "Home", href: "/" },
+            { label: isAr ? "القوالب" : "Templates", href: "/templates" },
+            { label: isAr ? template.arabicName : template.englishName },
+          ]}
+        />
+
+        <AutoBanner
+          title={isAr ? template.arabicName : template.englishName}
+          category={template.category}
+          difficultyLevel={template.difficultyLevel}
+          className="mb-6 aspect-[21/9]"
+        />
+
+        <div className="flex flex-wrap gap-2 mb-3">
+          <Badge variant="secondary">{isAr ? CATEGORIES_AR[template.category] ?? template.category : template.category}</Badge>
+          {template.difficultyLevel && <Badge variant="outline">{template.difficultyLevel}</Badge>}
+        </div>
+        <h1 className="text-3xl font-extrabold mb-1">{isAr ? template.arabicName : template.englishName}</h1>
+        <p className="text-lg text-muted-foreground mb-6">{isAr ? template.englishName : template.arabicName}</p>
+
+        <p className="text-base mb-6 leading-relaxed">{template.shortDescription}</p>
+
+        {template.detailedExplanation && (
+          <Card className="p-6 mb-8">
+            <h2 className="font-bold mb-3">{isAr ? "شرح تفصيلي" : "Detailed Explanation"}</h2>
+            <p className="text-sm leading-relaxed opacity-90">{template.detailedExplanation}</p>
+          </Card>
+        )}
+
+        <div className="flex flex-wrap gap-3 mb-10">
+          <Button size="lg" onClick={handleDownload} className="gap-2" style={{ background: "var(--accent)", color: "var(--accent-foreground)" }}>
+            <Download className="w-4 h-4" />
+            {isAr ? "تحميل القالب" : "Download Template"}
+          </Button>
+          <Button size="lg" variant="outline" onClick={handleCopyLink} className="gap-2">
+            <LinkIcon className="w-4 h-4" />
+            {isAr ? "نسخ الرابط" : "Copy Link"}
+          </Button>
         </div>
 
-        {/* Header */}
-        <div className="mb-12">
-          <Badge className="mb-4">{template.category}</Badge>
-          <h1 className="text-4xl font-extrabold mb-4">{isAr ? template.titleAr : template.titleEn}</h1>
-          <p className="text-lg opacity-80">{isAr ? template.descriptionAr : template.descriptionEn}</p>
-        </div>
-
-        {/* Content */}
-        <Card className="p-8 mb-12">
-          <div className="space-y-6">
-            <div>
-              <h2 className="text-xl font-bold mb-3">{isAr ? "عن هذا القالب" : "About This Template"}</h2>
-              <p className="opacity-80">{isAr ? template.descriptionAr : template.descriptionEn}</p>
-            </div>
-
-            <div className="grid md:grid-cols-2 gap-6">
-              <div>
-                <h3 className="font-bold mb-2">{isAr ? "الفئة" : "Category"}</h3>
-                <Badge variant="secondary">{template.category}</Badge>
-              </div>
-              <div>
-                <h3 className="font-bold mb-2">{isAr ? "عدد التحميلات" : "Downloads"}</h3>
-                <p className="text-sm opacity-80">{template.downloadCount.toLocaleString()}</p>
-              </div>
-            </div>
-
-            {template.relatedChapters && template.relatedChapters.length > 0 && (
-              <div>
-                <h3 className="font-bold mb-3">{isAr ? "الفصول المرتبطة" : "Related Chapters"}</h3>
-                <div className="flex flex-wrap gap-2">
-                  {template.relatedChapters.map((chapterId, i) => (
-                    <Badge key={i} variant="outline">
-                      {isAr ? "الفصل" : "Chapter"} {chapterId}
-                    </Badge>
-                  ))}
-                </div>
-              </div>
-            )}
-
-            <div className="pt-6 border-t">
-              <Button
-                onClick={handleDownload}
-                size="lg"
-                className="w-full gap-2"
-                style={{ background: "var(--accent)", color: "var(--accent-foreground)" }}
-              >
-                <Download className="w-4 h-4" />
-                {isAr ? "تحميل القالب" : "Download Template"}
-              </Button>
+        {relatedChapters.length > 0 && (
+          <div>
+            <h2 className="font-bold text-lg mb-4">{isAr ? "فصول مرتبطة" : "Related Chapters"}</h2>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {relatedChapters.map(c => (
+                <Link key={c.id} href={lp(`/chapters/${c.id}`)}>
+                  <Card className="p-4 hover:shadow-lg transition-shadow cursor-pointer">
+                    <Badge variant="outline" className="mb-2">{isAr ? `فصل ${c.chapterNumber}` : `Chapter ${c.chapterNumber}`}</Badge>
+                    <p className="font-semibold text-sm">{isAr ? c.arabicTitle : c.englishTitle}</p>
+                  </Card>
+                </Link>
+              ))}
             </div>
           </div>
-        </Card>
-
-        {/* Navigation */}
-        <div className="grid md:grid-cols-2 gap-4 mb-12">
-          {prevTemplate ? (
-            <Link href={lp(`/templates/${prevTemplate.id}`)}>
-              <Card className="p-4 hover:shadow-lg transition-shadow cursor-pointer">
-                <div className="flex items-center gap-2 mb-2">
-                  {isAr ? <ArrowRight className="w-4 h-4" /> : <ArrowLeft className="w-4 h-4" />}
-                  <span className="text-sm opacity-70">{isAr ? "القالب السابق" : "Previous Template"}</span>
-                </div>
-                <p className="font-bold">{isAr ? prevTemplate.titleAr : prevTemplate.titleEn}</p>
-              </Card>
-            </Link>
-          ) : (
-            <div />
-          )}
-
-          {nextTemplate ? (
-            <Link href={lp(`/templates/${nextTemplate.id}`)}>
-              <Card className="p-4 hover:shadow-lg transition-shadow cursor-pointer">
-                <div className="flex items-center justify-end gap-2 mb-2">
-                  <span className="text-sm opacity-70">{isAr ? "القالب التالي" : "Next Template"}</span>
-                  {isAr ? <ArrowLeft className="w-4 h-4" /> : <ArrowRight className="w-4 h-4" />}
-                </div>
-                <p className="font-bold text-right">{isAr ? nextTemplate.titleAr : nextTemplate.titleEn}</p>
-              </Card>
-            </Link>
-          ) : (
-            <div />
-          )}
-        </div>
+        )}
       </div>
 
-      <SiteFooter
-        whatsapp={settings.contact.whatsapp}
-        email={settings.contact.email}
-        linkedIn={settings.contact.linkedin}
-        siteName={settings.siteName}
-      />
+      <SiteFooter siteName={siteConfig.siteName} whatsapp={siteConfig.contact.whatsappNumber} email={siteConfig.contact.email} linkedIn={siteConfig.contact.linkedin} />
     </div>
   );
 }

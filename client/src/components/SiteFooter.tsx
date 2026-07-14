@@ -29,14 +29,12 @@ export default function SiteFooter({
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           {/* Brand */}
           <div className="md:col-span-1">
-            <div className="flex items-center gap-2 mb-4">
-              <div
-                className="w-10 h-10 rounded-lg flex items-center justify-center font-bold text-white"
-                style={{ background: "linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%)" }}
-              >
-                M
-              </div>
-              <span className="text-lg font-bold">{siteName || "M2AY"}</span>
+            <div className="flex items-center mb-4">
+              <img
+                src={`${import.meta.env.BASE_URL}images/logo-dark.svg`}
+                alt={siteName || "M2AY"}
+                className="h-10 w-auto"
+              />
             </div>
             <p className="text-sm opacity-70">
               {isAr
@@ -52,35 +50,27 @@ export default function SiteFooter({
             </h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href={lp("/")}>
-                  <a className="opacity-70 hover:opacity-100 hover:text-accent transition-all flex items-center gap-1 group">
-                    {isAr ? "الرئيسية" : "Home"}
-                    <ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
-                  </a>
+                <Link href={lp("/")} className="opacity-70 hover:opacity-100 hover:text-accent transition-all flex items-center gap-1 group">
+                  {isAr ? "الرئيسية" : "Home"}
+                  <ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </li>
               <li>
-                <Link href={lp("/chapters")}>
-                  <a className="opacity-70 hover:opacity-100 hover:text-accent transition-all flex items-center gap-1 group">
-                    {isAr ? "الدليل" : "Guide"}
-                    <ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
-                  </a>
+                <Link href={lp("/chapters")} className="opacity-70 hover:opacity-100 hover:text-accent transition-all flex items-center gap-1 group">
+                  {isAr ? "الدليل" : "Guide"}
+                  <ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </li>
               <li>
-                <Link href={lp("/templates")}>
-                  <a className="opacity-70 hover:opacity-100 hover:text-accent transition-all flex items-center gap-1 group">
-                    {isAr ? "القوالب" : "Templates"}
-                    <ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
-                  </a>
+                <Link href={lp("/templates")} className="opacity-70 hover:opacity-100 hover:text-accent transition-all flex items-center gap-1 group">
+                  {isAr ? "القوالب" : "Templates"}
+                  <ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </li>
               <li>
-                <Link href={lp("/question-bank")}>
-                  <a className="opacity-70 hover:opacity-100 hover:text-accent transition-all flex items-center gap-1 group">
-                    {isAr ? "بنك الأسئلة" : "Questions"}
-                    <ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
-                  </a>
+                <Link href={lp("/question-bank")} className="opacity-70 hover:opacity-100 hover:text-accent transition-all flex items-center gap-1 group">
+                  {isAr ? "بنك الأسئلة" : "Questions"}
+                  <ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </li>
             </ul>
@@ -93,17 +83,13 @@ export default function SiteFooter({
             </h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href={lp("/privacy-policy")}>
-                  <a className="opacity-70 hover:opacity-100 hover:text-accent transition-all">
-                    {isAr ? "سياسة الخصوصية" : "Privacy Policy"}
-                  </a>
+                <Link href={lp("/privacy-policy")} className="opacity-70 hover:opacity-100 hover:text-accent transition-all">
+                  {isAr ? "سياسة الخصوصية" : "Privacy Policy"}
                 </Link>
               </li>
               <li>
-                <Link href={lp("/terms-of-use")}>
-                  <a className="opacity-70 hover:opacity-100 hover:text-accent transition-all">
-                    {isAr ? "شروط الاستخدام" : "Terms of Use"}
-                  </a>
+                <Link href={lp("/terms-of-use")} className="opacity-70 hover:opacity-100 hover:text-accent transition-all">
+                  {isAr ? "شروط الاستخدام" : "Terms of Use"}
                 </Link>
               </li>
             </ul>

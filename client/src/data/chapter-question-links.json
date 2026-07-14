@@ -1,0 +1,182 @@
+[
+  {
+    "chapterId": 1,
+    "categoryIds": [
+      1
+    ]
+  },
+  {
+    "chapterId": 2,
+    "categoryIds": [
+      1
+    ]
+  },
+  {
+    "chapterId": 3,
+    "categoryIds": [
+      1
+    ]
+  },
+  {
+    "chapterId": 4,
+    "categoryIds": [
+      4,
+      6,
+      7
+    ]
+  },
+  {
+    "chapterId": 5,
+    "categoryIds": [
+      4,
+      6,
+      7
+    ]
+  },
+  {
+    "chapterId": 6,
+    "categoryIds": [
+      4,
+      6,
+      7
+    ]
+  },
+  {
+    "chapterId": 7,
+    "categoryIds": [
+      5,
+      9
+    ]
+  },
+  {
+    "chapterId": 8,
+    "categoryIds": [
+      5,
+      9
+    ]
+  },
+  {
+    "chapterId": 9,
+    "categoryIds": [
+      5,
+      9
+    ]
+  },
+  {
+    "chapterId": 10,
+    "categoryIds": [
+      5,
+      9
+    ]
+  },
+  {
+    "chapterId": 11,
+    "categoryIds": [
+      5,
+      11
+    ]
+  },
+  {
+    "chapterId": 12,
+    "categoryIds": [
+      5,
+      11
+    ]
+  },
+  {
+    "chapterId": 13,
+    "categoryIds": [
+      5,
+      11
+    ]
+  },
+  {
+    "chapterId": 14,
+    "categoryIds": [
+      5,
+      11
+    ]
+  },
+  {
+    "chapterId": 15,
+    "categoryIds": [
+      4,
+      10
+    ]
+  },
+  {
+    "chapterId": 16,
+    "categoryIds": [
+      4,
+      10
+    ]
+  },
+  {
+    "chapterId": 17,
+    "categoryIds": [
+      4,
+      10
+    ]
+  },
+  {
+    "chapterId": 18,
+    "categoryIds": [
+      4,
+      10
+    ]
+  },
+  {
+    "chapterId": 19,
+    "categoryIds": [
+      8,
+      11
+    ]
+  },
+  {
+    "chapterId": 20,
+    "categoryIds": [
+      8,
+      11
+    ]
+  },
+  {
+    "chapterId": 21,
+    "categoryIds": [
+      8,
+      11
+    ]
+  },
+  {
+    "chapterId": 22,
+    "categoryIds": [
+      8,
+      11
+    ]
+  },
+  {
+    "chapterId": 23,
+    "categoryIds": [
+      8,
+      11
+    ]
+  },
+  {
+    "chapterId": 24,
+    "categoryIds": [
+      8,
+      11
+    ]
+  },
+  {
+    "chapterId": 25,
+    "categoryIds": [
+      11
+    ]
+  },
+  {
+    "chapterId": 26,
+    "categoryIds": [
+      11
+    ]
+  }
+]

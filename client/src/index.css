@@ -271,7 +271,15 @@
   }
 }
 
-/* Profile Image Styles - Professional Redesign */
+/* Hero photo — full-bleed, no border/frame (photo touches the screen edge by design) */
+.hero-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 15%;
+}
+
+/* Kept for any other page still using the framed treatment (e.g. About page) */
 .profile-image {
   width: 400px;
   height: 460px;

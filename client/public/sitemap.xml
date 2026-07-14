@@ -1,121 +1,563 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <!-- Home -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://username.github.io/m2ay-website/ar</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://username.github.io/m2ay-website/en" />
-    <lastmod>2026-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en" />
   </url>
-
   <url>
-    <loc>https://username.github.io/m2ay-website/en</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://username.github.io/m2ay-website/ar" />
-    <lastmod>2026-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en" />
   </url>
-
-  <!-- Chapters -->
   <url>
-    <loc>https://username.github.io/m2ay-website/ar/chapters</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://username.github.io/m2ay-website/en/chapters" />
-    <lastmod>2026-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/chapters</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters" />
   </url>
-
   <url>
-    <loc>https://username.github.io/m2ay-website/en/chapters</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://username.github.io/m2ay-website/ar/chapters" />
-    <lastmod>2026-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/chapters</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters" />
   </url>
-
-  <!-- Templates -->
   <url>
-    <loc>https://username.github.io/m2ay-website/ar/templates</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://username.github.io/m2ay-website/en/templates" />
-    <lastmod>2026-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/templates</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/templates" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/templates" />
   </url>
-
   <url>
-    <loc>https://username.github.io/m2ay-website/en/templates</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://username.github.io/m2ay-website/ar/templates" />
-    <lastmod>2026-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/templates</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/templates" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/templates" />
   </url>
-
-  <!-- Question Bank -->
   <url>
-    <loc>https://username.github.io/m2ay-website/ar/question-bank</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://username.github.io/m2ay-website/en/question-bank" />
-    <lastmod>2026-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/question-bank" />
   </url>
-
   <url>
-    <loc>https://username.github.io/m2ay-website/en/question-bank</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://username.github.io/m2ay-website/ar/question-bank" />
-    <lastmod>2026-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/question-bank</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/question-bank" />
   </url>
-
-  <!-- About -->
   <url>
-    <loc>https://username.github.io/m2ay-website/ar/about</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://username.github.io/m2ay-website/en/about" />
-    <lastmod>2026-07-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/about</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/about" />
   </url>
-
   <url>
-    <loc>https://username.github.io/m2ay-website/en/about</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://username.github.io/m2ay-website/ar/about" />
-    <lastmod>2026-07-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/about</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/about" />
   </url>
-
-  <!-- Privacy & Terms -->
   <url>
-    <loc>https://username.github.io/m2ay-website/ar/privacy-policy</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://username.github.io/m2ay-website/en/privacy-policy" />
-    <lastmod>2026-07-10</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/privacy-policy" />
   </url>
-
   <url>
-    <loc>https://username.github.io/m2ay-website/en/privacy-policy</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://username.github.io/m2ay-website/ar/privacy-policy" />
-    <lastmod>2026-07-10</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/privacy-policy" />
   </url>
-
   <url>
-    <loc>https://username.github.io/m2ay-website/ar/terms-of-use</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://username.github.io/m2ay-website/en/terms-of-use" />
-    <lastmod>2026-07-10</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/terms-of-use</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/terms-of-use" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/terms-of-use" />
   </url>
-
   <url>
-    <loc>https://username.github.io/m2ay-website/en/terms-of-use</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://username.github.io/m2ay-website/ar/terms-of-use" />
-    <lastmod>2026-07-10</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/terms-of-use</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/terms-of-use" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/terms-of-use" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/1</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/1" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/1" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/chapters/1</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/1" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/1" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/2</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/2" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/2" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/chapters/2</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/2" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/2" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/3</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/3" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/3" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/chapters/3</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/3" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/3" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/4</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/4" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/4" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/chapters/4</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/4" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/4" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/5</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/5" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/5" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/chapters/5</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/5" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/5" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/6</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/6" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/6" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/chapters/6</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/6" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/6" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/7</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/7" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/7" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/chapters/7</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/7" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/7" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/8</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/8" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/8" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/chapters/8</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/8" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/8" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/9</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/9" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/9" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/chapters/9</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/9" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/9" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/10</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/10" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/10" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/chapters/10</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/10" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/10" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/11</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/11" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/11" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/chapters/11</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/11" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/11" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/12</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/12" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/12" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/chapters/12</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/12" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/12" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/13</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/13" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/13" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/chapters/13</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/13" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/13" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/14</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/14" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/14" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/chapters/14</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/14" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/14" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/15</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/15" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/15" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/chapters/15</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/15" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/15" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/16</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/16" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/16" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/chapters/16</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/16" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/16" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/17</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/17" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/17" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/chapters/17</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/17" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/17" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/18</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/18" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/18" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/chapters/18</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/18" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/18" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/19</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/19" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/19" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/chapters/19</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/19" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/19" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/20</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/20" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/20" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/chapters/20</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/20" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/20" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/21</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/21" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/21" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/chapters/21</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/21" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/21" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/22</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/22" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/22" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/chapters/22</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/22" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/22" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/23</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/23" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/23" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/chapters/23</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/23" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/23" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/24</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/24" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/24" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/chapters/24</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/24" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/24" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/25</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/25" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/25" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/chapters/25</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/25" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/25" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/26</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/26" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/26" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/chapters/26</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/chapters/26" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/chapters/26" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/templates/1</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/templates/1" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/templates/1" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/templates/1</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/templates/1" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/templates/1" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/templates/2</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/templates/2" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/templates/2" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/templates/2</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/templates/2" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/templates/2" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/templates/3</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/templates/3" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/templates/3" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/templates/3</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/templates/3" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/templates/3" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/templates/4</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/templates/4" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/templates/4" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/templates/4</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/templates/4" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/templates/4" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/templates/5</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/templates/5" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/templates/5" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/templates/5</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/templates/5" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/templates/5" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/templates/6</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/templates/6" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/templates/6" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/templates/6</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/templates/6" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/templates/6" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/templates/7</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/templates/7" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/templates/7" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/templates/7</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/templates/7" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/templates/7" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/templates/8</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/templates/8" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/templates/8" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/templates/8</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/templates/8" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/templates/8" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/templates/9</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/templates/9" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/templates/9" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/templates/9</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/templates/9" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/templates/9" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/templates/10</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/templates/10" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/templates/10" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/templates/10</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/templates/10" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/templates/10" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/templates/11</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/templates/11" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/templates/11" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/templates/11</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/templates/11" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/templates/11" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/templates/12</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/templates/12" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/templates/12" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/templates/12</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/templates/12" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/templates/12" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/1</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/1" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/1" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/1</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/1" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/1" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/2</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/2" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/2" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/2</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/2" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/2" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/3</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/3" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/3" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/3</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/3" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/3" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/4</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/4" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/4" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/4</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/4" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/4" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/5</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/5" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/5" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/5</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/5" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/5" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/6</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/6" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/6" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/6</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/6" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/6" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/7</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/7" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/7" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/7</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/7" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/7" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/8</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/8" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/8" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/8</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/8" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/8" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/9</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/9" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/9" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/9</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/9" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/9" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/10</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/10" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/10" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/10</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/10" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/10" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/11</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/11" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/11" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/11</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/question-bank/11" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/question-bank/11" />
   </url>
 </urlset>

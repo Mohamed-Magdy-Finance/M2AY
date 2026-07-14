@@ -18,26 +18,28 @@ export default function UniversalSearch() {
   const [query, setQuery] = useState("");
   const [, navigate] = useLocation();
 
-  // البحث في البيانات الثابتة
   const searchResults = useMemo(() => {
-    if (query.trim().length < 2) return { chapters: [], templates: [], questions: [] };
-
+    if (query.trim().length < 2) return { chapters: [], templates: [], categories: [] };
     const q = query.toLowerCase();
 
     return {
-      chapters: chapters.filter(c =>
-        (isAr ? c.titleAr : c.titleEn).toLowerCase().includes(q) ||
-        (isAr ? c.descriptionAr : c.descriptionEn).toLowerCase().includes(q)
-      ),
-      templates: templates.filter(t =>
-        (isAr ? t.titleAr : t.titleEn).toLowerCase().includes(q) ||
-        (isAr ? t.descriptionAr : t.descriptionEn).toLowerCase().includes(q)
-      ),
-      questions: questionBank.categories.filter(cat =>
-        (isAr ? cat.titleAr : cat.titleEn).toLowerCase().includes(q)
-      ),
+      chapters: chapters.filter(
+        c =>
+          c.arabicTitle.toLowerCase().includes(q) ||
+          c.englishTitle.toLowerCase().includes(q) ||
+          (c.summary ?? "").toLowerCase().includes(q)
+      ).slice(0, 6),
+      templates: templates.filter(
+        t =>
+          t.arabicName.toLowerCase().includes(q) ||
+          t.englishName.toLowerCase().includes(q) ||
+          (t.shortDescription ?? "").toLowerCase().includes(q)
+      ).slice(0, 6),
+      categories: questionBank.categories.filter(
+        cat => cat.arabicName.toLowerCase().includes(q) || cat.englishName.toLowerCase().includes(q)
+      ).slice(0, 6),
     };
-  }, [query, isAr]);
+  }, [query]);
 
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
@@ -64,73 +66,53 @@ export default function UniversalSearch() {
       >
         <Search className="w-3.5 h-3.5" />
         <span className="hidden sm:inline">{isAr ? "بحث..." : "Search..."}</span>
-        <span className="text-xs opacity-50 hidden sm:inline">⌘K</span>
+        <kbd className="hidden sm:inline text-[10px] opacity-60 border rounded px-1">⌘K</kbd>
       </button>
 
       <CommandDialog open={open} onOpenChange={setOpen}>
         <CommandInput
-          placeholder={isAr ? "ابحث في الفصول والقوالب والأسئلة..." : "Search chapters, templates, questions..."}
+          placeholder={isAr ? "دور في الفصول والقوالب والأسئلة..." : "Search chapters, templates, questions..."}
           value={query}
           onValueChange={setQuery}
         />
         <CommandList>
-          <CommandEmpty>{isAr ? "لا توجد نتائج" : "No results found"}</CommandEmpty>
-
-          {searchResults.chapters.length > 0 && (
-            <CommandGroup heading={isAr ? "الفصول" : "Chapters"}>
-              {searchResults.chapters.map(ch => (
-                <CommandItem
-                  key={ch.id}
-                  value={ch.id}
-                  onSelect={() => goTo(`/chapters/${ch.id}`)}
-                  className="cursor-pointer"
-                >
-                  <BookOpen className="w-4 h-4 me-2" />
-                  <div className="flex-1">
-                    <p className="font-medium">{isAr ? ch.titleAr : ch.titleEn}</p>
-                    <p className="text-xs opacity-60">{isAr ? ch.descriptionAr : ch.descriptionEn}</p>
-                  </div>
-                </CommandItem>
-              ))}
-            </CommandGroup>
-          )}
-
-          {searchResults.templates.length > 0 && (
-            <CommandGroup heading={isAr ? "القوالب" : "Templates"}>
-              {searchResults.templates.map(t => (
-                <CommandItem
-                  key={t.id}
-                  value={t.id}
-                  onSelect={() => goTo(`/templates/${t.id}`)}
-                  className="cursor-pointer"
-                >
-                  <FileSpreadsheet className="w-4 h-4 me-2" />
-                  <div className="flex-1">
-                    <p className="font-medium">{isAr ? t.titleAr : t.titleEn}</p>
-                    <p className="text-xs opacity-60">{isAr ? t.descriptionAr : t.descriptionEn}</p>
-                  </div>
-                </CommandItem>
-              ))}
-            </CommandGroup>
-          )}
-
-          {searchResults.questions.length > 0 && (
-            <CommandGroup heading={isAr ? "فئات الأسئلة" : "Question Categories"}>
-              {searchResults.questions.map(cat => (
-                <CommandItem
-                  key={cat.id}
-                  value={cat.id}
-                  onSelect={() => goTo(`/question-bank/${cat.id}`)}
-                  className="cursor-pointer"
-                >
-                  <HelpCircle className="w-4 h-4 me-2" />
-                  <div className="flex-1">
-                    <p className="font-medium">{isAr ? cat.titleAr : cat.titleEn}</p>
-                    <p className="text-xs opacity-60">{isAr ? cat.descriptionAr : cat.descriptionEn}</p>
-                  </div>
-                </CommandItem>
-              ))}
-            </CommandGroup>
+          {query.trim().length < 2 ? (
+            <CommandEmpty>{isAr ? "اكتب حرفين على الأقل" : "Type at least 2 characters"}</CommandEmpty>
+          ) : searchResults.chapters.length === 0 && searchResults.templates.length === 0 && searchResults.categories.length === 0 ? (
+            <CommandEmpty>{isAr ? "مفيش نتائج" : "No results found"}</CommandEmpty>
+          ) : (
+            <>
+              {searchResults.chapters.length > 0 && (
+                <CommandGroup heading={isAr ? "📚 الفصول" : "📚 Chapters"}>
+                  {searchResults.chapters.map(ch => (
+                    <CommandItem key={`ch-${ch.id}`} value={`chapter-${ch.id}`} onSelect={() => goTo(`/chapters/${ch.id}`)} className="gap-2">
+                      <BookOpen className="w-4 h-4 shrink-0 opacity-60" />
+                      {isAr ? ch.arabicTitle : ch.englishTitle}
+                    </CommandItem>
+                  ))}
+                </CommandGroup>
+              )}
+              {searchResults.templates.length > 0 && (
+                <CommandGroup heading={isAr ? "📄 القوالب" : "📄 Templates"}>
+                  {searchResults.templates.map(t => (
+                    <CommandItem key={`t-${t.id}`} value={`template-${t.id}`} onSelect={() => goTo(`/templates/${t.id}`)} className="gap-2">
+                      <FileSpreadsheet className="w-4 h-4 shrink-0 opacity-60" />
+                      {isAr ? t.arabicName : t.englishName}
+                    </CommandItem>
+                  ))}
+                </CommandGroup>
+              )}
+              {searchResults.categories.length > 0 && (
+                <CommandGroup heading={isAr ? "❓ فئات الأسئلة" : "❓ Question Categories"}>
+                  {searchResults.categories.map(cat => (
+                    <CommandItem key={`c-${cat.id}`} value={`category-${cat.id}`} onSelect={() => goTo(`/question-bank/${cat.id}`)} className="gap-2">
+                      <HelpCircle className="w-4 h-4 shrink-0 opacity-60" />
+                      {isAr ? cat.arabicName : cat.englishName}
+                    </CommandItem>
+                  ))}
+                </CommandGroup>
+              )}
+            </>
           )}
         </CommandList>
       </CommandDialog>

@@ -5,204 +5,132 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { toast } from "sonner";
+import { MessageCircle, Mail } from "lucide-react";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import { useSEO } from "@/hooks/useSEO";
 import { siteConfig } from "@/data";
 
 export default function About() {
-  const { isAr, lp } = useLanguage();
+  const { isAr } = useLanguage();
+  const { profile, contact, consultation } = siteConfig;
 
   useSEO({
     title: isAr ? "من أنا" : "About Me",
-    description: isAr
-      ? "تعرّف على محمد مجدي، محلل FP&A، واحجز استشارة مالية أو مهنية."
-      : "Learn about Mohamed Magdy, FP&A Analyst, and book a finance or career consultation.",
+    description: profile.summary,
     path: "/about",
   });
 
-  const profile = siteConfig.profile;
-  const settings = siteConfig;
+  const [form, setForm] = useState({ name: "", message: "" });
 
-  const skills = profile.skills || [];
-  const certifications = profile.certifications || [];
+  const buildMessage = () => {
+    const intro = isAr ? "مرحبًا محمد، اسمي" : "Hi Mohamed, my name is";
+    const msgLabel = isAr ? "رسالتي" : "My message";
+    return `${intro} ${form.name || (isAr ? "..." : "...")}.\n${msgLabel}: ${form.message || "-"}`;
+  };
 
-  const [form, setForm] = useState({ name: "", email: "", whatsapp: "", message: "" });
-  const [isSubmitting, setIsSubmitting] = useState(false);
+  const sendViaWhatsApp = () => {
+    const text = encodeURIComponent(buildMessage());
+    window.open(`https://wa.me/${contact.whatsappNumber}?text=${text}`, "_blank");
+  };
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    try {
-      // في نسخة Static، نستخدم Formspree أو EmailJS
-      // للآن، نعرض رسالة نجاح
-      toast.success(isAr ? "تم إرسال طلبك بنجاح! هنتواصل معك قريبًا." : "Request sent! We'll be in touch soon.");
-      setForm({ name: "", email: "", whatsapp: "", message: "" });
-    } catch {
-      toast.error(isAr ? "حصل خطأ، حاول تاني" : "Something went wrong, please try again");
-    } finally {
-      setIsSubmitting(false);
-    }
+  const sendViaEmail = () => {
+    const subject = encodeURIComponent(isAr ? "طلب استشارة من الموقع" : "Consultation request from the site");
+    const body = encodeURIComponent(buildMessage());
+    window.location.href = `mailto:${contact.email}?subject=${subject}&body=${body}`;
   };
 
   return (
     <div dir={isAr ? "rtl" : "ltr"} className="min-h-screen bg-background text-foreground">
-      <SiteHeader siteName={settings.siteName} />
+      <SiteHeader siteName={siteConfig.siteName} />
 
-      <div className="max-w-6xl mx-auto px-4 py-10">
-        {/* Hero Section */}
-        <div className="grid md:grid-cols-2 gap-8 mb-16">
+      <div className="max-w-4xl mx-auto px-4 py-10">
+        <div className="flex flex-col sm:flex-row gap-8 items-start mb-12">
+          <img src={profile.photoUrl} alt={profile.fullName} className="w-40 h-40 rounded-2xl object-cover border-4 shrink-0" style={{ borderColor: "var(--accent)" }} />
           <div>
-            <h1 className="text-4xl font-extrabold mb-4">{profile.fullName}</h1>
-            <p className="text-lg opacity-80 mb-4">{profile.title}</p>
-            <p className="text-base opacity-70 mb-8">{profile.bio}</p>
-
-            <div className="mb-8">
-              <h3 className="font-bold mb-3">{isAr ? "المهارات" : "Skills"}</h3>
-              <div className="flex flex-wrap gap-2">
-                {skills.map((skill, i) => (
-                  <Badge key={i} variant="secondary">{skill}</Badge>
-                ))}
-              </div>
-            </div>
-
-            <div>
-              <h3 className="font-bold mb-3">{isAr ? "الشهادات" : "Certifications"}</h3>
-              <div className="flex flex-wrap gap-2">
-                {certifications.map((cert, i) => (
-                  <Badge key={i} variant="outline">{cert}</Badge>
-                ))}
-              </div>
-            </div>
-          </div>
-
-          <div className="flex justify-center">
-            <img
-              src={profile.photoUrl}
-              alt={profile.fullName}
-              className="rounded-2xl w-full max-w-sm h-auto object-cover border-4"
-              style={{ borderColor: "var(--accent)" }}
-            />
+            <h1 className="text-3xl font-extrabold mb-1">{profile.fullName}</h1>
+            <p className="text-lg text-muted-foreground mb-4">{profile.title}</p>
+            <p className="leading-relaxed opacity-90">{profile.summary}</p>
           </div>
         </div>
 
-        {/* Consultation Form */}
-        <div className="max-w-2xl mx-auto">
-          <Card className="p-8">
-            <h2 className="text-2xl font-bold mb-6">
-              {isAr ? "احجز استشارة" : "Book a Consultation"}
-            </h2>
+        {profile.skills?.length > 0 && (
+          <section className="mb-10">
+            <h2 className="font-bold text-lg mb-3">{isAr ? "المهارات" : "Skills"}</h2>
+            <div className="flex flex-wrap gap-2">
+              {profile.skills.map((s: string, i: number) => <Badge key={i} variant="secondary">{s}</Badge>)}
+            </div>
+          </section>
+        )}
 
-            <form onSubmit={handleSubmit} className="space-y-4">
-              <div>
-                <label className="block text-sm font-medium mb-2">
-                  {isAr ? "الاسم" : "Name"}
-                </label>
-                <Input
-                  type="text"
-                  value={form.name}
-                  onChange={(e) => setForm({ ...form, name: e.target.value })}
-                  placeholder={isAr ? "أدخل اسمك" : "Your name"}
-                  required
-                />
-              </div>
+        {profile.certifications?.length > 0 && (
+          <section className="mb-10">
+            <h2 className="font-bold text-lg mb-3">{isAr ? "الشهادات" : "Certifications"}</h2>
+            <div className="flex flex-wrap gap-2">
+              {profile.certifications.map((c: string, i: number) => <Badge key={i} variant="outline">{c}</Badge>)}
+            </div>
+          </section>
+        )}
 
-              <div>
-                <label className="block text-sm font-medium mb-2">
-                  {isAr ? "البريد الإلكتروني" : "Email"}
-                </label>
-                <Input
-                  type="email"
-                  value={form.email}
-                  onChange={(e) => setForm({ ...form, email: e.target.value })}
-                  placeholder={isAr ? "بريدك الإلكتروني" : "your@email.com"}
-                  required
-                />
-              </div>
+        {profile.experience?.length > 0 && (
+          <section className="mb-10">
+            <h2 className="font-bold text-lg mb-3">{isAr ? "الخبرة العملية" : "Experience"}</h2>
+            <div className="space-y-3">
+              {profile.experience.map((e: any, i: number) => (
+                <Card key={i} className="p-4">
+                  <p className="font-semibold">{e.title}</p>
+                  <p className="text-sm text-muted-foreground">{e.company} — {e.period}</p>
+                </Card>
+              ))}
+            </div>
+          </section>
+        )}
 
-              <div>
-                <label className="block text-sm font-medium mb-2">
-                  {isAr ? "واتساب (اختياري)" : "WhatsApp (Optional)"}
-                </label>
-                <Input
-                  type="tel"
-                  value={form.whatsapp}
-                  onChange={(e) => setForm({ ...form, whatsapp: e.target.value })}
-                  placeholder={isAr ? "رقم واتساب" : "+1 (555) 000-0000"}
-                />
-              </div>
+        {profile.education?.length > 0 && (
+          <section className="mb-14">
+            <h2 className="font-bold text-lg mb-3">{isAr ? "التعليم" : "Education"}</h2>
+            <div className="space-y-3">
+              {profile.education.map((e: any, i: number) => (
+                <Card key={i} className="p-4">
+                  <p className="font-semibold">{e.degree}</p>
+                  <p className="text-sm text-muted-foreground">{e.school} — {e.years}{e.grade ? ` — ${e.grade}` : ""}</p>
+                </Card>
+              ))}
+            </div>
+          </section>
+        )}
 
-              <div>
-                <label className="block text-sm font-medium mb-2">
-                  {isAr ? "رسالتك" : "Message"}
-                </label>
-                <Textarea
-                  value={form.message}
-                  onChange={(e) => setForm({ ...form, message: e.target.value })}
-                  placeholder={isAr ? "أخبرني عن احتياجاتك" : "Tell me about your needs"}
-                  rows={5}
-                  required
-                />
-              </div>
+        <Card className="p-6">
+          <h2 className="font-bold text-lg mb-1">{isAr ? "احجز استشارة" : "Book a Consultation"}</h2>
+          {consultation?.price && (
+            <p className="font-bold text-xl mb-2" style={{ color: "var(--accent)" }}>
+              ${consultation.price} {isAr ? "للجلسة" : "per session"}
+            </p>
+          )}
+          {consultation?.description && <p className="text-sm text-muted-foreground mb-4">{consultation.description}</p>}
 
-              <Button
-                type="submit"
-                disabled={isSubmitting}
-                size="lg"
-                className="w-full"
-                style={{ background: "var(--accent)", color: "var(--accent-foreground)" }}
-              >
-                {isSubmitting ? (isAr ? "جاري الإرسال..." : "Sending...") : (isAr ? "أرسل الطلب" : "Send Request")}
+          <p className="text-xs text-muted-foreground mb-4">
+            {isAr
+              ? "اكتب بياناتك، وهيتفتح واتساب أو الإيميل برسالتك جاهزة — تقدر تبعتها على طول."
+              : "Fill in your details, then WhatsApp or Email will open with your message ready to send."}
+          </p>
+
+          <div className="space-y-4">
+            <Input placeholder={isAr ? "الاسم" : "Name"} value={form.name} onChange={e => setForm({ ...form, name: e.target.value })} />
+            <Textarea placeholder={isAr ? "اكتب رسالتك أو استفسارك" : "Tell us what you'd like to discuss"} value={form.message} onChange={e => setForm({ ...form, message: e.target.value })} />
+            <div className="flex flex-wrap gap-3">
+              <Button onClick={sendViaWhatsApp} className="gap-2" style={{ background: "var(--accent)", color: "var(--accent-foreground)" }}>
+                <MessageCircle className="w-4 h-4" /> {isAr ? "إرسال عبر واتساب" : "Send via WhatsApp"}
               </Button>
-            </form>
-
-            <div className="mt-8 pt-8 border-t">
-              <h3 className="font-bold mb-4">{isAr ? "تواصل معي مباشرة" : "Contact Me Directly"}</h3>
-              <div className="space-y-3">
-                {settings.contact.whatsapp && (
-                  <a
-                    href={settings.contact.whatsapp}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="block p-3 rounded-lg border hover:bg-muted transition-colors"
-                  >
-                    <p className="font-medium">WhatsApp</p>
-                    <p className="text-sm opacity-70">{settings.contact.whatsapp}</p>
-                  </a>
-                )}
-                {settings.contact.email && (
-                  <a
-                    href={`mailto:${settings.contact.email}`}
-                    className="block p-3 rounded-lg border hover:bg-muted transition-colors"
-                  >
-                    <p className="font-medium">{isAr ? "البريد الإلكتروني" : "Email"}</p>
-                    <p className="text-sm opacity-70">{settings.contact.email}</p>
-                  </a>
-                )}
-                {settings.contact.linkedin && (
-                  <a
-                    href={settings.contact.linkedin}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="block p-3 rounded-lg border hover:bg-muted transition-colors"
-                  >
-                    <p className="font-medium">LinkedIn</p>
-                    <p className="text-sm opacity-70">{settings.contact.linkedin}</p>
-                  </a>
-                )}
-              </div>
+              <Button onClick={sendViaEmail} variant="outline" className="gap-2">
+                <Mail className="w-4 h-4" /> {isAr ? "إرسال عبر الإيميل" : "Send via Email"}
+              </Button>
             </div>
-          </Card>
-        </div>
+          </div>
+        </Card>
       </div>
 
-      <SiteFooter
-        whatsapp={settings.contact.whatsapp}
-        email={settings.contact.email}
-        linkedIn={settings.contact.linkedin}
-        siteName={settings.siteName}
-      />
+      <SiteFooter siteName={siteConfig.siteName} whatsapp={contact.whatsappNumber} email={contact.email} linkedIn={contact.linkedin} />
     </div>
   );
 }

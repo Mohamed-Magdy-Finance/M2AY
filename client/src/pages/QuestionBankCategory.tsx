@@ -1,104 +1,105 @@
-import { useParams, Link } from "wouter";
+import { useParams } from "wouter";
 import { useLanguage } from "@/hooks/useLanguage";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import { useSEO } from "@/hooks/useSEO";
-import { questionBank, siteConfig } from "@/data";
+import { questionBank, siteConfig, getQuestionsByCategory } from "@/data";
 
 export default function QuestionBankCategory() {
   const params = useParams<{ categoryId: string }>();
-  const categoryId = params.categoryId;
-  const { isAr, lp } = useLanguage();
+  const categoryId = Number(params.categoryId);
+  const { isAr } = useLanguage();
 
   const category = questionBank.categories.find(c => c.id === categoryId);
-  const questions = questionBank.questions.filter(q => q.categoryId === categoryId);
-  const settings = siteConfig;
+  const questions = getQuestionsByCategory(categoryId);
 
   useSEO({
-    title: category ? (isAr ? category.titleAr : category.titleEn) : (isAr ? "فئة أسئلة" : "Question Category"),
-    description: category ? (isAr ? category.descriptionAr : category.descriptionEn) : (isAr ? "فئة من أسئلة المقابلات" : "A category of interview questions"),
+    title: category ? (isAr ? category.arabicName : category.englishName) : (isAr ? "فئة أسئلة" : "Question Category"),
+    description: isAr
+      ? `${questions.length} سؤال مقابلة حقيقي في هذه الفئة، بإجابات نموذجية وأخطاء شائعة.`
+      : `${questions.length} real interview questions in this category, with model answers and common mistakes.`,
     path: `/question-bank/${categoryId}`,
   });
 
-  if (!category) {
-    return (
-      <div dir={isAr ? "rtl" : "ltr"} className="min-h-screen flex flex-col">
-        <SiteHeader siteName={settings.siteName} />
-        <div className="flex-1 flex items-center justify-center">
-          <div className="text-center">
-            <p className="text-2xl font-bold mb-4">{isAr ? "الفئة غير موجودة" : "Category not found"}</p>
-            <Link href={lp("/question-bank")}>
-              <a className="text-accent hover:underline">{isAr ? "العودة لبنك الأسئلة" : "Back to question bank"}</a>
-            </Link>
-          </div>
-        </div>
-        <SiteFooter siteName={settings.siteName} />
-      </div>
-    );
-  }
-
   return (
     <div dir={isAr ? "rtl" : "ltr"} className="min-h-screen bg-background text-foreground">
-      <SiteHeader siteName={settings.siteName} />
+      <SiteHeader siteName={siteConfig.siteName} />
 
       <div className="max-w-3xl mx-auto px-4 py-10">
-        {/* Breadcrumbs */}
-        <div className="mb-8 flex items-center gap-2 text-sm opacity-70">
-          <Link href={lp("/")}><a className="hover:opacity-100">{isAr ? "الرئيسية" : "Home"}</a></Link>
-          <span>/</span>
-          <Link href={lp("/question-bank")}><a className="hover:opacity-100">{isAr ? "بنك الأسئلة" : "Question Bank"}</a></Link>
-          <span>/</span>
-          <span>{isAr ? category.titleAr : category.titleEn}</span>
-        </div>
+        <Breadcrumbs
+          items={[
+            { label: isAr ? "الرئيسية" : "Home", href: "/" },
+            { label: isAr ? "بنك الأسئلة" : "Question Bank", href: "/question-bank" },
+            { label: category ? (isAr ? category.arabicName : category.englishName) : "..." },
+          ]}
+        />
 
-        {/* Header */}
-        <div className="mb-8">
-          <h1 className="text-3xl font-extrabold mb-2">{isAr ? category.titleAr : category.titleEn}</h1>
-          <p className="text-muted-foreground mb-4">{isAr ? category.descriptionAr : category.descriptionEn}</p>
-          <p className="text-sm opacity-70">
-            {isAr ? `${questions.length} سؤال في هذه الفئة` : `${questions.length} questions in this category`}
-          </p>
-        </div>
+        {category && (
+          <>
+            <h1 className="text-3xl font-extrabold mb-1">{isAr ? category.arabicName : category.englishName}</h1>
+            <p className="text-muted-foreground mb-8">
+              {isAr ? `${questions.length} سؤال في هذه الفئة` : `${questions.length} questions in this category`}
+            </p>
+          </>
+        )}
 
-        {/* Questions Accordion */}
-        {questions.length > 0 ? (
-          <Accordion type="single" collapsible className="space-y-2">
-            {questions.map((q, i) => (
-              <AccordionItem key={q.id} value={q.id} className="border rounded-lg px-4">
-                <AccordionTrigger className="hover:no-underline py-4">
-                  <div className="flex items-start gap-3 text-left">
-                    <span className="text-sm font-bold opacity-50 min-w-fit">{String(i + 1).padStart(2, "0")}</span>
-                    <span className="font-medium">{isAr ? q.questionAr : q.questionEn}</span>
-                  </div>
+        <Accordion type="single" collapsible className="space-y-2">
+          {questions.map(q => {
+            const showEn = !isAr;
+            const hasEnglish = Boolean(q.englishQuestion);
+            const noTranslation = showEn && !hasEnglish;
+            return (
+              <AccordionItem key={q.id} value={String(q.id)} className="border rounded-lg px-4">
+                <AccordionTrigger className="text-start font-semibold">
+                  {showEn && hasEnglish ? q.englishQuestion : q.question}
                 </AccordionTrigger>
-                <AccordionContent className="pb-4">
-                  <div className="space-y-4 ps-8">
+                <AccordionContent className="space-y-4 pt-2">
+                  {noTranslation && (
+                    <p className="text-sm italic opacity-70 mb-2">English version will be available soon. Showing the Arabic content below.</p>
+                  )}
+                  {(showEn && hasEnglish ? q.englishWhyAsked : q.whyAsked) && (
                     <div>
-                      <h4 className="font-bold mb-2 text-sm">{isAr ? "الإجابة" : "Answer"}</h4>
-                      <p className="text-sm opacity-80">{isAr ? q.answerAr : q.answerEn}</p>
+                      <p className="text-xs font-bold mb-1" style={{ color: "var(--accent)" }}>{isAr ? "ليه بيتسأل؟" : "Why is it asked?"}</p>
+                      <p className="text-sm opacity-80">{showEn && hasEnglish ? q.englishWhyAsked : q.whyAsked}</p>
                     </div>
+                  )}
+                  {(showEn && hasEnglish ? q.englishInterviewerMindset : q.interviewerMindset) && (
                     <div>
-                      <span className="text-xs px-2 py-1 rounded-full" style={{ background: "var(--accent)", color: "var(--accent-foreground)" }}>
-                        {q.difficulty}
-                      </span>
+                      <p className="text-xs font-bold mb-1" style={{ color: "var(--accent)" }}>{isAr ? "عقلية الـ Interviewer" : "Interviewer's Mindset"}</p>
+                      <p className="text-sm opacity-80">{showEn && hasEnglish ? q.englishInterviewerMindset : q.interviewerMindset}</p>
                     </div>
-                  </div>
+                  )}
+                  {(showEn && hasEnglish ? q.englishModelAnswer : q.modelAnswer) && (
+                    <div>
+                      <p className="text-xs font-bold mb-1" style={{ color: "var(--accent)" }}>{isAr ? "الإجابة النموذجية" : "Model Answer"}</p>
+                      <p className="text-sm opacity-80">{showEn && hasEnglish ? q.englishModelAnswer : q.modelAnswer}</p>
+                    </div>
+                  )}
+                  {(showEn && hasEnglish ? q.englishCommonMistakes : q.commonMistakes) && (
+                    <div>
+                      <p className="text-xs font-bold mb-1" style={{ color: "var(--accent)" }}>{isAr ? "الأخطاء الشائعة" : "Common Mistakes"}</p>
+                      <p className="text-sm opacity-80">{showEn && hasEnglish ? q.englishCommonMistakes : q.commonMistakes}</p>
+                    </div>
+                  )}
+                  {(showEn && hasEnglish ? q.englishFollowUpQuestion : q.followUpQuestion) && (
+                    <div>
+                      <p className="text-xs font-bold mb-1" style={{ color: "var(--accent)" }}>{isAr ? "سؤال متابعة" : "Follow-up Question"}</p>
+                      <p className="text-sm opacity-80">{showEn && hasEnglish ? q.englishFollowUpQuestion : q.followUpQuestion}</p>
+                      {(showEn && hasEnglish ? q.englishFollowUpAnswer : q.followUpAnswer) && (
+                        <p className="text-sm opacity-70 mt-1">{showEn && hasEnglish ? q.englishFollowUpAnswer : q.followUpAnswer}</p>
+                      )}
+                    </div>
+                  )}
                 </AccordionContent>
               </AccordionItem>
-            ))}
-          </Accordion>
-        ) : (
-          <p className="text-center text-muted-foreground py-12">{isAr ? "لا توجد أسئلة في هذه الفئة" : "No questions in this category"}</p>
-        )}
+            );
+          })}
+        </Accordion>
       </div>
 
-      <SiteFooter
-        whatsapp={settings.contact.whatsapp}
-        email={settings.contact.email}
-        linkedIn={settings.contact.linkedin}
-        siteName={settings.siteName}
-      />
+      <SiteFooter siteName={siteConfig.siteName} whatsapp={siteConfig.contact.whatsappNumber} email={siteConfig.contact.email} linkedIn={siteConfig.contact.linkedin} />
     </div>
   );
 }
