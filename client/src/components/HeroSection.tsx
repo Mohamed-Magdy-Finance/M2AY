@@ -8,7 +8,12 @@ export default function HeroSection() {
   const { isAr, lp } = useLanguage();
 
   return (
-    <section className="relative w-full min-h-screen grid lg:grid-cols-2" style={{ background: "var(--sidebar)" }}>
+    <section
+      className="relative w-full min-h-screen grid lg:grid-cols-2"
+      style={{
+        background: "linear-gradient(to right, color-mix(in srgb, var(--sidebar) 82%, #9FC0CF 18%) 0%, var(--sidebar) 55%)",
+      }}
+    >
       {/* Photo — full-bleed, touches the screen edge, no frame */}
       <div className={`relative min-h-[52vh] lg:min-h-screen ${isAr ? "lg:order-2" : "lg:order-1"}`}>
         <img
@@ -17,14 +22,10 @@ export default function HeroSection() {
           className="hero-photo"
           loading="eager"
         />
-        {/* The one visual transition: a single soft fade where the photo meets the text column */}
+        {/* The one visual transition: a single soft fade where the photo meets the text column (photo always sits physically on the left) */}
         <div
-          className="hidden lg:block absolute inset-y-0 w-32 pointer-events-none"
-          style={
-            isAr
-              ? { left: 0, background: "linear-gradient(to right, var(--sidebar) 0%, transparent 100%)" }
-              : { right: 0, background: "linear-gradient(to left, var(--sidebar) 0%, transparent 100%)" }
-          }
+          className="hidden lg:block absolute inset-y-0 right-0 w-32 pointer-events-none"
+          style={{ background: "linear-gradient(to left, var(--sidebar) 0%, transparent 100%)" }}
         />
         <div
           className="lg:hidden absolute inset-x-0 bottom-0 h-24 pointer-events-none"
