@@ -8,38 +8,68 @@ import {
   CommandItem,
   CommandList,
 } from "@/components/ui/command";
-import { BookOpen, FileSpreadsheet, HelpCircle, Search } from "lucide-react";
+import { BookOpen, FileSpreadsheet, HelpCircle, Search, Loader2 } from "lucide-react";
 import { useLanguage } from "@/hooks/useLanguage";
-import { chapters, templates, questionBank } from "@/data";
+import type { Chapter } from "@/data/chapters";
+import type { Template } from "@/data/templates";
+import type { QuestionCategory } from "@/data/question-categories";
+
+interface SearchableData {
+  chapters: Chapter[];
+  templates: Template[];
+  categories: QuestionCategory[];
+}
 
 export default function UniversalSearch() {
   const { isAr, lp } = useLanguage();
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
   const [, navigate] = useLocation();
+  const [data, setData] = useState<SearchableData | null>(null);
+  const [loading, setLoading] = useState(false);
+
+  // Lazy-load the searchable data only once the dialog is actually opened — this
+  // component sits in the header on every page, so eagerly importing it here would
+  // pull chapter/template data into pages (like the homepage) that don't need it.
+  useEffect(() => {
+    if (!open || data || loading) return;
+    setLoading(true);
+    Promise.all([
+      import("@/data/chapters"),
+      import("@/data/templates"),
+      import("@/data/question-categories"),
+    ]).then(([chaptersMod, templatesMod, categoriesMod]) => {
+      setData({
+        chapters: chaptersMod.chapters,
+        templates: templatesMod.templates,
+        categories: categoriesMod.questionCategories,
+      });
+      setLoading(false);
+    });
+  }, [open, data, loading]);
 
   const searchResults = useMemo(() => {
-    if (query.trim().length < 2) return { chapters: [], templates: [], categories: [] };
+    if (!data || query.trim().length < 2) return { chapters: [], templates: [], categories: [] };
     const q = query.toLowerCase();
 
     return {
-      chapters: chapters.filter(
+      chapters: data.chapters.filter(
         c =>
           c.arabicTitle.toLowerCase().includes(q) ||
           c.englishTitle.toLowerCase().includes(q) ||
           (c.summary ?? "").toLowerCase().includes(q)
       ).slice(0, 6),
-      templates: templates.filter(
+      templates: data.templates.filter(
         t =>
           t.arabicName.toLowerCase().includes(q) ||
           t.englishName.toLowerCase().includes(q) ||
           (t.shortDescription ?? "").toLowerCase().includes(q)
       ).slice(0, 6),
-      categories: questionBank.categories.filter(
+      categories: data.categories.filter(
         cat => cat.arabicName.toLowerCase().includes(q) || cat.englishName.toLowerCase().includes(q)
       ).slice(0, 6),
     };
-  }, [query]);
+  }, [query, data]);
 
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
@@ -76,7 +106,12 @@ export default function UniversalSearch() {
           onValueChange={setQuery}
         />
         <CommandList>
-          {query.trim().length < 2 ? (
+          {loading ? (
+            <div className="flex items-center justify-center py-6 gap-2 text-sm text-muted-foreground">
+              <Loader2 className="w-4 h-4 animate-spin" />
+              {isAr ? "جاري التحميل..." : "Loading..."}
+            </div>
+          ) : query.trim().length < 2 ? (
             <CommandEmpty>{isAr ? "اكتب حرفين على الأقل" : "Type at least 2 characters"}</CommandEmpty>
           ) : searchResults.chapters.length === 0 && searchResults.templates.length === 0 && searchResults.categories.length === 0 ? (
             <CommandEmpty>{isAr ? "مفيش نتائج" : "No results found"}</CommandEmpty>

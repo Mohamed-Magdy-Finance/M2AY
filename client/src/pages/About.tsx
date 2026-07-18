@@ -8,8 +8,10 @@ import { Textarea } from "@/components/ui/textarea";
 import { MessageCircle, Mail } from "lucide-react";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
-import { useSEO } from "@/hooks/useSEO";
+import { useSEO, useJsonLd } from "@/hooks/useSEO";
 import { siteConfig } from "@/data";
+import homepageSummary from "@/data/homepage-summary.json";
+import { Layers } from "lucide-react";
 
 export default function About() {
   const { isAr } = useLanguage();
@@ -17,8 +19,33 @@ export default function About() {
 
   useSEO({
     title: isAr ? "من أنا" : "About Me",
-    description: profile.summary,
+    description: isAr ? profile.summary : (profile.summaryEn || profile.summary),
     path: "/about",
+  });
+
+  useJsonLd({
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        name: profile.fullNameEn || profile.fullName,
+        alternateName: profile.fullName,
+        jobTitle: profile.titleEn || profile.title,
+        description: profile.summaryEn || profile.summary,
+        sameAs: [contact.linkedin, contact.github].filter(Boolean),
+        knowsAbout: profile.skills,
+      },
+      {
+        "@type": "ProfessionalService",
+        name: `${profile.fullNameEn || profile.fullName} — Financial Consultation`,
+        provider: { "@type": "Person", name: profile.fullNameEn || profile.fullName },
+        description: consultation?.descriptionEn || consultation?.description,
+        offers: consultation?.price
+          ? { "@type": "Offer", price: consultation.price, priceCurrency: consultation.currency || "USD" }
+          : undefined,
+        areaServed: "Global",
+      },
+    ],
   });
 
   const [form, setForm] = useState({ name: "", message: "" });
@@ -46,13 +73,63 @@ export default function About() {
 
       <div className="max-w-4xl mx-auto px-4 py-10">
         <div className="flex flex-col sm:flex-row gap-8 items-start mb-12">
-          <img src={profile.photoUrl} alt={profile.fullName} className="w-40 h-40 rounded-2xl object-cover border-4 shrink-0" style={{ borderColor: "var(--accent)" }} />
+          <picture>
+            <source
+              type="image/webp"
+              srcSet={[
+                `${import.meta.env.BASE_URL}images/mohamed-magdy-400w.webp 400w`,
+                `${import.meta.env.BASE_URL}images/mohamed-magdy.webp 648w`,
+              ].join(", ")}
+              sizes="160px"
+            />
+            <img
+              src={`${import.meta.env.BASE_URL}${profile.photoUrl}`}
+              alt={isAr ? profile.fullName : (profile.fullNameEn || profile.fullName)}
+              className="w-40 h-40 rounded-2xl object-cover border-4 shrink-0"
+              style={{ borderColor: "var(--accent)" }}
+              width={160}
+              height={160}
+              loading="lazy"
+            />
+          </picture>
           <div>
-            <h1 className="text-3xl font-extrabold mb-1">{profile.fullName}</h1>
-            <p className="text-lg text-muted-foreground mb-4">{profile.title}</p>
-            <p className="leading-relaxed opacity-90">{profile.summary}</p>
+            <h1 className="text-3xl font-extrabold mb-1">{isAr ? profile.fullName : (profile.fullNameEn || profile.fullName)}</h1>
+            <p className="text-lg text-muted-foreground mb-4">{isAr ? profile.title : (profile.titleEn || profile.title)}</p>
+            <p className="leading-relaxed opacity-90">{isAr ? profile.summary : (profile.summaryEn || profile.summary)}</p>
           </div>
         </div>
+
+        <Card className="p-6 mb-12" style={{ borderColor: "var(--accent)", borderWidth: 1 }}>
+          <div className="flex items-center gap-2 mb-3">
+            <Layers className="w-5 h-5" style={{ color: "var(--accent)" }} />
+            <h2 className="font-bold text-lg">
+              {isAr ? "مؤسس نظام M2AY Financial Operating System (M-FOS)" : "Founder of the M2AY Financial Operating System (M-FOS)"}
+            </h2>
+          </div>
+          <p className="text-sm opacity-80 mb-4">
+            {isAr
+              ? "نظام تشغيل مالي متكامل يجمع بين المعرفة النظرية والتطبيق العملي، مبني على:"
+              : "A complete financial operating system that bridges theory and applied practice, built on:"}
+          </p>
+          <ul className="text-sm space-y-2 opacity-90">
+            <li>
+              {isAr
+                ? `📚 ${homepageSummary.counts.chapters} فصل استراتيجي — من الفلسفة المالية إلى ذكاء السوق`
+                : `📚 ${homepageSummary.counts.chapters} strategic chapters — from financial philosophy to market intelligence`}
+            </li>
+            <li>
+              {isAr
+                ? `📄 ${homepageSummary.counts.templates} قالب احترافي جاهز للتطبيق الفوري`
+                : `📄 ${homepageSummary.counts.templates} professional templates ready for immediate use`}
+            </li>
+            <li>
+              {isAr
+                ? `❓ ${homepageSummary.counts.questions}+ سؤال مقابلات مع إجابات نموذجية`
+                : `❓ ${homepageSummary.counts.questions}+ interview questions with model answers`}
+            </li>
+            <li>{isAr ? "🎯 استشارات مخصصة بنهج M-FOS" : "🎯 Bespoke consultations following the M-FOS approach"}</li>
+          </ul>
+        </Card>
 
         {profile.skills?.length > 0 && (
           <section className="mb-10">
@@ -78,8 +155,10 @@ export default function About() {
             <div className="space-y-3">
               {profile.experience.map((e: any, i: number) => (
                 <Card key={i} className="p-4">
-                  <p className="font-semibold">{e.title}</p>
-                  <p className="text-sm text-muted-foreground">{e.company} — {e.period}</p>
+                  <p className="font-semibold">{isAr ? e.title : (e.titleEn || e.title)}</p>
+                  <p className="text-sm text-muted-foreground">
+                    {isAr ? e.company : (e.companyEn || e.company)} — {isAr ? e.period : (e.periodEn || e.period)}
+                  </p>
                 </Card>
               ))}
             </div>
@@ -92,8 +171,11 @@ export default function About() {
             <div className="space-y-3">
               {profile.education.map((e: any, i: number) => (
                 <Card key={i} className="p-4">
-                  <p className="font-semibold">{e.degree}</p>
-                  <p className="text-sm text-muted-foreground">{e.school} — {e.years}{e.grade ? ` — ${e.grade}` : ""}</p>
+                  <p className="font-semibold">{isAr ? e.degree : (e.degreeEn || e.degree)}</p>
+                  <p className="text-sm text-muted-foreground">
+                    {isAr ? e.school : (e.schoolEn || e.school)} — {e.years}
+                    {e.grade ? ` — ${isAr ? e.grade : (e.gradeEn || e.grade)}` : ""}
+                  </p>
                 </Card>
               ))}
             </div>
@@ -107,7 +189,7 @@ export default function About() {
               ${consultation.price} {isAr ? "للجلسة" : "per session"}
             </p>
           )}
-          {consultation?.description && <p className="text-sm text-muted-foreground mb-4">{consultation.description}</p>}
+          {consultation?.description && <p className="text-sm text-muted-foreground mb-4">{isAr ? consultation.description : (consultation.descriptionEn || consultation.description)}</p>}
 
           <p className="text-xs text-muted-foreground mb-4">
             {isAr

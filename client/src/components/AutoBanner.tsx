@@ -39,6 +39,8 @@ export default function AutoBanner({ title, category, difficultyLevel, updatedAt
 
   return (
     <div
+      role="img"
+      aria-label={title}
       className={`relative w-full aspect-[16/9] rounded-lg overflow-hidden flex flex-col justify-between p-4 ${className ?? ""}`}
       style={{ background: `linear-gradient(135deg, ${color}22, #08182611)` }}
     >

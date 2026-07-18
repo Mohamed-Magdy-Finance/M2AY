@@ -4,12 +4,15 @@ import { Card } from "@/components/ui/card";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import { HelpCircle } from "lucide-react";
-import { useSEO } from "@/hooks/useSEO";
-import { questionBank, siteConfig } from "@/data";
+import { useSEO, useJsonLd } from "@/hooks/useSEO";
+import { questionCategories } from "@/data/question-categories";
+import topQuestions from "@/data/top-questions.json";
+import { siteConfig } from "@/data";
+import homepageSummary from "@/data/homepage-summary.json";
 
 export default function QuestionBank() {
   const { isAr, lp } = useLanguage();
-  const totalQuestions = questionBank.questions.length;
+  const totalQuestions = homepageSummary.counts.questions;
 
   useSEO({
     title: isAr ? "بنك أسئلة المقابلات" : "Interview Question Bank",
@@ -17,6 +20,19 @@ export default function QuestionBank() {
       ? `${totalQuestions} سؤال حقيقي شائع في مقابلات التمويل والمحاسبة، بإجابات نموذجية وأخطاء شائعة.`
       : `${totalQuestions}+ real finance & accounting interview questions with model answers and common mistakes.`,
     path: "/question-bank",
+  });
+
+  useJsonLd({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: topQuestions.map(q => ({
+      "@type": "Question",
+      name: isAr ? q.question : (q.englishQuestion || q.question),
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: (isAr ? q.modelAnswer : (q.englishModelAnswer || q.modelAnswer)) || "",
+      },
+    })),
   });
 
   return (
@@ -27,12 +43,12 @@ export default function QuestionBank() {
         <h1 className="text-3xl font-extrabold mb-2">{isAr ? "بنك أسئلة المقابلات" : "Interview Question Bank"}</h1>
         <p className="text-muted-foreground mb-8">
           {isAr
-            ? `${totalQuestions} سؤال حقيقي شائع في مقابلات التمويل والمحاسبة، موزعة على ${questionBank.categories.length} فئة`
-            : `${totalQuestions} real, common finance & accounting interview questions across ${questionBank.categories.length} categories`}
+            ? `${totalQuestions} سؤال حقيقي شائع في مقابلات التمويل والمحاسبة، موزعة على ${questionCategories.length} فئة`
+            : `${totalQuestions} real, common finance & accounting interview questions across ${questionCategories.length} categories`}
         </p>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {questionBank.categories.map(cat => (
+          {questionCategories.map(cat => (
             <Link key={cat.id} href={lp(`/question-bank/${cat.id}`)}>
               <Card className="p-6 h-full hover:shadow-lg transition-shadow cursor-pointer">
                 <HelpCircle className="w-6 h-6 mb-3" style={{ color: "var(--accent)" }} />

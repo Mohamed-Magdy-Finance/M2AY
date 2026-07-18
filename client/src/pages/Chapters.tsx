@@ -8,7 +8,9 @@ import { Search, FileSpreadsheet } from "lucide-react";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import { useSEO } from "@/hooks/useSEO";
-import { chapters, siteConfig, getTemplatesForChapter } from "@/data";
+import { chapters } from "@/data/chapters";
+import { getTemplatesForChapter } from "@/data/relations";
+import { siteConfig } from "@/data";
 
 const SECTIONS = ["All", "Foundations", "Technical Skills", "Application", "Career OS", "Elite Tools", "Market Intelligence", "Elite Appendices"];
 const SECTIONS_AR: Record<string, string> = {

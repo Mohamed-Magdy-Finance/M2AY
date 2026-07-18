@@ -38,8 +38,8 @@ export default function SiteFooter({
             </div>
             <p className="text-sm opacity-70">
               {isAr
-                ? "منصة تعليمية متخصصة في التحليل المالي والاستشارات المهنية"
-                : "A specialized financial education platform for FP&A professionals"}
+                ? "حيث لا تتعلم المالية فقط، بل تكتسب نظام التشغيل المالي الخاص بك"
+                : "Where you don't just learn finance — you gain your own financial operating system"}
             </p>
           </div>
 

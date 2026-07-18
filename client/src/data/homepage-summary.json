@@ -1,0 +1,70 @@
+{
+  "counts": {
+    "chapters": 26,
+    "templates": 12,
+    "questions": 222
+  },
+  "featuredChapters": [
+    {
+      "id": 1,
+      "chapterNumber": 1,
+      "section": "Foundations",
+      "arabicTitle": "فلسفة التمويل",
+      "englishTitle": "Philosophy of Finance"
+    },
+    {
+      "id": 2,
+      "chapterNumber": 2,
+      "section": "Foundations",
+      "arabicTitle": "التحول العقلي عبر المراحل الوظيفية",
+      "englishTitle": "Mindset Shift"
+    },
+    {
+      "id": 3,
+      "chapterNumber": 3,
+      "section": "Foundations",
+      "arabicTitle": "الإطار المهني وخارطة الطريق",
+      "englishTitle": "Career Framework & Roadmap"
+    }
+  ],
+  "featuredTemplates": [
+    {
+      "id": 1,
+      "arabicName": "نظام محاسبي آلي متكامل",
+      "englishName": "Automated Accounting Cycle System",
+      "category": "Accounting Systems"
+    },
+    {
+      "id": 2,
+      "arabicName": "تحليل الشركات المماثلة (CCA)",
+      "englishName": "Comparable Company Analysis (CCA) Model",
+      "category": "Valuation"
+    },
+    {
+      "id": 3,
+      "arabicName": "التنبؤ المالي الاستراتيجي 2030",
+      "englishName": "Strategic Financial Forecasting & Scenario Analysis System",
+      "category": "Modeling"
+    }
+  ],
+  "featuredCategories": [
+    {
+      "id": 1,
+      "arabicName": "المحاسبة والقوائم المالية",
+      "englishName": "Accounting & Financial Statements",
+      "questionCount": 35
+    },
+    {
+      "id": 2,
+      "arabicName": "التحليل المالي والنسب المالية",
+      "englishName": "Financial Analysis & Ratios",
+      "questionCount": 25
+    },
+    {
+      "id": 3,
+      "arabicName": "التخطيط المالي والموازنات والتنبؤ",
+      "englishName": "FP&A, Budgeting & Forecasting",
+      "questionCount": 25
+    }
+  ]
+}

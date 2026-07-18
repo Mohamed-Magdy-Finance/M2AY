@@ -2,11 +2,13 @@ import { BookOpen, FileSpreadsheet, HelpCircle, User, MessageSquare } from "luci
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import HeroSection from "@/components/HeroSection";
+import MarketTicker from "@/components/MarketTicker";
 import SectionContainer from "@/components/SectionContainer";
 import SectionCard from "@/components/SectionCard";
-import { useSEO } from "@/hooks/useSEO";
+import { useSEO, useJsonLd } from "@/hooks/useSEO";
 import { useLanguage } from "@/hooks/useLanguage";
-import { siteConfig, chapters, templates, questionBank } from "@/data";
+import { siteConfig } from "@/data";
+import homepageSummary from "@/data/homepage-summary.json";
 
 const SECTIONS_AR: Record<string, string> = {
   Foundations: "الأساسيات", "Technical Skills": "المهارات الفنية", Application: "التطبيق",
@@ -21,21 +23,28 @@ const CATEGORIES_AR: Record<string, string> = {
 
 export default function Home() {
   const { isAr, lp } = useLanguage();
+  const { counts, featuredChapters, featuredTemplates, featuredCategories } = homepageSummary;
 
   useSEO({
     title: isAr
       ? "محمد مجدي - خبير التحليل المالي والاستشارات"
       : "Mohamed Magdy - Financial Analysis & Consulting Expert",
     description: isAr
-      ? `منصة تعليمية احترافية متخصصة في التحليل المالي والاستشارات. دليل شامل من ${chapters.length} فصل، ${templates.length} قالب مالي احترافي، و${questionBank.questions.length} سؤال مقابلة حقيقي.`
-      : `Professional financial education platform. ${chapters.length}-chapter comprehensive guide, ${templates.length} ready-to-use templates, and ${questionBank.questions.length} real interview questions.`,
+      ? `منصة تعليمية احترافية متخصصة في التحليل المالي والاستشارات. دليل شامل من ${counts.chapters} فصل، ${counts.templates} قالب مالي احترافي، و${counts.questions} سؤال مقابلة حقيقي.`
+      : `Professional financial education platform. ${counts.chapters}-chapter comprehensive guide, ${counts.templates} ready-to-use templates, and ${counts.questions} real interview questions.`,
     path: "/",
   });
 
-  // Featured cards pulled from real data (first 3 of each), not invented placeholder text
-  const featuredChapters = [...chapters].sort((a, b) => a.chapterNumber - b.chapterNumber).slice(0, 3);
-  const featuredCategories = [...templates].slice(0, 3);
-  const featuredQuestionCats = questionBank.categories.slice(0, 3);
+  useJsonLd({
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: siteConfig.profile.fullNameEn || siteConfig.profile.fullName,
+    alternateName: siteConfig.profile.fullName,
+    jobTitle: siteConfig.profile.titleEn || siteConfig.profile.title,
+    url: "https://mohamed-magdy-finance.github.io/M2AY/",
+    sameAs: [siteConfig.contact.linkedin, siteConfig.contact.github].filter(Boolean),
+    knowsAbout: ["Financial Analysis", "FP&A", "Financial Modeling", "Accounting", "Power BI"],
+  });
 
   return (
     <div
@@ -44,6 +53,8 @@ export default function Home() {
     >
       {/* Header */}
       <SiteHeader siteName={siteConfig.siteName} />
+
+      <MarketTicker />
 
       {/* Hero Section */}
       <HeroSection />
@@ -75,7 +86,7 @@ export default function Home() {
           : "Ready-to-use templates to accelerate your financial work"}
         isDark
       >
-        {featuredCategories.map((t) => (
+        {featuredTemplates.map((t) => (
           <SectionCard
             key={t.id}
             href={lp(`/templates/${t.id}`)}
@@ -94,7 +105,7 @@ export default function Home() {
           ? "تحضر لمقابلاتك مع أسئلة حقيقية وإجابات نموذجية من الخبراء"
           : "Prepare for interviews with real questions and expert model answers"}
       >
-        {featuredQuestionCats.map((cat) => (
+        {featuredCategories.map((cat) => (
           <SectionCard
             key={cat.id}
             href={lp(`/question-bank/${cat.id}`)}

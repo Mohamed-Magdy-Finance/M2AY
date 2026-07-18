@@ -1,19 +1,23 @@
+import { lazy, Suspense } from "react";
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
 import { Route, Switch, Redirect, useParams } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
-import Home from "./pages/Home";
-import Chapters from "./pages/Chapters";
-import ChapterDetail from "./pages/ChapterDetail";
-import Templates from "./pages/Templates";
-import TemplateDetail from "./pages/TemplateDetail";
-import QuestionBank from "./pages/QuestionBank";
-import QuestionBankCategory from "./pages/QuestionBankCategory";
-import About from "./pages/About";
-import PrivacyPolicy from "./pages/PrivacyPolicy";
-import TermsOfUse from "./pages/TermsOfUse";
+
+// Route-level code splitting: each page becomes its own chunk, only downloaded
+// when the visitor actually navigates there, instead of all pages loading upfront.
+const Home = lazy(() => import("./pages/Home"));
+const Chapters = lazy(() => import("./pages/Chapters"));
+const ChapterDetail = lazy(() => import("./pages/ChapterDetail"));
+const Templates = lazy(() => import("./pages/Templates"));
+const TemplateDetail = lazy(() => import("./pages/TemplateDetail"));
+const QuestionBank = lazy(() => import("./pages/QuestionBank"));
+const QuestionBankCategory = lazy(() => import("./pages/QuestionBankCategory"));
+const About = lazy(() => import("./pages/About"));
+const PrivacyPolicy = lazy(() => import("./pages/PrivacyPolicy"));
+const TermsOfUse = lazy(() => import("./pages/TermsOfUse"));
 
 /** Guards :lang to only ever be "ar" or "en" — anything else falls through to 404. */
 function LangGuard({ children }: { children: React.ReactNode }) {
@@ -22,46 +26,57 @@ function LangGuard({ children }: { children: React.ReactNode }) {
   return <>{children}</>;
 }
 
+/** Minimal, theme-aware loading state shown briefly while a page chunk downloads. */
+function RouteFallback() {
+  return (
+    <div className="min-h-screen flex items-center justify-center" style={{ background: "var(--background)" }}>
+      <div className="w-8 h-8 rounded-full border-2 border-t-transparent animate-spin" style={{ borderColor: "var(--accent)", borderTopColor: "transparent" }} />
+    </div>
+  );
+}
+
 function Router() {
   return (
-    <Switch>
-      {/* Bare root and legacy unprefixed paths redirect to the Arabic (default) version */}
-      <Route path="/" component={() => <Redirect to="/ar" />} />
+    <Suspense fallback={<RouteFallback />}>
+      <Switch>
+        {/* Bare root and legacy unprefixed paths redirect to the Arabic (default) version */}
+        <Route path="/" component={() => <Redirect to="/ar" />} />
 
-      <Route path="/:lang/">
-        {() => <LangGuard><Home /></LangGuard>}
-      </Route>
-      <Route path="/:lang/chapters">
-        {() => <LangGuard><Chapters /></LangGuard>}
-      </Route>
-      <Route path="/:lang/chapters/:id">
-        {() => <LangGuard><ChapterDetail /></LangGuard>}
-      </Route>
-      <Route path="/:lang/templates">
-        {() => <LangGuard><Templates /></LangGuard>}
-      </Route>
-      <Route path="/:lang/templates/:id">
-        {() => <LangGuard><TemplateDetail /></LangGuard>}
-      </Route>
-      <Route path="/:lang/question-bank">
-        {() => <LangGuard><QuestionBank /></LangGuard>}
-      </Route>
-      <Route path="/:lang/question-bank/:categoryId">
-        {() => <LangGuard><QuestionBankCategory /></LangGuard>}
-      </Route>
-      <Route path="/:lang/about">
-        {() => <LangGuard><About /></LangGuard>}
-      </Route>
-      <Route path="/:lang/privacy-policy">
-        {() => <LangGuard><PrivacyPolicy /></LangGuard>}
-      </Route>
-      <Route path="/:lang/terms-of-use">
-        {() => <LangGuard><TermsOfUse /></LangGuard>}
-      </Route>
+        <Route path="/:lang/">
+          {() => <LangGuard><Home /></LangGuard>}
+        </Route>
+        <Route path="/:lang/chapters">
+          {() => <LangGuard><Chapters /></LangGuard>}
+        </Route>
+        <Route path="/:lang/chapters/:id">
+          {() => <LangGuard><ChapterDetail /></LangGuard>}
+        </Route>
+        <Route path="/:lang/templates">
+          {() => <LangGuard><Templates /></LangGuard>}
+        </Route>
+        <Route path="/:lang/templates/:id">
+          {() => <LangGuard><TemplateDetail /></LangGuard>}
+        </Route>
+        <Route path="/:lang/question-bank">
+          {() => <LangGuard><QuestionBank /></LangGuard>}
+        </Route>
+        <Route path="/:lang/question-bank/:categoryId">
+          {() => <LangGuard><QuestionBankCategory /></LangGuard>}
+        </Route>
+        <Route path="/:lang/about">
+          {() => <LangGuard><About /></LangGuard>}
+        </Route>
+        <Route path="/:lang/privacy-policy">
+          {() => <LangGuard><PrivacyPolicy /></LangGuard>}
+        </Route>
+        <Route path="/:lang/terms-of-use">
+          {() => <LangGuard><TermsOfUse /></LangGuard>}
+        </Route>
 
-      <Route path="/404" component={NotFound} />
-      <Route component={NotFound} />
-    </Switch>
+        <Route path="/404" component={NotFound} />
+        <Route component={NotFound} />
+      </Switch>
+    </Suspense>
   );
 }
 

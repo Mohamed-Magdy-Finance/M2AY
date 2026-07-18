@@ -9,9 +9,9 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import { useSEO } from "@/hooks/useSEO";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import {
-  chapters, siteConfig, getTemplatesForChapter, getQuestionCategoriesForChapter, getAdjacentChapters,
-} from "@/data";
+import { chapters, getAdjacentChapters } from "@/data/chapters";
+import { getTemplatesForChapter, getQuestionCategoriesForChapter } from "@/data/relations";
+import { siteConfig } from "@/data";
 
 const SECTIONS_AR: Record<string, string> = {
   Foundations: "الأساسيات", "Technical Skills": "المهارات الفنية", Application: "التطبيق",

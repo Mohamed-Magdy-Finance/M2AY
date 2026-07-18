@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "arabicName": "المحاسبة والقوائم المالية",
+    "englishName": "Accounting & Financial Statements",
+    "questionCount": 35
+  },
+  {
+    "id": 2,
+    "arabicName": "التحليل المالي والنسب المالية",
+    "englishName": "Financial Analysis & Ratios",
+    "questionCount": 25
+  },
+  {
+    "id": 3,
+    "arabicName": "التخطيط المالي والموازنات والتنبؤ",
+    "englishName": "FP&A, Budgeting & Forecasting",
+    "questionCount": 25
+  },
+  {
+    "id": 4,
+    "arabicName": "النمذجة المالية والتقييم",
+    "englishName": "Modeling & Valuation",
+    "questionCount": 20
+  },
+  {
+    "id": 5,
+    "arabicName": "أسئلة سلوكية وحالات عملية",
+    "englishName": "Behavioral & Case Questions",
+    "questionCount": 15
+  },
+  {
+    "id": 6,
+    "arabicName": "Excel التطبيقي في التمويل",
+    "englishName": "Applied Finance Excel",
+    "questionCount": 16
+  },
+  {
+    "id": 7,
+    "arabicName": "Power BI و DAX للتقارير المالية",
+    "englishName": "Power BI & DAX for Finance",
+    "questionCount": 16
+  },
+  {
+    "id": 8,
+    "arabicName": "الزكاة والضريبة الخليجية",
+    "englishName": "Gulf Zakat & Tax",
+    "questionCount": 16
+  },
+  {
+    "id": 9,
+    "arabicName": "الاندماج والاستحواذ",
+    "englishName": "Mergers & Acquisitions",
+    "questionCount": 16
+  },
+  {
+    "id": 10,
+    "arabicName": "إدارة الخزينة",
+    "englishName": "Treasury Management",
+    "questionCount": 16
+  },
+  {
+    "id": 11,
+    "arabicName": "العقلية الاستراتيجية والاستثمارية: ربط الأرقام بالقرار (Strategic & Investment Mindset) ⭐⭐⭐⭐⭐",
+    "englishName": "العقلية الاستراتيجية والاستثمارية: ربط الأرقام بالقرار (Strategic & Investment Mindset)",
+    "questionCount": 22
+  }
+]

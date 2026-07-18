@@ -16,14 +16,15 @@ const BASE_PATH = "/M2AY";
 const dataDir = path.resolve(__dirname, "../client/src/data");
 const chapters = JSON.parse(fs.readFileSync(path.join(dataDir, "chapters.json"), "utf-8"));
 const templates = JSON.parse(fs.readFileSync(path.join(dataDir, "templates.json"), "utf-8"));
-const questionBank = JSON.parse(fs.readFileSync(path.join(dataDir, "question-bank.json"), "utf-8"));
+const questionCategories = JSON.parse(fs.readFileSync(path.join(dataDir, "question-categories.json"), "utf-8"));
+const questions = JSON.parse(fs.readFileSync(path.join(dataDir, "questions.json"), "utf-8"));
 
 const staticPaths = ["/", "/chapters", "/templates", "/question-bank", "/about", "/privacy-policy", "/terms-of-use"];
 const neutralPaths = [
   ...staticPaths,
   ...chapters.map((c) => `/chapters/${c.id}`),
   ...templates.map((t) => `/templates/${t.id}`),
-  ...questionBank.categories.map((c) => `/question-bank/${c.id}`),
+  ...questionCategories.map((c) => `/question-bank/${c.id}`),
 ];
 
 const urlEntries = neutralPaths.map((p) => {
@@ -59,3 +60,51 @@ fs.writeFileSync(path.join(publicDir, "robots.txt"), robots);
 
 console.log(`✓ Generated sitemap.xml with ${neutralPaths.length * 2} URLs (${neutralPaths.length} pages × 2 languages)`);
 console.log(`✓ Generated robots.txt`);
+
+// ---- Lightweight homepage summary ----
+// Home.tsx only needs counts + 3 featured items per section — not the full
+// 730KB of chapter/question content. Precomputing this at build time means
+// the homepage chunk stays small instead of pulling in every chapter and
+// all 222 questions just to display a handful of preview cards.
+const sortedChapters = [...chapters].sort((a, b) => a.chapterNumber - b.chapterNumber);
+
+const homepageSummary = {
+  counts: {
+    chapters: chapters.length,
+    templates: templates.length,
+    questions: questions.length,
+  },
+  featuredChapters: sortedChapters.slice(0, 3).map((c) => ({
+    id: c.id, chapterNumber: c.chapterNumber, section: c.section,
+    arabicTitle: c.arabicTitle, englishTitle: c.englishTitle,
+  })),
+  featuredTemplates: templates.slice(0, 3).map((t) => ({
+    id: t.id, arabicName: t.arabicName, englishName: t.englishName, category: t.category,
+  })),
+  featuredCategories: questionCategories.slice(0, 3).map((c) => ({
+    id: c.id, arabicName: c.arabicName, englishName: c.englishName, questionCount: c.questionCount,
+  })),
+};
+
+fs.writeFileSync(
+  path.resolve(__dirname, "../client/src/data/homepage-summary.json"),
+  JSON.stringify(homepageSummary, null, 2)
+);
+console.log(`✓ Generated homepage-summary.json (${Buffer.byteLength(JSON.stringify(homepageSummary))} bytes vs ~730KB full dataset)`);
+
+// ---- Top questions for FAQPage schema ----
+// QuestionBank.tsx only needs 12 questions for its FAQPage JSON-LD — not the
+// full 222-question, 521KB dataset. Precomputing this at build time keeps
+// that page's chunk light; QuestionBankCategory.tsx (which genuinely needs
+// full question detail per category) still imports questions.ts directly.
+const topQuestions = questions.slice(0, 12).map((q) => ({
+  question: q.question,
+  englishQuestion: q.englishQuestion,
+  modelAnswer: q.modelAnswer,
+  englishModelAnswer: q.englishModelAnswer,
+}));
+fs.writeFileSync(
+  path.resolve(__dirname, "../client/src/data/top-questions.json"),
+  JSON.stringify(topQuestions, null, 2)
+);
+console.log(`✓ Generated top-questions.json (${Buffer.byteLength(JSON.stringify(topQuestions))} bytes vs ~521KB full questions dataset)`);

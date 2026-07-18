@@ -2,30 +2,58 @@ import { Link } from "wouter";
 import { ArrowRight, ArrowLeft, TrendingUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/hooks/useLanguage";
-import { chapters, templates, questionBank } from "@/data";
+import homepageSummary from "@/data/homepage-summary.json";
 
 export default function HeroSection() {
   const { isAr, lp } = useLanguage();
+  const { counts } = homepageSummary;
 
   return (
     <section
       className="relative w-full min-h-screen grid lg:grid-cols-2"
       style={{
-        background: "linear-gradient(to right, color-mix(in srgb, var(--sidebar) 82%, #9FC0CF 18%) 0%, var(--sidebar) 55%)",
+        background: isAr
+          ? "linear-gradient(to right, color-mix(in srgb, var(--sidebar) 78%, #9FC0CF 22%) 0%, var(--sidebar) 100%)"
+          : "linear-gradient(to left, color-mix(in srgb, var(--sidebar) 78%, #9FC0CF 22%) 0%, var(--sidebar) 100%)",
       }}
     >
       {/* Photo — full-bleed, touches the screen edge, no frame */}
       <div className={`relative min-h-[52vh] lg:min-h-screen ${isAr ? "lg:order-2" : "lg:order-1"}`}>
-        <img
-          src={`${import.meta.env.BASE_URL}images/mohamed-magdy-hero.jpg`}
-          alt={isAr ? "محمد مجدي" : "Mohamed Magdy"}
-          className="hero-photo"
-          loading="eager"
-        />
-        {/* The one visual transition: a single soft fade where the photo meets the text column (photo always sits physically on the left) */}
+        <picture>
+          <source
+            type="image/webp"
+            srcSet={[
+              `${import.meta.env.BASE_URL}images/mohamed-magdy-hero-400w.webp 400w`,
+              `${import.meta.env.BASE_URL}images/mohamed-magdy-hero-800w.webp 800w`,
+              `${import.meta.env.BASE_URL}images/mohamed-magdy-hero-1200w.webp 1200w`,
+              `${import.meta.env.BASE_URL}images/mohamed-magdy-hero.webp 1710w`,
+            ].join(", ")}
+            sizes="(max-width: 1024px) 100vw, 50vw"
+          />
+          <img
+            src={`${import.meta.env.BASE_URL}images/mohamed-magdy-hero.jpg`}
+            alt={isAr ? "محمد مجدي" : "Mohamed Magdy"}
+            className="hero-photo"
+            width={1710}
+            height={2560}
+            // This is the LCP (Largest Contentful Paint) image — it must load eagerly,
+            // never lazily, or it becomes the bottleneck it's meant to avoid.
+            loading="eager"
+            fetchPriority="high"
+          />
+        </picture>
+        {/* The one visual transition: a single soft fade where the photo meets the text column.
+            Real behavior (verified against the live deployed site, not assumed): the layout mirrors —
+            Arabic puts the photo on the physical left (text on the right), English puts the photo on
+            the physical right (text on the left). The fade edge must match whichever side is adjacent
+            to the text column for each language. */}
         <div
-          className="hidden lg:block absolute inset-y-0 right-0 w-32 pointer-events-none"
-          style={{ background: "linear-gradient(to left, var(--sidebar) 0%, transparent 100%)" }}
+          className="hidden lg:block absolute inset-y-0 w-32 pointer-events-none"
+          style={
+            isAr
+              ? { right: 0, background: "linear-gradient(to left, var(--sidebar) 0%, transparent 100%)" }
+              : { left: 0, background: "linear-gradient(to right, var(--sidebar) 0%, transparent 100%)" }
+          }
         />
         <div
           className="lg:hidden absolute inset-x-0 bottom-0 h-24 pointer-events-none"
@@ -48,7 +76,7 @@ export default function HeroSection() {
           >
             <TrendingUp className="w-4 h-4" />
             <span className="text-sm font-semibold">
-              {isAr ? "نظام تشغيل مالي احترافي" : "Professional Financial Operating System"}
+              {isAr ? "M2AY Financial Operating System" : "M2AY Financial Operating System (M-FOS)"}
             </span>
           </div>
 
@@ -60,20 +88,20 @@ export default function HeroSection() {
               {isAr ? "محمد مجدي" : "Mohamed Magdy"}
             </h1>
             <p className="text-xl md:text-2xl font-semibold" style={{ color: "var(--accent)" }}>
-              {isAr ? "خبير التحليل المالي والاستشارات" : "Financial Analysis & Consulting Expert"}
+              {isAr ? "مؤسس نظام M-FOS للتشغيل المالي" : "Founder of the M-FOS Financial Operating System"}
             </p>
             <p className="text-base md:text-lg opacity-80 leading-relaxed" style={{ color: "var(--sidebar-foreground)" }}>
               {isAr
-                ? "أساعدك ببناء مسارك المهني في التمويل والمحاسبة بأدوات حقيقية، دليل من 26 فصل، وقوالب مالية احترافية."
-                : "I help you build your finance career with real tools, a 26-chapter guide, and professional financial templates."}
+                ? "M-FOS مش مجرد معرفة نظرية — إطار منهجي متكامل من 26 فصل، وقوالب مالية احترافية، وبنك أسئلة حقيقي، يبني عقلية المدير المالي خطوة بخطوة."
+                : "M-FOS isn't just theory — it's a complete methodology of a 26-chapter guide, professional templates, and a real question bank, built to develop a CFO-level mindset step by step."}
             </p>
           </div>
 
           <div className="grid grid-cols-3 gap-4 pt-2">
             {[
-              { number: `${chapters.length}`, label: isAr ? "فصل" : "Chapters" },
-              { number: `${templates.length}`, label: isAr ? "نموذج" : "Templates" },
-              { number: `${questionBank.questions.length}+`, label: isAr ? "سؤال" : "Questions" },
+              { number: `${counts.chapters}`, label: isAr ? "فصل" : "Chapters" },
+              { number: `${counts.templates}`, label: isAr ? "نموذج" : "Templates" },
+              { number: `${counts.questions}+`, label: isAr ? "سؤال" : "Questions" },
             ].map((stat, i) => (
               <div key={i}>
                 <p className="text-2xl md:text-3xl font-bold" style={{ color: "var(--accent)" }}>{stat.number}</p>

@@ -1,0 +1,74 @@
+[
+  {
+    "question": "اشرح الفرق بين الأصول المتداولة وغير المتداولة.",
+    "englishQuestion": "Explain the difference between current and non-current assets.",
+    "modelAnswer": "المتداولة تتحول لنقد أو تُستهلك خلال 12 شهر مثل المخزون والذمم المدينة، وغير المتداولة أطول من ذلك مثل الأصول الثابتة والاستثمارات طويلة الأجل. الفرق ده أساس حساب نسب السيولة زي نسبة التداول.",
+    "englishModelAnswer": "Current assets convert to cash or get consumed within 12 months --- inventory and receivables, for example. Non-current assets take longer than that --- fixed assets and long-term investments. This distinction is the basis for liquidity ratios like the current ratio."
+  },
+  {
+    "question": "لماذا لا يظهر شراء أصل ثابت في قائمة الدخل مباشرة؟",
+    "englishQuestion": "Why doesn't buying a fixed asset show up directly on the income statement?",
+    "modelAnswer": "لأن الأصل الثابت هيفيد الشركة لأكتر من فترة محاسبية، فبدل ما يتحمل كمصروف كامل مرة واحدة، بيتسجل كأصل في الميزانية ويتحمل تدريجياً كإهلاك على مدى عمره الإنتاجي.",
+    "englishModelAnswer": "Because a fixed asset benefits the company for more than one accounting period, it isn't expensed in full at once --- it's recorded as an asset on the balance sheet and expensed gradually as depreciation over its useful life."
+  },
+  {
+    "question": "ما الفرق بين Accrual Accounting و Cash Accounting؟",
+    "englishQuestion": "What's the difference between accrual accounting and cash accounting?",
+    "modelAnswer": "الاستحقاقي بيسجل العملية وقت حدوثها بغض النظر عن حركة الكاش (بيع بالأجل = إيراد فوراً)، والنقدي بيسجلها بس وقت استلام أو دفع الفلوس فعلياً. IFRS بتفرض الاستحقاقي لأنه بيدي صورة أدق عن الأداء الحقيقي.",
+    "englishModelAnswer": "Accrual accounting records a transaction when it occurs, regardless of when cash moves (a credit sale is recognized as revenue immediately), while cash accounting only records it when cash is actually received or paid. IFRS mandates accrual accounting because it gives a more accurate picture of true performance."
+  },
+  {
+    "question": "كيف تؤثر زيادة المخزون على التدفق النقدي التشغيلي؟",
+    "englishQuestion": "How does an increase in inventory affect operating cash flow?",
+    "modelAnswer": "زيادة المخزون معناها الشركة اشترت أو صنّعت بضاعة أكتر من اللي باعتها، وده استخدام فعلي للنقد؛ في قائمة التدفقات بالطريقة غير المباشرة، الزيادة في المخزون بتتخصم من صافي الربح لحساب التدفق التشغيلي.",
+    "englishModelAnswer": "An inventory increase means the company bought or produced more than it sold --- a real use of cash. On the indirect-method cash flow statement, the increase in inventory is deducted from net profit to arrive at operating cash flow."
+  },
+  {
+    "question": "اشرح القيد المحاسبي لبيع بضاعة بالأجل.",
+    "englishQuestion": "Explain the journal entry for a credit sale.",
+    "modelAnswer": "قيدين: الأول مدين ذمم مدينة / دائن مبيعات بقيمة البيع، والثاني مدين تكلفة البضاعة المباعة / دائن مخزون بقيمة التكلفة، عشان نسجل الإيراد والتكلفة المرتبطة بيه في نفس الوقت.",
+    "englishModelAnswer": "Two entries: first, debit Accounts Receivable / credit Sales for the sale amount; second, debit Cost of Goods Sold / credit Inventory for the cost amount --- so revenue and its matching cost are recorded at the same time."
+  },
+  {
+    "question": "ما الفرق بين الإهلاك (Depreciation) والاستنفاد (Amortization)؟",
+    "englishQuestion": "What's the difference between Depreciation and Amortization?",
+    "modelAnswer": "الإهلاك بيُطبق على الأصول الملموسة زي المعدات والمباني، والاستنفاد أو الإطفاء بيُطبق على الأصول غير الملموسة زي البراءات؛ الاتنين بيوزعوا التكلفة على العمر الإنتاجي بس على نوع أصل مختلف.",
+    "englishModelAnswer": "Depreciation applies to tangible assets like equipment and buildings; amortization applies to intangible assets like patents. Both spread cost over useful life --- just for different asset types."
+  },
+  {
+    "question": "كيف تتحقق من صحة الميزانية العمومية بسرعة؟",
+    "englishQuestion": "How do you quickly verify that a balance sheet is correct?",
+    "modelAnswer": "أول حاجة، التأكد إن الأصول = الخصوم + حقوق الملكية. بعدها بطابق الأرصدة الافتتاحية بقفل الفترة اللي فاتت، وأراجع أي بند غريب أو رقم سالب في مكان مفروض يكون موجب.",
+    "englishModelAnswer": "First, confirm Assets = Liabilities + Equity. Then reconcile opening balances against the prior period's closing balances, and scan for any unusual line item or a negative number where one shouldn't exist."
+  },
+  {
+    "question": "ما تأثير خسارة ائتمانية متوقعة (Bad Debt Provision) على القوائم الثلاث؟",
+    "englishQuestion": "What's the impact of a bad-debt provision on all three financial statements?",
+    "modelAnswer": "في قائمة الدخل بتقلل الربح كمصروف، في الميزانية بتقلل صافي الذمم المدينة، وفي التدفقات النقدية مفيش أثر مباشر لأنها بند غير نقدي (بترجع تُضاف في التسوية لو الطريقة غير مباشرة).",
+    "englishModelAnswer": "On the income statement, it reduces profit as an expense. On the balance sheet, it reduces net receivables. On the cash flow statement, there's no direct impact since it's a non-cash item (it gets added back in the reconciliation under the indirect method)."
+  },
+  {
+    "question": "اشرح دورة الإغلاق الشهري (Month-End Closing) خطوة بخطوة.",
+    "englishQuestion": "Walk me through the month-end closing cycle, step by step.",
+    "modelAnswer": "مطابقة كشوف البنك، تسجيل قيود الاستحقاق والتسويات، مراجعة وتسوية المخزون، إقفال الحسابات المؤقتة في حساب الأرباح المحتجزة، ثم إصدار القوائم المالية النهائية للمراجعة.",
+    "englishModelAnswer": "Reconcile bank statements, post accrual and adjusting entries, review and reconcile inventory, close temporary accounts into retained earnings, then issue the final financial statements for review."
+  },
+  {
+    "question": "ما الفرق بين IFRS و GAAP من منظور عملي؟",
+    "englishQuestion": "What's the practical difference between IFRS and GAAP?",
+    "modelAnswer": "IFRS مبني على مبادئ عامة بيحتاج حكم مهني في التطبيق، وGAAP الأمريكي أكتر تفصيلاً وقواعد صارمة لكل حالة. عملياً ده بيأثر على أشياء زي طريقة تقييم المخزون أو الاعتراف بالإيراد.",
+    "englishModelAnswer": "IFRS is principles-based and requires professional judgment in application, while US GAAP is more rules-based and prescriptive for specific cases. In practice, this affects things like inventory valuation methods and revenue recognition."
+  },
+  {
+    "question": "اشرح مبدأ الاعتراف بالإيراد (Revenue Recognition) حسب IFRS 15.",
+    "englishQuestion": "Explain the revenue recognition principle under IFRS 15.",
+    "modelAnswer": "الإيراد بيُعترف بيه لما السيطرة على السلعة أو الخدمة تتنقل فعلياً للعميل، مش وقت توقيع العقد ولا وقت استلام النقد. المعيار بيحدد 5 خطوات أساسية من تحديد العقد لحد توزيع سعر الصفقة على كل التزام أداء.",
+    "englishModelAnswer": "Revenue is recognized when control of the good or service actually transfers to the customer --- not when the contract is signed, and not when cash is received. The standard sets out five core steps, from identifying the contract through to allocating the transaction price across each performance obligation."
+  },
+  {
+    "question": "إزاي بيتم احتساب المخزون بطريقة FIFO مقابل المتوسط المرجح؟",
+    "englishQuestion": "How is inventory valued under FIFO versus weighted average?",
+    "modelAnswer": "FIFO تفترض بيع أقدم وحدات المخزون أولاً، فوقت ارتفاع الأسعار بتدي تكلفة بضاعة مباعة أقل وربح أعلى. المتوسط المرجح بيوزع التكلفة بالتساوي على كل الوحدات المتاحة، فبيدي نتيجة وسطية أكتر استقراراً.",
+    "englishModelAnswer": "FIFO assumes the oldest inventory units are sold first, so during rising prices it produces a lower cost of goods sold and higher profit. Weighted average spreads cost evenly across all available units, producing a more stable, middle-ground result."
+  }
+]

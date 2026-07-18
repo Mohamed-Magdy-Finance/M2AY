@@ -3,9 +3,12 @@
   "siteDescription": "نظام التشغيل المهني المالي — دليل مالي احترافي، قوالب Excel، وبنك أسئلة مقابلات",
   "profile": {
     "fullName": "محمد مجدي",
+    "fullNameEn": "Mohamed Magdy",
     "title": "FP&A Analyst | Financial Planning, Data Analytics & Business Intelligence",
+    "titleEn": "FP&A Analyst | Financial Planning, Data Analytics & Business Intelligence",
     "photoUrl": "images/mohamed-magdy.jpg",
     "summary": "محلل تخطيط مالي وتحليل (FP&A) يعتمد على البيانات، بخبرة عملية في تحويل البيانات التشغيلية والمالية إلى رؤى استراتيجية. متمكن من النمذجة المالية، دعم الموازنات، وتقارير الأداء باستخدام Power BI وExcel المتقدم وأنظمة ERP (Oracle وXero).",
+    "summaryEn": "A data-driven FP&A Analyst with hands-on experience turning operational and financial data into strategic insight. Skilled in financial modeling, budgeting support, and performance reporting using Power BI, advanced Excel, and ERP systems (Oracle and Xero).",
     "skills": [
       "التخطيط والتحليل المالي (FP&A)",
       "النمذجة المالية والتقييم",
@@ -23,13 +26,13 @@
       "Xero Accounting Foundations"
     ],
     "education": [
-      { "degree": "ماجستير إدارة الأعمال - تمويل واستثمار", "school": "جامعة طنطا", "years": "2025 – 2027" },
-      { "degree": "بكالوريوس تجارة - محاسبة وتمويل", "school": "جامعة طنطا", "years": "2021 – 2025", "grade": "جيد جدًا" }
+      { "degree": "ماجستير إدارة الأعمال - تمويل واستثمار", "degreeEn": "MBA - Finance & Investment", "school": "جامعة طنطا", "schoolEn": "Tanta University", "years": "2025 – 2027" },
+      { "degree": "بكالوريوس تجارة - محاسبة وتمويل", "degreeEn": "B.Com - Accounting & Finance", "school": "جامعة طنطا", "schoolEn": "Tanta University", "years": "2021 – 2025", "grade": "جيد جدًا", "gradeEn": "Very Good" }
     ],
     "experience": [
-      { "title": "مستشار عمليات (بالمشروع)", "company": "شركة ناشئة لمنتجات الألبان", "period": "أغسطس – سبتمبر 2025" },
-      { "title": "مشرف عمليات", "company": "Foshan Electrical and Lighting Co., Ltd", "period": "يوليو – نوفمبر 2025" },
-      { "title": "محاسب مبتدئ ومنسق عمليات", "company": "El Abd Patisserie", "period": "يونيو – أكتوبر 2024" }
+      { "title": "مستشار عمليات (بالمشروع)", "titleEn": "Operations Consultant (Project-based)", "company": "شركة ناشئة لمنتجات الألبان", "companyEn": "Dairy Products Startup", "period": "أغسطس – سبتمبر 2025", "periodEn": "Aug – Sep 2025" },
+      { "title": "مشرف عمليات", "titleEn": "Operations Supervisor", "company": "Foshan Electrical and Lighting Co., Ltd", "companyEn": "Foshan Electrical and Lighting Co., Ltd", "period": "يوليو – نوفمبر 2025", "periodEn": "Jul – Nov 2025" },
+      { "title": "محاسب مبتدئ ومنسق عمليات", "titleEn": "Junior Accountant & Operations Coordinator", "company": "El Abd Patisserie", "companyEn": "El Abd Patisserie", "period": "يونيو – أكتوبر 2024", "periodEn": "Jun – Oct 2024" }
     ]
   },
   "contact": {
@@ -41,6 +44,7 @@
   "consultation": {
     "price": 99,
     "currency": "USD",
-    "description": "جلسة استشارية فردية لمناقشة مسارك المهني المالي، مراجعة سيرتك الذاتية، أو التحضير لمقابلة عمل."
+    "description": "جلسة استشارية فردية لمناقشة مسارك المهني المالي، مراجعة سيرتك الذاتية، أو التحضير لمقابلة عمل.",
+    "descriptionEn": "A one-on-one consultation to discuss your finance career path, review your resume, or prepare for a job interview."
   }
 }

@@ -5,14 +5,16 @@ import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { useSEO } from "@/hooks/useSEO";
-import { questionBank, siteConfig, getQuestionsByCategory } from "@/data";
+import { questionCategories } from "@/data/question-categories";
+import { getQuestionsByCategory } from "@/data/questions";
+import { siteConfig } from "@/data";
 
 export default function QuestionBankCategory() {
   const params = useParams<{ categoryId: string }>();
   const categoryId = Number(params.categoryId);
   const { isAr } = useLanguage();
 
-  const category = questionBank.categories.find(c => c.id === categoryId);
+  const category = questionCategories.find(c => c.id === categoryId);
   const questions = getQuestionsByCategory(categoryId);
 
   useSEO({

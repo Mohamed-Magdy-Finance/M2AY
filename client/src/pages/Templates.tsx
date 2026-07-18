@@ -7,7 +7,8 @@ import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import AutoBanner from "@/components/AutoBanner";
 import { useSEO } from "@/hooks/useSEO";
-import { templates, siteConfig } from "@/data";
+import { templates } from "@/data/templates";
+import { siteConfig } from "@/data";
 
 const CATEGORIES = ["All", "Valuation", "Modeling", "Budgeting", "Personal Finance", "Accounting Systems", "Startup", "Performance Analysis"];
 const CATEGORIES_AR: Record<string, string> = {

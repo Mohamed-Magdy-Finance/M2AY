@@ -10,7 +10,9 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import AutoBanner from "@/components/AutoBanner";
 import { useSEO } from "@/hooks/useSEO";
 import { toast } from "sonner";
-import { templates, siteConfig, getChaptersForTemplate } from "@/data";
+import { templates } from "@/data/templates";
+import { getChaptersForTemplate } from "@/data/relations";
+import { siteConfig } from "@/data";
 
 const CATEGORIES_AR: Record<string, string> = {
   Valuation: "التقييم", Modeling: "النمذجة", Budgeting: "الموازنة",
