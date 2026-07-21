@@ -59,12 +59,12 @@ export default function Home() {
       {/* Hero Section */}
       <HeroSection />
 
-      {/* Section 1: Financial Guide */}
+      {/* Section 1: Methodology */}
       <SectionContainer
-        title={isAr ? "الدليل المالي الشامل" : "Complete Financial Guide"}
+        title={isAr ? "المنهجية" : "Methodology"}
         description={isAr
-          ? "تعلم أساسيات التحليل المالي والمؤشرات المهمة من خبير متخصص في FP&A"
-          : "Master financial analysis fundamentals and key metrics from an FP&A specialist"}
+          ? "أعتمد منهجية عملية تبدأ بفهم البيانات، ثم تحليلها، ثم تحويلها إلى مخرجات مالية واضحة ومنظمة. هدفي أن تكون النتيجة دقيقة، سهلة القراءة، ومفيدة في اتخاذ القرار."
+          : "I follow a practical methodology that starts with understanding the data, analyzing it, then turning it into clear, organized financial output — accurate, readable, and useful for decision-making."}
       >
         {featuredChapters.map((ch) => (
           <SectionCard
@@ -78,12 +78,12 @@ export default function Home() {
         ))}
       </SectionContainer>
 
-      {/* Section 2: Templates */}
+      {/* Section 2: Financial Models */}
       <SectionContainer
-        title={isAr ? "القوالب المالية الاحترافية" : "Professional Financial Templates"}
+        title={isAr ? "النماذج المالية" : "Financial Models"}
         description={isAr
-          ? "قوالب جاهزة وقابلة للتخصيص لتسريع عملك المالي واليومي"
-          : "Ready-to-use templates to accelerate your financial work"}
+          ? "أطوّر نماذج مالية واضحة ومهيكلة تدعم التحليل والتقييم والتخطيط المالي. أركز على البساطة، الاتساق، ودقة الربط بين الفرضيات والنتائج حتى تكون المخرجات قابلة للفهم والمراجعة والاستخدام العملي."
+          : "I build clear, structured financial models that support analysis, valuation, and financial planning — focused on simplicity, consistency, and precise links between assumptions and results."}
         isDark
       >
         {featuredTemplates.map((t) => (
@@ -98,12 +98,12 @@ export default function Home() {
         ))}
       </SectionContainer>
 
-      {/* Section 3: Question Bank */}
+      {/* Section 3: Professional Readiness */}
       <SectionContainer
-        title={isAr ? "بنك الأسئلة الشامل" : "Comprehensive Question Bank"}
+        title={isAr ? "الجاهزية المهنية" : "Professional Readiness"}
         description={isAr
-          ? "تحضر لمقابلاتك مع أسئلة حقيقية وإجابات نموذجية من الخبراء"
-          : "Prepare for interviews with real questions and expert model answers"}
+          ? "أقدّم محتوى ماليًا مهنيًا يساعد على تنظيم الأفكار، تحسين العرض، وبناء الثقة في طريقة تقديم المعلومة."
+          : "I provide professional financial content that helps organize ideas, improve delivery, and build confidence in how information is presented."}
       >
         {featuredCategories.map((cat) => (
           <SectionCard

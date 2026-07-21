@@ -15,7 +15,7 @@ export default function QuestionBank() {
   const totalQuestions = homepageSummary.counts.questions;
 
   useSEO({
-    title: isAr ? "بنك أسئلة المقابلات" : "Interview Question Bank",
+    title: isAr ? "الجاهزية المهنية" : "Professional Readiness",
     description: isAr
       ? `${totalQuestions} سؤال حقيقي شائع في مقابلات التمويل والمحاسبة، بإجابات نموذجية وأخطاء شائعة.`
       : `${totalQuestions}+ real finance & accounting interview questions with model answers and common mistakes.`,
@@ -40,7 +40,7 @@ export default function QuestionBank() {
       <SiteHeader siteName={siteConfig.siteName} />
 
       <div className="max-w-6xl mx-auto px-4 py-10">
-        <h1 className="text-3xl font-extrabold mb-2">{isAr ? "بنك أسئلة المقابلات" : "Interview Question Bank"}</h1>
+        <h1 className="text-3xl font-extrabold mb-2">{isAr ? "الجاهزية المهنية" : "Professional Readiness"}</h1>
         <p className="text-muted-foreground mb-8">
           {isAr
             ? `${totalQuestions} سؤال حقيقي شائع في مقابلات التمويل والمحاسبة، موزعة على ${questionCategories.length} فئة`

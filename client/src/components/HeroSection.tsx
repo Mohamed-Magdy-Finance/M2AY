@@ -2,11 +2,9 @@ import { Link } from "wouter";
 import { ArrowRight, ArrowLeft, TrendingUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/hooks/useLanguage";
-import homepageSummary from "@/data/homepage-summary.json";
 
 export default function HeroSection() {
   const { isAr, lp } = useLanguage();
-  const { counts } = homepageSummary;
 
   return (
     <section
@@ -76,7 +74,7 @@ export default function HeroSection() {
           >
             <TrendingUp className="w-4 h-4" />
             <span className="text-sm font-semibold">
-              {isAr ? "M2AY Financial Operating System" : "M2AY Financial Operating System (M-FOS)"}
+              {isAr ? "تحليل مالي | نمذجة مالية | استشارات" : "Financial Analysis | Modeling | Consulting"}
             </span>
           </div>
 
@@ -88,29 +86,16 @@ export default function HeroSection() {
               {isAr ? "محمد مجدي" : "Mohamed Magdy"}
             </h1>
             <p className="text-xl md:text-2xl font-semibold" style={{ color: "var(--accent)" }}>
-              {isAr ? "مؤسس نظام M-FOS للتشغيل المالي" : "Founder of the M-FOS Financial Operating System"}
+              {isAr ? "مستشار مالي | FP&A والنمذجة المالية" : "Financial Consultant | FP&A & Financial Modeling"}
             </p>
             <p className="text-base md:text-lg opacity-80 leading-relaxed" style={{ color: "var(--sidebar-foreground)" }}>
               {isAr
-                ? "M-FOS مش مجرد معرفة نظرية — إطار منهجي متكامل من 26 فصل، وقوالب مالية احترافية، وبنك أسئلة حقيقي، يبني عقلية المدير المالي خطوة بخطوة."
-                : "M-FOS isn't just theory — it's a complete methodology of a 26-chapter guide, professional templates, and a real question bank, built to develop a CFO-level mindset step by step."}
+                ? "أحوّل البيانات المالية المعقدة إلى قرارات واضحة وقابلة للتنفيذ — من خلال تحليل دقيق، نماذج مالية منظمة، واستشارات مباشرة تخدم كل قرار مالي مهم."
+                : "I turn complex financial data into clear, actionable decisions — through precise analysis, structured financial models, and direct consultations for every important financial decision."}
             </p>
           </div>
 
-          <div className="grid grid-cols-3 gap-4 pt-2">
-            {[
-              { number: `${counts.chapters}`, label: isAr ? "فصل" : "Chapters" },
-              { number: `${counts.templates}`, label: isAr ? "نموذج" : "Templates" },
-              { number: `${counts.questions}+`, label: isAr ? "سؤال" : "Questions" },
-            ].map((stat, i) => (
-              <div key={i}>
-                <p className="text-2xl md:text-3xl font-bold" style={{ color: "var(--accent)" }}>{stat.number}</p>
-                <p className="text-sm opacity-70" style={{ color: "var(--sidebar-foreground)" }}>{stat.label}</p>
-              </div>
-            ))}
-          </div>
-
-          <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center lg:justify-start">
+          <div className="flex flex-col sm:flex-row gap-4 pt-6 justify-center lg:justify-start">
             <Link href={lp("/chapters")}>
               <Button
                 size="lg"

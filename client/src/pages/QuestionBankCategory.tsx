@@ -33,7 +33,7 @@ export default function QuestionBankCategory() {
         <Breadcrumbs
           items={[
             { label: isAr ? "الرئيسية" : "Home", href: "/" },
-            { label: isAr ? "بنك الأسئلة" : "Question Bank", href: "/question-bank" },
+            { label: isAr ? "الجاهزية المهنية" : "Professional Readiness", href: "/question-bank" },
             { label: category ? (isAr ? category.arabicName : category.englishName) : "..." },
           ]}
         />

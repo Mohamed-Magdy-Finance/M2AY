@@ -5,13 +5,11 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { MessageCircle, Mail } from "lucide-react";
+import { MessageCircle, Mail, Award } from "lucide-react";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import { useSEO, useJsonLd } from "@/hooks/useSEO";
 import { siteConfig } from "@/data";
-import homepageSummary from "@/data/homepage-summary.json";
-import { Layers } from "lucide-react";
 
 export default function About() {
   const { isAr } = useLanguage();
@@ -72,64 +70,39 @@ export default function About() {
       <SiteHeader siteName={siteConfig.siteName} />
 
       <div className="max-w-4xl mx-auto px-4 py-10">
-        <div className="flex flex-col sm:flex-row gap-8 items-start mb-12">
-          <picture>
-            <source
-              type="image/webp"
-              srcSet={[
-                `${import.meta.env.BASE_URL}images/mohamed-magdy-400w.webp 400w`,
-                `${import.meta.env.BASE_URL}images/mohamed-magdy.webp 648w`,
-              ].join(", ")}
-              sizes="160px"
-            />
-            <img
-              src={`${import.meta.env.BASE_URL}${profile.photoUrl}`}
-              alt={isAr ? profile.fullName : (profile.fullNameEn || profile.fullName)}
-              className="w-40 h-40 rounded-2xl object-cover border-4 shrink-0"
-              style={{ borderColor: "var(--accent)" }}
-              width={160}
-              height={160}
-              loading="lazy"
-            />
-          </picture>
+        <div className="flex flex-col sm:flex-row gap-8 sm:gap-10 items-start mb-12">
+          {/* Portrait — kept in its natural vertical aspect ratio, not force-cropped into a square */}
+          <div className="mx-auto sm:mx-0 shrink-0">
+            <picture>
+              <source
+                type="image/webp"
+                srcSet={[
+                  `${import.meta.env.BASE_URL}images/mohamed-magdy-400w.webp 400w`,
+                  `${import.meta.env.BASE_URL}images/mohamed-magdy.webp 648w`,
+                ].join(", ")}
+                sizes="240px"
+              />
+              <img
+                src={`${import.meta.env.BASE_URL}${profile.photoUrl}`}
+                alt={isAr ? profile.fullName : (profile.fullNameEn || profile.fullName)}
+                className="rounded-2xl border-4 block"
+                style={{ borderColor: "var(--accent)", width: "240px", height: "auto", aspectRatio: "648 / 908", objectFit: "cover" }}
+                width={648}
+                height={908}
+                loading="lazy"
+              />
+            </picture>
+          </div>
           <div>
             <h1 className="text-3xl font-extrabold mb-1">{isAr ? profile.fullName : (profile.fullNameEn || profile.fullName)}</h1>
             <p className="text-lg text-muted-foreground mb-4">{isAr ? profile.title : (profile.titleEn || profile.title)}</p>
-            <p className="leading-relaxed opacity-90">{isAr ? profile.summary : (profile.summaryEn || profile.summary)}</p>
+            <p className="leading-relaxed opacity-90">
+              {isAr
+                ? "أعمل في مجال التحليل المالي وبناء النماذج المالية وتقديم استشارات مالية عملية ومباشرة. أركّز على تحويل البيانات المعقدة إلى رؤى واضحة تدعم القرار، من خلال منهجية تحليلية دقيقة تجمع بين الدقة والوضوح في كل تفصيلة."
+                : "I work in financial analysis, financial modeling, and providing direct, practical financial consultations. I focus on turning complex data into clear insights that support decision-making, through a precise analytical approach that combines rigor and clarity in every detail."}
+            </p>
           </div>
         </div>
-
-        <Card className="p-6 mb-12" style={{ borderColor: "var(--accent)", borderWidth: 1 }}>
-          <div className="flex items-center gap-2 mb-3">
-            <Layers className="w-5 h-5" style={{ color: "var(--accent)" }} />
-            <h2 className="font-bold text-lg">
-              {isAr ? "مؤسس نظام M2AY Financial Operating System (M-FOS)" : "Founder of the M2AY Financial Operating System (M-FOS)"}
-            </h2>
-          </div>
-          <p className="text-sm opacity-80 mb-4">
-            {isAr
-              ? "نظام تشغيل مالي متكامل يجمع بين المعرفة النظرية والتطبيق العملي، مبني على:"
-              : "A complete financial operating system that bridges theory and applied practice, built on:"}
-          </p>
-          <ul className="text-sm space-y-2 opacity-90">
-            <li>
-              {isAr
-                ? `📚 ${homepageSummary.counts.chapters} فصل استراتيجي — من الفلسفة المالية إلى ذكاء السوق`
-                : `📚 ${homepageSummary.counts.chapters} strategic chapters — from financial philosophy to market intelligence`}
-            </li>
-            <li>
-              {isAr
-                ? `📄 ${homepageSummary.counts.templates} قالب احترافي جاهز للتطبيق الفوري`
-                : `📄 ${homepageSummary.counts.templates} professional templates ready for immediate use`}
-            </li>
-            <li>
-              {isAr
-                ? `❓ ${homepageSummary.counts.questions}+ سؤال مقابلات مع إجابات نموذجية`
-                : `❓ ${homepageSummary.counts.questions}+ interview questions with model answers`}
-            </li>
-            <li>{isAr ? "🎯 استشارات مخصصة بنهج M-FOS" : "🎯 Bespoke consultations following the M-FOS approach"}</li>
-          </ul>
-        </Card>
 
         {profile.skills?.length > 0 && (
           <section className="mb-10">
@@ -161,6 +134,22 @@ export default function About() {
                   </p>
                 </Card>
               ))}
+
+              {/* Juhayna achievement — framed explicitly as an illustrative analytical example,
+                  built on publicly disclosed data, not a client engagement or investment recommendation. */}
+              <Card className="p-4" style={{ borderColor: "var(--accent)", borderWidth: 1 }}>
+                <div className="flex items-center gap-2 mb-1">
+                  <Award className="w-4 h-4 shrink-0" style={{ color: "var(--accent)" }} />
+                  <p className="font-semibold">
+                    {isAr ? "شركة جهينة — نموذج تحليلي مبني على البيانات المعلنة" : "Juhayna — Analytical Model Based on Public Disclosures"}
+                  </p>
+                </div>
+                <p className="text-sm text-muted-foreground">
+                  {isAr
+                    ? "يقدم هذا القسم مثالًا تطبيقيًا على تحليل الأداء المالي وبناء تصور منظم للإيرادات والربحية والسيولة، مع التركيز على الفهم والتحليل وليس على أي توصية استثمارية."
+                    : "This is an applied example of financial performance analysis and structured modeling of revenue, profitability, and liquidity — focused on analysis and understanding, not an investment recommendation."}
+                </p>
+              </Card>
             </div>
           </section>
         )}

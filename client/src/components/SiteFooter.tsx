@@ -38,8 +38,8 @@ export default function SiteFooter({
             </div>
             <p className="text-sm opacity-70">
               {isAr
-                ? "حيث لا تتعلم المالية فقط، بل تكتسب نظام التشغيل المالي الخاص بك"
-                : "Where you don't just learn finance — you gain your own financial operating system"}
+                ? "تحليل مالي دقيق. نماذج واضحة. استشارات تصنع فرقًا."
+                : "Precise financial analysis. Clear models. Consultations that make a difference."}
             </p>
           </div>
 
@@ -57,19 +57,19 @@ export default function SiteFooter({
               </li>
               <li>
                 <Link href={lp("/chapters")} className="opacity-70 hover:opacity-100 hover:text-accent transition-all flex items-center gap-1 group">
-                  {isAr ? "الدليل" : "Guide"}
+                  {isAr ? "المنهجية" : "Methodology"}
                   <ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </li>
               <li>
                 <Link href={lp("/templates")} className="opacity-70 hover:opacity-100 hover:text-accent transition-all flex items-center gap-1 group">
-                  {isAr ? "القوالب" : "Templates"}
+                  {isAr ? "النماذج المالية" : "Financial Models"}
                   <ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </li>
               <li>
                 <Link href={lp("/question-bank")} className="opacity-70 hover:opacity-100 hover:text-accent transition-all flex items-center gap-1 group">
-                  {isAr ? "بنك الأسئلة" : "Questions"}
+                  {isAr ? "الجاهزية المهنية" : "Readiness"}
                   <ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </li>

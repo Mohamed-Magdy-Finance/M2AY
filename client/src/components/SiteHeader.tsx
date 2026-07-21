@@ -26,9 +26,9 @@ export default function SiteHeader({ siteName }: SiteHeaderProps) {
 
   const nav = [
     { href: "/", label: isAr ? "الرئيسية" : "Home" },
-    { href: "/chapters", label: isAr ? "الدليل" : "Guide" },
-    { href: "/templates", label: isAr ? "القوالب" : "Templates" },
-    { href: "/question-bank", label: isAr ? "بنك الأسئلة" : "Question Bank" },
+    { href: "/chapters", label: isAr ? "المنهجية" : "Methodology" },
+    { href: "/templates", label: isAr ? "النماذج المالية" : "Financial Models" },
+    { href: "/question-bank", label: isAr ? "الجاهزية المهنية" : "Professional Readiness" },
     { href: "/about", label: isAr ? "من أنا" : "About" },
   ];
 

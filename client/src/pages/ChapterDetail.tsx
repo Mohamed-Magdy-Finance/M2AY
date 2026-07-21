@@ -54,7 +54,7 @@ export default function ChapterDetail() {
         <Breadcrumbs
           items={[
             { label: isAr ? "الرئيسية" : "Home", href: "/" },
-            { label: isAr ? "الدليل" : "Guide", href: "/chapters" },
+            { label: isAr ? "المنهجية" : "Methodology", href: "/chapters" },
             { label: isAr ? chapter.arabicTitle : chapter.englishTitle },
           ]}
         />

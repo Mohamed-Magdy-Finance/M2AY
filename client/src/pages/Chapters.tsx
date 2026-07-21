@@ -23,7 +23,7 @@ export default function Chapters() {
   const { isAr, lp } = useLanguage();
 
   useSEO({
-    title: isAr ? "الدليل المالي — 26 فصل" : "The Finance Guide — 26 Chapters",
+    title: isAr ? "المنهجية" : "Methodology",
     description: isAr
       ? "دليل مالي كامل من 26 فصل، من الأساسيات إلى مقعد CFO."
       : "A complete 26-chapter finance guide, from the fundamentals to the CFO seat.",
@@ -48,7 +48,7 @@ export default function Chapters() {
       <SiteHeader siteName={siteConfig.siteName} />
 
       <div className="max-w-6xl mx-auto px-4 py-10">
-        <h1 className="text-3xl font-extrabold mb-2">{isAr ? "الدليل المالي" : "The Finance Guide"}</h1>
+        <h1 className="text-3xl font-extrabold mb-2">{isAr ? "المنهجية" : "Methodology"}</h1>
         <p className="text-muted-foreground mb-8">
           {isAr ? `${chapters.length} فصل يأخذك من الأساسيات إلى مقعد CFO` : `${chapters.length} chapters taking you from the fundamentals to the CFO seat`}
         </p>

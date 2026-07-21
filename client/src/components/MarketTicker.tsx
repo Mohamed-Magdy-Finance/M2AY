@@ -3,11 +3,11 @@ import { useTheme } from "@/contexts/ThemeContext";
 
 const SYMBOLS = [
   { proName: "FOREXCOM:SPXUSD", title: "S&P 500" },
+  { proName: "FOREXCOM:NSXUSD", title: "Nasdaq 100" },
   { proName: "NASDAQ:AAPL", title: "Apple" },
   { proName: "NASDAQ:MSFT", title: "Microsoft" },
-  { proName: "TADAWUL:2222", title: "Aramco" },
-  { proName: "TADAWUL:2010", title: "SABIC" },
-  { proName: "FX_IDC:USDEGP", title: "USD/EGP" },
+  { proName: "FX_IDC:EURUSD", title: "EUR/USD" },
+  { proName: "BITSTAMP:BTCUSD", title: "Bitcoin" },
 ];
 
 /**

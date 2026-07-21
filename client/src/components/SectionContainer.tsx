@@ -29,7 +29,6 @@ export default function SectionContainer({
             className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight"
             style={{
               color: "var(--primary)",
-              fontFamily: "'Playfair Display', serif",
               letterSpacing: "-0.01em",
             }}
           >

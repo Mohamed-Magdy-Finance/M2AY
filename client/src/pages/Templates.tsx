@@ -21,7 +21,7 @@ export default function Templates() {
   const { isAr, lp } = useLanguage();
 
   useSEO({
-    title: isAr ? "القوالب الاحترافية" : "Professional Templates",
+    title: isAr ? "النماذج المالية" : "Financial Models",
     description: isAr
       ? `${templates.length} نموذج مالي احترافي جاهز للتحميل بمستوى بنوك الاستثمار.`
       : `${templates.length} professional, bank-grade financial Excel templates ready to download.`,
@@ -39,7 +39,7 @@ export default function Templates() {
       <SiteHeader siteName={siteConfig.siteName} />
 
       <div className="max-w-6xl mx-auto px-4 py-10">
-        <h1 className="text-3xl font-extrabold mb-2">{isAr ? "القوالب الاحترافية" : "Professional Templates"}</h1>
+        <h1 className="text-3xl font-extrabold mb-2">{isAr ? "النماذج المالية" : "Financial Models"}</h1>
         <p className="text-muted-foreground mb-8">
           {isAr ? `${templates.length} نموذج مالي حقيقي بمستوى بنوك الاستثمار — جاهز للتحميل` : `${templates.length} real, bank-grade financial models — ready to download`}
         </p>

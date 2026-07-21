@@ -62,7 +62,7 @@ export default function TemplateDetail() {
         <Breadcrumbs
           items={[
             { label: isAr ? "الرئيسية" : "Home", href: "/" },
-            { label: isAr ? "القوالب" : "Templates", href: "/templates" },
+            { label: isAr ? "النماذج المالية" : "Financial Models", href: "/templates" },
             { label: isAr ? template.arabicName : template.englishName },
           ]}
         />
