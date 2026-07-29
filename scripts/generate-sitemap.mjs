@@ -19,7 +19,7 @@ const templates = JSON.parse(fs.readFileSync(path.join(dataDir, "templates.json"
 const questionCategories = JSON.parse(fs.readFileSync(path.join(dataDir, "question-categories.json"), "utf-8"));
 const questions = JSON.parse(fs.readFileSync(path.join(dataDir, "questions.json"), "utf-8"));
 
-const staticPaths = ["/", "/chapters", "/templates", "/question-bank", "/about", "/privacy-policy", "/terms-of-use"];
+const staticPaths = ["/", "/chapters", "/templates", "/question-bank", "/about", "/work", "/work/juhayna", "/privacy-policy", "/terms-of-use"];
 const neutralPaths = [
   ...staticPaths,
   ...chapters.map((c) => `/chapters/${c.id}`),

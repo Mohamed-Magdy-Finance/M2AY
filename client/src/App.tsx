@@ -16,6 +16,8 @@ const TemplateDetail = lazy(() => import("./pages/TemplateDetail"));
 const QuestionBank = lazy(() => import("./pages/QuestionBank"));
 const QuestionBankCategory = lazy(() => import("./pages/QuestionBankCategory"));
 const About = lazy(() => import("./pages/About"));
+const Work = lazy(() => import("./pages/Work"));
+const WorkDetail = lazy(() => import("./pages/WorkDetail"));
 const PrivacyPolicy = lazy(() => import("./pages/PrivacyPolicy"));
 const TermsOfUse = lazy(() => import("./pages/TermsOfUse"));
 
@@ -65,6 +67,12 @@ function Router() {
         </Route>
         <Route path="/:lang/about">
           {() => <LangGuard><About /></LangGuard>}
+        </Route>
+        <Route path="/:lang/work">
+          {() => <LangGuard><Work /></LangGuard>}
+        </Route>
+        <Route path="/:lang/work/:slug">
+          {() => <LangGuard><WorkDetail /></LangGuard>}
         </Route>
         <Route path="/:lang/privacy-policy">
           {() => <LangGuard><PrivacyPolicy /></LangGuard>}

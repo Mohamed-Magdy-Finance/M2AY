@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "wouter";
 import { useLanguage } from "@/hooks/useLanguage";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -12,7 +13,7 @@ import { useSEO, useJsonLd } from "@/hooks/useSEO";
 import { siteConfig } from "@/data";
 
 export default function About() {
-  const { isAr } = useLanguage();
+  const { isAr, lp } = useLanguage();
   const { profile, contact, consultation } = siteConfig;
 
   useSEO({
@@ -134,25 +135,33 @@ export default function About() {
                   </p>
                 </Card>
               ))}
-
-              {/* Juhayna achievement — framed explicitly as an illustrative analytical example,
-                  built on publicly disclosed data, not a client engagement or investment recommendation. */}
-              <Card className="p-4" style={{ borderColor: "var(--accent)", borderWidth: 1 }}>
-                <div className="flex items-center gap-2 mb-1">
-                  <Award className="w-4 h-4 shrink-0" style={{ color: "var(--accent)" }} />
-                  <p className="font-semibold">
-                    {isAr ? "شركة جهينة — نموذج تحليلي مبني على البيانات المعلنة" : "Juhayna — Analytical Model Based on Public Disclosures"}
-                  </p>
-                </div>
-                <p className="text-sm text-muted-foreground">
-                  {isAr
-                    ? "يقدم هذا القسم مثالًا تطبيقيًا على تحليل الأداء المالي وبناء تصور منظم للإيرادات والربحية والسيولة، مع التركيز على الفهم والتحليل وليس على أي توصية استثمارية."
-                    : "This is an applied example of financial performance analysis and structured modeling of revenue, profitability, and liquidity — focused on analysis and understanding, not an investment recommendation."}
-                </p>
-              </Card>
             </div>
           </section>
         )}
+
+        {/* Featured applied work — deliberately separate from Experience above, since this is
+            self-directed analytical work, not employment history. Links through to the full case study. */}
+        <section className="mb-10">
+          <h2 className="font-bold text-lg mb-3">{isAr ? "من أعمالي التطبيقية" : "Featured Applied Work"}</h2>
+          <Link href={lp("/work/juhayna")}>
+            <Card className="p-4 cursor-pointer hover:shadow-md transition-shadow" style={{ borderColor: "var(--accent)", borderWidth: 1 }}>
+              <div className="flex items-center gap-2 mb-1">
+                <Award className="w-4 h-4 shrink-0" style={{ color: "var(--accent)" }} />
+                <p className="font-semibold">
+                  {isAr ? "شركة جهينة — نموذج تحليلي مبني على البيانات المعلنة" : "Juhayna — Analytical Model Based on Public Disclosures"}
+                </p>
+              </div>
+              <p className="text-sm text-muted-foreground">
+                {isAr
+                  ? "مثال تطبيقي على تحليل الأداء المالي وبناء تصور منظم للإيرادات والربحية والسيولة، مع التركيز على الفهم والتحليل وليس على أي توصية استثمارية."
+                  : "An applied example of financial performance analysis and structured modeling of revenue, profitability, and liquidity — focused on analysis and understanding, not an investment recommendation."}
+              </p>
+              <p className="text-xs font-medium mt-2" style={{ color: "var(--accent)" }}>
+                {isAr ? "عرض التفاصيل الكاملة ←" : "View full details →"}
+              </p>
+            </Card>
+          </Link>
+        </section>
 
         {profile.education?.length > 0 && (
           <section className="mb-14">

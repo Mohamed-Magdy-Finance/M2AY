@@ -51,6 +51,26 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/about" />
   </url>
   <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/work</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/work" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/work" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/work</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/work" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/work" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/work/juhayna</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/work/juhayna" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/work/juhayna" />
+  </url>
+  <url>
+    <loc>https://mohamed-magdy-finance.github.io/M2AY/en/work/juhayna</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/work/juhayna" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/work/juhayna" />
+  </url>
+  <url>
     <loc>https://mohamed-magdy-finance.github.io/M2AY/ar/privacy-policy</loc>
     <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed-magdy-finance.github.io/M2AY/ar/privacy-policy" />
     <xhtml:link rel="alternate" hreflang="en" href="https://mohamed-magdy-finance.github.io/M2AY/en/privacy-policy" />

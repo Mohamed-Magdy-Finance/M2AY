@@ -29,6 +29,7 @@ export default function SiteHeader({ siteName }: SiteHeaderProps) {
     { href: "/chapters", label: isAr ? "المنهجية" : "Methodology" },
     { href: "/templates", label: isAr ? "النماذج المالية" : "Financial Models" },
     { href: "/question-bank", label: isAr ? "الجاهزية المهنية" : "Professional Readiness" },
+    { href: "/work", label: isAr ? "أعمال تطبيقية" : "Applied Work" },
     { href: "/about", label: isAr ? "من أنا" : "About" },
   ];
 
