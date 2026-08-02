@@ -138,20 +138,23 @@ export default function WorkDetail() {
 
         {/* Gallery */}
         <section className="mb-10">
-          <div className="flex items-center gap-2 mb-4">
+          <div className="flex items-center gap-2 mb-6">
             <ImageIcon className="w-5 h-5" style={{ color: "var(--accent)" }} />
             <h2 className="font-bold text-lg">{isAr ? "لقطات من النموذج" : "Selected Visuals"}</h2>
           </div>
-          <div className="grid sm:grid-cols-2 gap-5">
-            {project.images.slice(1).map((img, i) => (
+          <div className="flex flex-col gap-10">
+            {project.images.map((img, i) => (
               <figure key={i}>
                 <img
                   src={`${import.meta.env.BASE_URL}images/juhayna/${img.file}`}
-                  alt={isAr ? img.captionAr : img.captionEn}
+                  alt={isAr ? img.titleAr : img.titleEn}
                   className="w-full rounded-xl border shadow-sm"
                   loading="lazy"
                 />
-                <figcaption className="text-xs text-muted-foreground mt-2">{isAr ? img.captionAr : img.captionEn}</figcaption>
+                <figcaption className="mt-3">
+                  <p className="font-semibold text-sm mb-1">{isAr ? img.titleAr : img.titleEn}</p>
+                  <p className="text-sm text-muted-foreground leading-relaxed">{isAr ? img.descAr : img.descEn}</p>
+                </figcaption>
               </figure>
             ))}
           </div>
