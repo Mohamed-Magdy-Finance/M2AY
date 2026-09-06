@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap');
 
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -315,4 +316,49 @@
     width: 260px;
     height: 300px;
   }
+}
+
+/* CH26 Pilot (C1) — scoped to the pilot chapter ONLY. No global element selectors. */
+.ch26-pilot .mermaid-diagram {
+  direction: ltr;
+  unicode-bidi: isolate;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid color-mix(in srgb, var(--secondary) 35%, transparent);
+  background: var(--card);
+  overflow-x: auto;
+  text-align: left;
+}
+
+.ch26-pilot .mermaid-diagram svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.ch26-pilot .mermaid-diagram.mermaid-loading {
+  color: var(--muted-foreground);
+  font-size: 0.875rem;
+  padding: 1.25rem;
+}
+
+.ch26-pilot .mermaid-diagram.mermaid-error {
+  color: var(--destructive);
+  font-size: 0.875rem;
+}
+
+.ch26-pilot .mermaid-diagram.mermaid-error details {
+  margin-top: 0.5rem;
+}
+
+.ch26-pilot .mermaid-diagram.mermaid-error pre {
+  direction: ltr;
+  text-align: left;
+  font-size: 0.8rem;
+  padding: 0.75rem;
+  background: var(--muted);
+  border-radius: 8px;
+  overflow-x: auto;
 }

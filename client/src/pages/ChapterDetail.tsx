@@ -9,6 +9,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import { useSEO } from "@/hooks/useSEO";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import MermaidDiagram from "@/components/MermaidDiagram";
 import { chapters, getAdjacentChapters } from "@/data/chapters";
 import { getTemplatesForChapter, getQuestionCategoriesForChapter } from "@/data/relations";
 import { siteConfig } from "@/data";
@@ -46,6 +47,38 @@ export default function ChapterDetail() {
   const relatedCategories = getQuestionCategoriesForChapter(chapter.id);
   const { previous, next } = getAdjacentChapters(chapter.chapterNumber);
 
+  const isPilot = chapterId === 26;
+
+  const markdownComponents = {
+    pre(props: any) {
+      const { node, children, ...rest } = props;
+      const child = children as any;
+      const isMermaid =
+        child?.type === MermaidDiagram ||
+        (typeof child?.props?.className === "string" &&
+          (child.props.className.includes("language-mermaid") ||
+            child.props.className.includes("mermaid-diagram")));
+      return isMermaid ? <>{children}</> : <pre {...rest}>{children}</pre>;
+    },
+    code(props: any) {
+      const { node, children, className, ...rest } = props;
+      const lang = /language-(\w+)/.exec(className || "")?.[1];
+      if (lang === "mermaid") {
+        return (
+          <MermaidDiagram
+            className="language-mermaid"
+            code={Array.isArray(children) ? children.join("") : String(children)}
+          />
+        );
+      }
+      return (
+        <code className={className} {...rest}>
+          {children}
+        </code>
+      );
+    },
+  };
+
   return (
     <div dir={isAr ? "rtl" : "ltr"} className="min-h-screen bg-background text-foreground">
       <SiteHeader siteName={siteConfig.siteName} />
@@ -63,13 +96,13 @@ export default function ChapterDetail() {
         <h1 className="text-3xl font-extrabold mb-1">{isAr ? chapter.arabicTitle : chapter.englishTitle}</h1>
         <p className="text-lg text-muted-foreground mb-8">{isAr ? chapter.englishTitle : chapter.arabicTitle}</p>
 
-        <article className="prose dark:prose-invert max-w-none leading-relaxed mb-12">
+        <article className={`prose dark:prose-invert max-w-none leading-relaxed mb-12${isPilot ? " ch26-pilot" : ""}`}>
           {!isAr && !chapter.englishContent && (
             <p className="text-sm italic opacity-70 mb-4 not-prose">
               English version will be available soon. Showing the Arabic content below.
             </p>
           )}
-          <ReactMarkdown remarkPlugins={[remarkGfm]}>
+          <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
             {isAr ? chapter.arabicContent : (chapter.englishContent || chapter.arabicContent)}
           </ReactMarkdown>
         </article>
