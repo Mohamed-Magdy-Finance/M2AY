@@ -23,15 +23,17 @@
       })();
       // (2) Language/Direction: read URL prefix, sync <html lang/dir> before React mounts.
       (function () {
+        // Base-path aware: detect the language segment even when the app is served
+        // from a sub-path (e.g. /M2AY/) or delivered through the GitHub Pages SPA
+        // fallback, where the real path arrives as a ?/en/about style query string.
+        var base = '/M2AY';
         var p = window.location.pathname || '';
-        var m = /^\/(en)(\/|$)/.exec(p);
-        if (m) {
-          document.documentElement.lang = 'en';
-          document.documentElement.dir = 'ltr';
-        } else {
-          document.documentElement.lang = 'ar';
-          document.documentElement.dir = 'rtl';
-        }
+        if (p.indexOf(base + '/') === 0) p = p.slice(base.length);
+        else if (p === base) p = '/';
+        var q = (window.location.search || '').replace(/&/g, '/');
+        var isEnglish = /(?:^|\/)en(?:\/|$)/.test(p + q);
+        document.documentElement.lang = isEnglish ? 'en' : 'ar';
+        document.documentElement.dir = isEnglish ? 'ltr' : 'rtl';
       })();
     </script>
     <script type="module" crossorigin src="/M2AY/assets/index-DQp-jf8B.js"></script>
