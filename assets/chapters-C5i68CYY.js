@@ -1,0 +1,1 @@
+import{c as o}from"./chapters-CXEPOqMw.js";function s(n){const t=[...o].sort((r,c)=>r.chapterNumber-c.chapterNumber),e=t.findIndex(r=>r.chapterNumber===n);return{previous:e>0?t[e-1]:null,next:e>=0&&e<t.length-1?t[e+1]:null}}export{o as chapters,s as getAdjacentChapters};

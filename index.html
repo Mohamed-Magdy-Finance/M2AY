@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ar" dir="rtl" class="">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>M2AY | محمد مجدي — نظام التشغيل المهني المالي</title>
+    <meta name="description" content="دليل مالي احترافي، قوالب Excel جاهزة، وبنك أسئلة مقابلات — لبناء مسارك المهني في التمويل والمحاسبة." />
+    <link rel="icon" type="image/svg+xml" href="images/logo-dark.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script>
+      // Pre-hydration bootstrap: avoid flash of wrong theme/direction on first paint.
+      // (1) Theme: read persisted choice, set class before React mounts.
+      (function () {
+        try {
+          var t = localStorage.getItem('theme');
+          if (t === 'dark') document.documentElement.classList.add('dark');
+          else if (t === 'light') document.documentElement.classList.remove('dark');
+        } catch (_) {}
+      })();
+      // (2) Language/Direction: read URL prefix, sync <html lang/dir> before React mounts.
+      (function () {
+        var p = window.location.pathname || '';
+        var m = /^\/(en)(\/|$)/.exec(p);
+        if (m) {
+          document.documentElement.lang = 'en';
+          document.documentElement.dir = 'ltr';
+        } else {
+          document.documentElement.lang = 'ar';
+          document.documentElement.dir = 'rtl';
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/M2AY/assets/index-DQp-jf8B.js"></script>
+    <link rel="modulepreload" crossorigin href="/M2AY/assets/router-CqbapHZq.js">
+    <link rel="modulepreload" crossorigin href="/M2AY/assets/ui-CDMlrOXe.js">
+    <link rel="stylesheet" crossorigin href="/M2AY/assets/index-DVORZt1E.css">
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script>
+      // SPA Fallback: Restore path from query string
+      (function(l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search.slice(1).split('&').map(function(s) {
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+  </body>
+
+</html>
