@@ -1,52 +1,20 @@
-<!doctype html>
-<html lang="ar" dir="rtl" class="">
-
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-    <title>M2AY | محمد مجدي — نظام التشغيل المهني المالي</title>
-    <meta name="description" content="دليل مالي احترافي، قوالب Excel جاهزة، وبنك أسئلة مقابلات — لبناء مسارك المهني في التمويل والمحاسبة." />
-    <link rel="icon" type="image/svg+xml" href="images/logo-dark.svg" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <script>
-      // CR-M2AY-002: pre-paint language/direction bootstrap. Base derived from the
-      // build (/M2AY/), never a magic string. Understands /M2AY/en, /M2AY/en/about,
-      // and the SPA-fallback "?/en/about&..." query form. Single writer before React.
-      (function () {
-        var base = '/M2AY/'.replace(/\/$/, '');
-        var p = window.location.pathname || '/';
-        if (base && p.indexOf(base + '/') === 0) p = p.slice(base.length);
-        else if (base && p === base) p = '/';
-        var q = (window.location.search || '').replace(/&/g, '/');
-        var isEnglish = /(?:^|\/)en(?:\/|$)/.test(p + q);
-        document.documentElement.lang = isEnglish ? 'en' : 'ar';
-        document.documentElement.dir = isEnglish ? 'ltr' : 'rtl';
-      })();
-    </script>
-    <script type="module" crossorigin src="/M2AY/assets/index-DgvjA0jG.js"></script>
-    <link rel="modulepreload" crossorigin href="/M2AY/assets/router-CqbapHZq.js">
-    <link rel="modulepreload" crossorigin href="/M2AY/assets/ui-CDMlrOXe.js">
-    <link rel="stylesheet" crossorigin href="/M2AY/assets/index-gJqASJWx.css">
-  </head>
-
-  <body>
-    <div id="root"></div>
-    <script>
-      // SPA Fallback: Restore path from query string
-      (function(l) {
-        if (l.search[1] === '/') {
-          var decoded = l.search.slice(1).split('&').map(function(s) {
-            return s.replace(/~and~/g, '&')
-          }).join('?');
-          window.history.replaceState(null, null,
-            l.pathname.slice(0, -1) + decoded + l.hash
-          );
-        }
-      }(window.location))
-    </script>
-  </body>
-
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>M2AY Finance Guide</title>
+  <script>
+    // SPA Fallback: Redirect to index.html with path preserved
+    var pathSegmentsToKeep = 1;
+    var l = window.location;
+    l.replace(
+      l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+      l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+      l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+      (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+      l.hash
+    );
+  </script>
+</head>
+<body></body>
 </html>
